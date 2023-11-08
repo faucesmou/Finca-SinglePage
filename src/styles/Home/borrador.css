@@ -1,0 +1,124 @@
+
+.Home .products .experience-container {
+    display: flex;
+    flex-direction: column;
+   /*  flex-wrap: wrap; */
+    justify-content: center;
+    align-items:center ;
+    max-width: 100%;
+}
+
+.Home .products .contacto-descripcion,
+.Home .products .container-buttons,
+.Home .products .author-statement {
+/*     width: 100%;  */
+    flex-grow: 1;
+}
+
+.Home .products .contacto-descripcion {
+  font-size: 18px;
+  font-family: var(--fuente-regular);
+  color: var(--colorIcons);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-weight: lighter;
+  max-width: 100%;
+
+}
+
+.Home .products .experience-container .contacto-descripcion .paises-contacto{
+ display:flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.Home .products .experience-container .contacto-descripcion  p{
+    display: flex;
+    font-size: 20px;
+    justify-content: center; 
+    align-items: center; 
+   padding: 10px; 
+   /*  width: 100%; */
+    font-family: var(--fuente-regular)
+}
+
+.Home .products .contact-image-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: auto; 
+    margin: 3%;
+    
+}
+
+
+.container-comilla-linea {
+    min-width: auto;
+    padding: 0;
+}
+
+
+.Home .products .container-buttons {
+    display: flex;
+    flex-direction: column;
+  /*   flex-wrap: nowrap; */
+    margin-top: 10px;
+    min-height: 150px;
+    max-width: 50%;
+}
+
+.Home .products .container-buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 65%;
+    border-radius: 25px;
+    font-family: var(--fuente-regular);
+    font-size: 10px;
+    border: 1px solid var(--colorIcons);
+    background-color: white;
+    white-space: nowrap;
+}
+
+.Home .products .container-buttons .social-media-button {
+    display: flex;
+    align-items: center;
+    width: 65%; 
+    background-color: var(--colorButtons);
+    padding: 5px;
+    background-color: var(--colorIcons);
+    height: auto;
+}
+
+.our-social-networks-text {
+    font-size: 10px;
+    font-family: var(--fuente-regular);
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+.Home .products .experience-descripcion .statements p {
+    padding: 4%;
+    word-spacing: normal; /* Restaurar espaciado normal de palabras */
+    hyphens: none; /* Desactivar la separación de sílabas */
+    font-family: var(--fuente-terciaria);
+    font-size: 8px; 
+    margin-top: 5px; 
+}
+
+.Home .products .experience-container .author-statement {
+   /*  width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

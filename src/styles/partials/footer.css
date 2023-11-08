@@ -1,0 +1,138 @@
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto",Arial,Tahoma,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+footer a{
+    color: white;
+    display: inline-block;
+}
+footer .contenedor{
+    width: 10%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+footer .logo img{
+    width: 150px;
+    margin: 20px auto;
+}
+footer .contenedor ul{
+    width: 120%;
+    margin-top: 10px;
+}
+footer .contenedor ul li {
+    margin-top: 10px;
+    font-family: "Roboto",Arial,Tahoma,sans-serif;
+}
+footer h2{
+    margin-bottom: 10px;
+}
+footer h5{
+    font-family: "Roboto",Arial,Tahoma,sans-serif;
+    font-weight: 400;
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align:start;
+}
+footer .brasil img{
+    margin-top: 10px;
+    width: 50%;
+}
+footer .legales{
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    
+}
+footer .legales article.derechos{
+    color: #4d4d4d;
+}
+
+/* Media query Tablets */
+@media (min-width: 768px) {
+    footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    footer .contenedor{
+        width: 20%;
+    }
+    footer .brasil img{
+        width: 100%;
+    }
+    footer .contenedor ul li {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    footer .contenedor a{
+        width: 100%;
+        width: 100%;
+        white-space: normal; /* Permite que el texto fluya a la siguiente línea */
+        /* overflow: hidden;
+        text-overflow: ellipsis; */
+    }
+}
+
+/* Estilos para pantallas pequeñas (máximo 420px de ancho) */
+@media (max-width: 420px) {
+    footer {
+      padding: 10px; /* Reduce el relleno del footer */
+    }
+  
+    footer .contenedor {
+      width: 100%; /* Ocupa todo el ancho disponible */
+      padding: 10px; /* Reduc el relleno del contenedor */
+      flex-direction: column;
+      align-items: center; /* Centra los elementos verticalmente */
+    }
+  
+    footer .logo img {
+      width: 120px; /* Reduce el tamaño del logo */
+      margin: 10px 0;
+    }
+  
+    footer .contenedor ul {
+      width: 100%; /* Ocupa todo el ancho disponible */
+      margin-top: 10px;
+    }
+  
+    footer .contenedor ul li {
+      margin-top: 5px; /* Reduce el espacio entre elementos de la lista */
+    }
+  
+    footer h5 {
+      font-size: 14px; /* Reduce el tamaño de fuente de los subtítulos */
+      margin-bottom: 5px; /* Reduce el espacio debajo de los subtítulos */
+    }
+  
+    footer .brasil img {
+      width: 70%; /* Reduce el tamaño de la imagen de Brasil */
+      margin-top: 10px;
+    }
+  
+    footer .legales {
+      padding-top: 10px; /* Reduce el espacio encima de la sección de legales */
+      flex-direction: column; /* Apile los elementos de legales verticalmente */
+      align-items: center; /* Centra los elementos de legales */
+      margin-bottom: 40px;
+    }
+  }
+  
