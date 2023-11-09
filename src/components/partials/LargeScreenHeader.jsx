@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Navegar from "../../../src/components/Navegar/Navegar";
+import Navegar2 from "../../../src/components/Navegar/Navegar2";
+/* import { Link } from 'react-router-dom'; */
 /* import { NavLink } from "react-router-dom"; */
 
 
@@ -20,34 +21,37 @@ function LargeScreenHeader() {
   return (
     <header>
       <section className="logo">
-        <Navegar to="/">
+        <Navegar2 to="/">
           <img
             src="/Images/home/logo-400x400px-01.png"
             alt="Finca Propia logo"
           />
-        </Navegar>
+        </Navegar2>
       </section>
       <section className="menu">
         <ul>
-          <Navegar to="/">
-            <li className="">Finca Propia</li>
-          </Navegar>
-          <Navegar to="/ser-dueno">
+        {/* <Link   to="/#productosSection">Finca Propia</Link> */}
+          <Navegar2  to="/" sectionId="fincaPropia">
+            <li  className="">Finca Propia</li>
+          </Navegar2>
+
+
+          <Navegar2 to="/ser-dueno" sectionId="serDueno">
             <li>Ser Dueño</li>
-          </Navegar>
+          </Navegar2>
           <li  onClick={toggleDropdown}> WineMaker
               { isDropdownOpen ? (
                   <li className="dropdown-menu active" >
                     <div className="titulo">
-                    <Navegar to="/winemaker" >
+                    <Navegar2 to="/winemaker" >
                           Winemaker
-                        </Navegar>
+                        </Navegar2>
                     </div>
                       <ul>
                       <li>
-                        <Navegar to="/los-vinos" className="titulo">
+                        <Navegar2 to="/los-vinos" className="titulo">
                           Los Vinos
-                        </Navegar>
+                        </Navegar2>
                       </li>
                       </ul>
                   </li>
@@ -55,18 +59,18 @@ function LargeScreenHeader() {
               : null}
               </li>
 
-          <Navegar to="/finca">
+          <Navegar2 to="/finca" sectionId="laFinca">
             <li>La Finca</li>
-          </Navegar>
-          <Navegar to="/ContactoInicial">
+          </Navegar2>
+          <Navegar2 to="/contacto" sectionId="contacto">
             <li>Contacto</li>
-          </Navegar>
+          </Navegar2>
         </ul>
       </section>
       <section className="redes">
         <ul>
           <li className="instagram">
-            <a href="https://www.instagram.com/fincapropia/">
+            <a href="https://www.instagram.com/fincapropia/" target="_blank" rel="noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -77,7 +81,7 @@ function LargeScreenHeader() {
             </a>
           </li>
           <li className="facebook">
-            <a href="https://www.facebook.com/fincapropia">
+            <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -88,7 +92,7 @@ function LargeScreenHeader() {
             </a>
           </li>
           <li className="email">
-            <a href="https://www.fincapropia.com/contacto/">
+            <a href="https://www.fincapropia.com/contacto/" target="_blank" rel="noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"

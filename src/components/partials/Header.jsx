@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 function Header({ isMenuOpen, setIsMenuOpen }) {
   const closeMenu = () => {
     setIsMenuOpen(false);
-    window.scrollTo({
+    /* window.scrollTo({
       top: 0,
       behavior: "smooth",
-    });
+    }); */
   };
 
   /* DROP DOWN NAVBAR */
@@ -109,7 +109,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
           <section className="redes">
             <ul>
               <li className="instagram">
-                <a href="https://www.instagram.com/fincapropia/">
+                <a href="https://www.instagram.com/fincapropia/"  target="_blank" rel="noreferrer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -120,7 +120,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
                 </a>
               </li>
               <li className="facebook">
-                <a href="https://www.facebook.com/fincapropia">
+                <a href="https://www.facebook.com/fincapropia"  target="_blank" rel="noreferrer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -131,7 +131,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
                 </a>
               </li>
               <li className="email">
-                <a href="https://www.fincapropia.com/contacto/">
+                <a href="https://www.fincapropia.com/contacto/" target="_blank" rel="noreferrer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
