@@ -43,13 +43,13 @@ function LargeScreenHeader() {
               { isDropdownOpen ? (
                   <li className="dropdown-menu active" >
                     <div className="titulo">
-                    <Navegar2 to="/winemaker" >
+                    <Navegar2 to="/ser-dueno" sectionId="serDueno" >
                           Winemaker
                         </Navegar2>
                     </div>
                       <ul>
                       <li>
-                        <Navegar2 to="/los-vinos" className="titulo">
+                        <Navegar2 to="/" sectionId="fincaPropia">
                           Los Vinos
                         </Navegar2>
                       </li>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Navegar from "../../../src/components/Navegar/Navegar";
-import { NavLink } from "react-router-dom";
+import Navegar2 from "../../../src/components/Navegar/Navegar2";
+/* import { NavLink } from "react-router-dom"; */
 
 function Header({ isMenuOpen, setIsMenuOpen }) {
   const closeMenu = () => {
@@ -45,12 +45,12 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
   return (
     <header>
       <section className="logo">
-        <Navegar to="/">
+        <Navegar2 to="/" sectionId="scroll-animate-main">
           <img
             src="/Images/home/logo-400x400px-01.png"
             alt="Finca Propia logo"
           />
-        </Navegar>
+        </Navegar2>
       </section>
       <section className="burger-menu" onClick={toggleMenu}>
         <svg
@@ -65,45 +65,41 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
         <div className={`info ${isMenuOpen ? "active" : ""}`}>
           <section className="menu">
             <ul>
-              <NavLink to="/" onClick={closeMenu}>
-                <li>Finca Propia</li>
-              </NavLink>
-              <NavLink to="/ser-dueno" onClick={closeMenu}>
-                <li>Ser Dueño</li>
-              </NavLink>
-
-              {/*  <li onClick={toggleDropdown}> WineMaker</li>
-              { isDropdownOpen ? (
-                  <li className="dropdown-menu">
-                    <div className="titulo">Winemaker</div>
-                    <ul>
-                      <li>
-                        <NavLink to="/los-vinos" onClick={closeMenu}>
-                          Los Vinos
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to="/winemaker" onClick={closeMenu}>
-                          Winemaker
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </li>
-                )
-              : null} */}
-              <NavLink to="/Winemaker" onClick={closeMenu}>
+              {/* <NavLink to="/" onClick={closeMenu}> 
+              <li>Finca Propia</li>
+               </NavLink> */}
+              <Navegar2  to="/ser-dueno" sectionId="fincaPropia" >
+                <li onClick={closeMenu} >Finca Propia</li>
+                </Navegar2>
+              <Navegar2  to="/ser-dueno" sectionId="serDueno" >
+                <li onClick={closeMenu} >Ser Dueño</li>
+                </Navegar2>
+              <Navegar2  to="/experiencia" sectionId="experienciaPropietarios" >
+                <li onClick={closeMenu} >Winemaker</li>
+                </Navegar2>
+              <Navegar2  to="/" sectionId="fincaPropia" >
+                <li onClick={closeMenu} >Los Vinos</li>
+                </Navegar2>
+              <Navegar2  to="/finca" sectionId="laFinca" >
+                <li onClick={closeMenu}>La Finca</li>
+                </Navegar2>
+              <Navegar2  to="/" sectionId="contacto" >
+                <li onClick={closeMenu}>Contacto</li>
+                </Navegar2>
+         
+             {/*  <NavLink to="/Winemaker" onClick={closeMenu}>
                 <li>Winemaker</li>
               </NavLink>
               <NavLink to="/los-vinos" onClick={closeMenu}>
                 <li>Los Vinos</li>
-              </NavLink>
+              </NavLink> */}
 
-              <NavLink to="/finca" onClick={closeMenu}>
+             {/*  <NavLink to="/finca" onClick={closeMenu}>
                 <li>La Finca</li>
-              </NavLink>
-              <NavLink to="/ContactoInicial" onClick={closeMenu}>
+              </NavLink> */}
+              {/* <NavLink to="/ContactoInicial" onClick={closeMenu}>
                 <li>Contacto</li>
-              </NavLink>
+              </NavLink> */}
             </ul>
           </section>
           <section className="redes">
@@ -150,3 +146,27 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
 }
 
 export default Header;
+
+   {/*   <NavLink to="/ser-dueno" onClick={closeMenu}>
+                <li>Ser Dueño</li>
+              </NavLink> */}
+
+              {/*  <li onClick={toggleDropdown}> WineMaker</li>
+              { isDropdownOpen ? (
+                  <li className="dropdown-menu">
+                    <div className="titulo">Winemaker</div>
+                    <ul>
+                      <li>
+                        <NavLink to="/los-vinos" onClick={closeMenu}>
+                          Los Vinos
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/winemaker" onClick={closeMenu}>
+                          Winemaker
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
+                )
+              : null} */}
