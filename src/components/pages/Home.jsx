@@ -562,7 +562,7 @@ function Home() {
               {/* -------------------------ACÁ TERMINA EL RESPONSIVE PEQUEÑO------------------------------- */}
               <div className="contact-products-title">
                 <p>
-                  <span className="letraGrande">F</span>ORMULARIO
+                  <span className="letraGrande">C</span>ONTACTO
                 </p>
               </div>
               <section className="products">
@@ -588,7 +588,7 @@ function Home() {
               <section id="contacto"></section>
               <div className="products-title">
                 <p>
-                  <span className="letraGrande">C</span>ONTACTO
+                  <span className="letraGrande">O</span>FICINAS
                 </p>
               </div>
               <section className="products">
@@ -628,9 +628,9 @@ function Home() {
                         {/*  <span className="image-icon">ICON</span> */}
                       </button>
                     </div>
-                    <div className="author-statement">
+                   {/*  <div className="author-statement">
                       <p>Subtexto final</p>
-                    </div>
+                    </div> */}
                   </article>
 
                   <article className="experience-container">
@@ -669,9 +669,9 @@ function Home() {
                         {/*  <span className="image-icon">ICON</span> */}
                       </button>
                     </div>
-                    <div className="author-statement">
+                 {/*    <div className="author-statement">
                       <p>Subtexto final</p>
-                    </div>
+                    </div> */}
                   </article>
                   <article className="experience-container">
                     <div className="contacto-descripcion">
@@ -708,12 +708,30 @@ function Home() {
                       </button>
                     </div>
 
-                    <div className="author-statement">
+                 {/*    <div className="author-statement">
                       <p>Subtexto final</p>
-                    </div>
+                    </div> */}
                   </article>
                 </div>
               </section>
+
+              <div className="products-title">
+                <p>
+                  <span className="letraGrande">C</span>ONTACTO
+                </p>
+              </div>
+              <section className="products">
+                <div className="contact-image-cards-form">
+                  
+                <Contacto />
+             
+            
+                </div>
+              </section>
+
+
+
+
             </section>
           )}
         </div>

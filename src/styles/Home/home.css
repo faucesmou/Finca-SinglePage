@@ -148,6 +148,16 @@
     align-items: flex-start;
     justify-content: flex-start;
 }
+
+.Home .products .contact-image-cards-form {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 .Home .products article {
     width: 33%;
     margin-left: 5px;
@@ -288,7 +298,7 @@
     width: 100%;
     border-radius: 25px;
     font-family: var(--fuente-regular);
-    font-size: 15px;
+    font-size: 17px;
     border: 1px solid var(--colorIcons);
     background-color: white;
 }
@@ -908,7 +918,7 @@ justify-content: flex-start;
     width: 100%;
     border-radius: 25px;
     font-family: var(--fuente-regular);
-    font-size: 10px;
+    font-size: 13px;
     border: 1px solid var(--colorIcons);
     white-space: nowrap;
     margin-top: 10px;

@@ -67,6 +67,7 @@ function Contacto() {
           setErrors({});
 
           console.log("este es el dataFormulario--->", dataFormulario);
+          setFormSubmitted(true);
           const response = await axios.post(
             "https://gmfp.createch.com.ar/api/submit-contactanos",
           /* "http://localhost:443/api/submit-formulario" */ dataFormulario
@@ -90,7 +91,7 @@ function Contacto() {
       } else {
         setErrors(validationErrors);
         console.log("errores de validación: " + JSON.stringify(validationErrors));
-        setFormSubmitted(false);
+        setFormSubmitted(true);
       }
     };
 
@@ -101,6 +102,7 @@ function Contacto() {
         className="formContainer"
       >
         <div className="inputContainer">
+        <div className="inputWrapper">
           <input
             type="text"
             placeholder="Nombre y Apellido"
@@ -116,8 +118,11 @@ function Contacto() {
             <span className="error-message">{errors.nombreApellido}</span>
           )}
         </div>
+        </div>
+
 
         <div className="inputContainer">
+        <div className="inputWrapper">
           <input
             type="text"
             placeholder="País"
@@ -133,8 +138,10 @@ function Contacto() {
             <span className="error-message">{errors.pais}</span>
           )}
         </div>
+        </div>
 
         <div className="inputContainer">
+        <div className="inputWrapper">
           <input
             type="text"
             placeholder="Número de teléfono"
@@ -150,8 +157,10 @@ function Contacto() {
             <span className="error-message">{errors.telefono}</span>
           )}
         </div>
+        </div>
 
         <div className="inputContainer">
+        <div className="inputWrapper">
           <input
             type="email"
             placeholder="Email"
@@ -167,8 +176,10 @@ function Contacto() {
             <span className="error-message">{errors.email}</span>
           )}
         </div>
+        </div>
 
         <div className="inputContainer">
+        <div className="inputWrapper">
           <select
             id="preferencia"
             name="preferencia"
@@ -191,8 +202,10 @@ function Contacto() {
             <span className="error-message">{errors.preferencia}</span>
           )}
         </div>
+        </div>
 
         <div className="inputContainer">
+        <div className="inputWrapper">
           <input
             type="text"
             placeholder="En qué horario desea que lo contactemos"
@@ -208,7 +221,9 @@ function Contacto() {
             <span className="error-message">{errors.horario}</span>
           )}
         </div>
+        </div>
         <div className="inputContainer">
+        <div className="inputWrapper">
           <select
             id="producto"
             name="producto"
@@ -231,15 +246,18 @@ function Contacto() {
             <span className="error-message">{errors.producto}</span>
           )}
         </div>
-        <button onClick={handleSubmit} type="submit">
+        </div>
+        <div className="inputWrapper">
+        <button onClick={handleSubmit} type="submit" className="buttonSubmit" >
           Enviar
         </button>
                 {formSubmitted && (
                   <span className="envioExito">
-                    Formulario enviado con éxito! A la brevedad nos comunicaremos
+                    Formulario enviado con éxito! <br></br> A la brevedad nos comunicaremos
                     con usted.
                   </span>
                 )}
+        </div>
       </form>  )
   }
 
