@@ -1,5 +1,6 @@
 import React from "react";
 import Contacto from "../Contacto";
+import '../../styles/animations.css';
 
 
 function Home() {
