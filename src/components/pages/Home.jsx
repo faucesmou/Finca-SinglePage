@@ -411,7 +411,7 @@ function Home() {
 
               <section className="products">
                 <div className="image-cards">
-                  <article className="dueño">
+                  <article className="dueño2">
                     <div className="descripcion">
                       <button className="contact-media-button">
                         Ruta 88 Intersección Calle Campagnaro - Valle de Uco
@@ -466,7 +466,7 @@ function Home() {
               </div>
               <section className="products">
                 <div className="image-cards">
-                  <article className="dueño">
+                  <article className="dueño2">
                     <div className="descripcion">
                       <button className="contact-media-button">
                         Av. Miruna 1569 - São Paulo - Brasil
@@ -517,7 +517,7 @@ function Home() {
               </div>
               <section className="products">
                 <div className="image-cards">
-                  <article className="dueño">
+                  <article className="dueño2">
                     <div className="descripcion">
                       <button className="contact-media-button">
                         Asunción: WTC torre 2 piso 10
@@ -568,7 +568,7 @@ function Home() {
               </div>
               <section className="products">
                 <div className="image-cards">
-                  <article className="dueño">
+                  <article className="dueño2">
                     <div className="descripcion">
                     <Contacto />
                      
