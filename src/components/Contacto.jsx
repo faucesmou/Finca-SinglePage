@@ -105,6 +105,7 @@ function Contacto() {
         <div className="inputWrapper">
           <input
             type="text"
+            id="nombre"
             placeholder="Nombre y Apellido"
             value={formData2.nombreApellido}
             onChange={(event) =>
@@ -125,6 +126,7 @@ function Contacto() {
         <div className="inputWrapper">
           <input
             type="text"
+            id="pais"
             placeholder="País"
             value={formData2.pais}
             onChange={(event) =>
@@ -144,6 +146,7 @@ function Contacto() {
         <div className="inputWrapper">
           <input
             type="text"
+            id="teléfono"
             placeholder="Número de teléfono"
             value={formData2.telefono}
             onChange={(event) =>
@@ -163,6 +166,7 @@ function Contacto() {
         <div className="inputWrapper">
           <input
             type="email"
+            id="email"
             placeholder="Email"
             value={formData2.email}
             onChange={(event) =>
@@ -208,6 +212,7 @@ function Contacto() {
         <div className="inputWrapper">
           <input
             type="text"
+            id="horario"
             placeholder="En qué horario desea que lo contactemos"
             value={formData2.horario}
             onChange={(event) =>

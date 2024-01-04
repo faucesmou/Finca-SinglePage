@@ -44,7 +44,8 @@ function Home() {
               <article className="dueño">
                 <div>
                   <img
-                    src="/Images/home/MG_0160-scaled-e1680126635925.jpg"
+                   /*  src="/Images/home/MG_0160-scaled-e1680126635925.jpg" */
+                    src="/Images/cande/chicosBrindando.jpg"
                     alt="dueño"
                   />
                 </div>
@@ -65,7 +66,7 @@ function Home() {
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/Finca/FincaPropiaMar20-488-scaled.jpg"
+                    src="/Images/cande/cartelFamilia.jpeg"
                     alt="amigos"
                   />
                 </div>
@@ -341,7 +342,7 @@ function Home() {
                 </div>
                 <div>
                   <img
-                    src="/Images/05/perfiles-06-641x480.jpg"
+                    src="/Images/cande/familia.jpg"
                     alt="expresión"
                   />
                 </div>
@@ -364,7 +365,7 @@ function Home() {
                   </div>
                 </div>
                 <div>
-                  <img src="/Images/05/perfiles-07-641x500.jpg" alt="amigos" />
+                  <img src="/Images/cande/pareja.jpg" alt="amigos" />
                 </div>
               </article>
               <article className="experience-container">
@@ -385,7 +386,7 @@ function Home() {
                 </div>
                 <div>
                   <img
-                    src="/Images/05/Cosecha-Nocturna-2018-033-1-768x512.jpg"
+                    src="/Images/cande/extranjeros.jpeg"
                     alt="dueño"
                   />
                 </div>

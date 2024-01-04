@@ -10,6 +10,12 @@ header {
     background-color: white;
 }
 
+@media (max-width: 700px) {
+    header {
+        max-width: 700px;
+    }
+}
+
 header .logo {
     height: 85px;
 }
@@ -162,6 +168,7 @@ header .menu .dropdown-menu {
     width: 100%; /* Fondo blanco */
     margin-top: 5px;
     border-top: 1px solid var(--colorIcons);
+    display: none;
   }
 
   header .menu ul li {
@@ -282,6 +289,7 @@ header .menu .dropdown-menu {
         /* Estilos para el ícono de menú en tamaños pequeños */
         width: 60px;
         padding: 15px;
+        /* display: none; */
     }
 
     header .menu {
@@ -296,6 +304,7 @@ header .menu .dropdown-menu {
         width: 100%;
         display: block; /* Cambia a un formato de bloque */
         text-align: center; /* Centra el texto */
+    /*     display: none; */
     }
 
      /* Oculta el dropdown en pantallas pequeñas */

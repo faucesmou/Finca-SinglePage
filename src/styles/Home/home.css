@@ -16,12 +16,20 @@
 .Home .parallax-container {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .Home .parallax-container video {
     margin-top: 60px;
     max-height: 700px;
+}
+
+@media (max-width: 700px) {
+    .Home .parallax-container video {
+        margin-top: 60px;
+        max-height: 700px;
+        max-width: 700px;
+    }
 }
 
 .Home .cards {
@@ -158,6 +166,12 @@
     justify-content: flex-start;
 }
 
+@media (max-width: 700px) {
+    .Home .products .contact-image-cards {
+        max-width: 700px;
+    }
+}
+
 .Home .products .contact-image-cards-form {
     width: 50%;
     display: flex;
@@ -244,6 +258,8 @@
     min-height: 350px; /* IMPORTANTE PROPIEDAD PARA QUE QUEDE ALINEADO */
 }
 
+
+
 .Home .products .experience-container img {
     margin-top: 20px;
     align-self: flex-end;
@@ -306,7 +322,16 @@
     max-height: 250px;
     min-height: 150px;
     min-width: 350px;
+    
 }
+
+
+
+/* @media (max-width: 700px) {
+    .Home .products .container-buttons {
+        max-width: 200px;
+    }
+} */
 
 
 .Home .products .container-buttons button {
@@ -400,7 +425,7 @@
 
 }
 
-
+/* ESTA PARTEEE OJOO parte va a tener que repetirse para tamaño pequeño porque sino rompe todo: */
 .Home .cards .image-cards {
     width: 50%;
     display: flex;
@@ -409,6 +434,24 @@
     padding: 0 20px;
     align-items: flex-start;
     justify-content: flex-start;
+}
+.Home .cards .image-cards img {
+    object-fit: cover; /* Otra opción: contain */
+    height: 100%;
+    width: 100%;
+    min-height: 350px; /* ATENTI CON ESTO QUE ES PARA EL TAMAÑO MINIMO ALTO DE LAS IMAGENES DEL INICIO */
+    max-height: 350px;
+}
+
+@media (max-width: 1000px) {
+    .Home .cards .image-cards img {
+        min-height: 250px;
+    }
+}
+@media (max-width: 700px) {
+    .Home .cards .image-cards img {
+        min-height: 200px;
+    }
 }
 
 .Home .products .descripcion {
@@ -440,7 +483,7 @@
     font-family: var(--fuente-terciaria);
     font-size: 18px;
     color: gray;
-    text-align: start;
+    text-align: left;
     font-weight: lighter;
     line-height: 1.5;
     padding: 0 33px;
@@ -589,6 +632,47 @@
         justify-content: center;
     }
 
+    .Home .cards .image-cards {
+        width: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        padding: 0 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .Home .cards .image-cards img {
+        object-fit: cover; /* Otra opción: contain */
+        height: 100%;
+        width: 100%;
+        min-height: 60px;
+        max-height: auto;
+  
+    }
+
+    @media (max-width: 497px) {
+        .Home .cards .image-cards img {
+            min-height: 100px;
+        }
+    }
+    
+    @media (max-width: 395px) {
+        .Home .cards .image-cards img {
+            min-height: 70px;
+        }
+    }
+    
+    @media (max-width: 333px) {
+        .Home .cards .image-cards img {
+            min-height: 60px;
+        }
+    }
+    @media (max-width: 285px) {
+        .Home .cards .image-cards img {
+            min-height: 40px;
+        }
+        }
+    
 
     /*sector de titulo PRODUCTOS-------------------------------- */
 
@@ -858,13 +942,13 @@
     align-items:center ;
     max-width: 100%;
 }
-
+ /*
 .Home .products .contacto-descripcion,
 .Home .products .container-buttons,
 .Home .products .author-statement {
-   /*  width: 100%; 
-    flex-grow: 1; */
-}
+    width: 100%; 
+    flex-grow: 1; 
+}*/
 
 .Home .products .contacto-descripcion {
   font-size: 18px;
@@ -1042,3 +1126,178 @@ justify-content: flex-start;
 
 
 
+@media (max-width: 900px) {
+   
+    .Home .products {
+        max-width: 700px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        padding: 3px 20px;
+        align-items: flex-start;
+    }
+
+    .Home .products .experience-container {
+        display: flex;
+        flex-direction: column;
+     
+        justify-content: center;
+        align-items:center ;
+        max-width: 100%;
+    }
+         
+    .Home .products .contacto-descripcion {
+      font-size: 18px;
+      font-family: var(--fuente-regular);
+      color: var(--colorIcons);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      font-weight: lighter;
+      max-width: 100%;
+    
+    }
+    
+    
+    
+    .Home .products .experience-container .contacto-descripcion .paises-contacto{
+     display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    }
+    
+    .Home .products .experience-container .contacto-descripcion  p{
+        display: flex;
+        font-size: 20px;
+        justify-content: center; 
+        align-items: center; 
+       padding: 10px; 
+        width: 100%;
+        font-family: var(--fuente-regular)
+    }
+    
+    .Home .products .contact-image-cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: auto; 
+        margin: 3%;
+        align-items: flex-start;
+        
+    }
+    
+    
+    .container-comilla-linea {
+        min-width: auto;
+        padding: 0;
+    }
+    
+    
+    .Home .products .container-buttons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+        min-height: 150px;
+        max-width: 100%;
+    }
+    
+    .Home .products .container-buttons button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 65%;
+        border-radius: 25px;
+        font-family: var(--fuente-regular);
+        font-size: 10px;
+        border: 1px solid var(--colorIcons);
+        background-color: white;
+        white-space: nowrap;
+    }
+    
+    .Home .products .container-buttons .social-media-button {
+        display: flex;
+        align-items: center;
+        width: 65%; 
+        background-color: var(--colorButtons);
+        padding: 5px;
+        background-color: var(--colorIcons);
+        height: auto;
+        
+    }
+    
+    .Home .products .image-cards .dueño2 .contact-media-button {
+        display: flex;
+        align-items: center;
+      /*   width: 65%;  */
+        padding: 5px;
+        background-color: white;
+        height: auto;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+        border-radius: 25px;
+        font-family: var(--fuente-regular);
+        font-size: 13px;
+        border: 1px solid var(--colorIcons);
+        white-space: nowrap;
+        margin-top: 10px;
+    
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); /* Estado inicial */
+        transition: box-shadow 0.5s ease; /*transición suave */
+        &:hover {
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35); /* Estado final al hacer hover */
+          }
+    }
+    
+    
+    
+    
+    
+    .Home .products .image-cards .dueño2 .social-media-button {
+        display: flex;
+        align-items: center;
+      /*   width: 65%;  */
+        padding: 5px;
+        background-color: var(--colorIcons);
+        height: auto;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+        border-radius: 25px;
+        font-family: var(--fuente-regular);
+        font-size: 10px;
+        border: 1px solid var(--colorIcons);
+        white-space: nowrap;
+        margin-top: 10px;
+    
+        &:hover {
+            animation:tracking-in-expand 1s ease;
+            background-color: var(--colorIcons);
+          }
+    }
+    
+    .our-social-networks-text {
+        font-size: 10px;
+        font-family: var(--fuente-regular);
+        text-align: center;
+        font-weight: bold;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    
+
+
+}
