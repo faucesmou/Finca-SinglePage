@@ -62,6 +62,9 @@ function Contacto() {
       if (formData2.telefono.trim() === "") {
         validationErrors.telefono = "El Teléfono es requerido";
       }
+      if (!isValidEmail(formData2.email) && formData2.email.trim() !== "" ) {
+        validationErrors.email = "Formato de Email inválido";
+      }
       if (formData2.email.trim() === "") {
         validationErrors.email = "El email es requerido";
       }
@@ -76,6 +79,11 @@ function Contacto() {
       }
       setFormSubmitted(false);
       return validationErrors;
+    };
+
+    const isValidEmail = (email) => {    
+      let re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
     };
 
     /*  const [selectedMonth, setSelectedMonth] = useState(""); */
