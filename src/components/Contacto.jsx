@@ -1,4 +1,4 @@
-import React, {/*  useEffect, */ useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 
@@ -16,6 +16,39 @@ function Contacto() {
     });
 
     const [formSubmitted, setFormSubmitted] = useState(false);
+    const [formNotSubmitted, setFormNotSubmitted] = useState(false);
+
+    useEffect(() => {
+      // Después de que se activa el useEffect por el formulario enviado con éxito, configuramos un temporizador para desactivar el mensaje después de 5 segundos.
+      if (formSubmitted) {
+        const timer = setTimeout(() => {
+          setFormSubmitted(false);
+        }, 5000); // 
+        return () => clearTimeout(timer);
+      }
+    }, [formSubmitted]);
+
+
+    useEffect(() => {
+      // Después de que se activa el useEffect por el formulario enviado con éxito, configuramos un temporizador para desactivar el mensaje después de 5 segundos.
+      if (formNotSubmitted) {
+        const timer = setTimeout(() => {
+          setFormNotSubmitted(false);
+        }, 5000); // 
+        return () => clearTimeout(timer);
+      }
+    }, [formNotSubmitted]);
+
+
+
+
+
+
+
+
+
+
+
     const [errors, setErrors] = useState({});
 
     const validateForm = () => {
@@ -67,7 +100,7 @@ function Contacto() {
           setErrors({});
 
           console.log("este es el dataFormulario--->", dataFormulario);
-          setFormSubmitted(true);
+         
           const response = await axios.post(
             "https://gmfp.createch.com.ar/api/submit-contactanos",
           /* "http://localhost:443/api/submit-formulario" */ dataFormulario
@@ -87,11 +120,12 @@ function Contacto() {
           setFormSubmitted(true);
         } catch (error) {
           console.error("Error al enviar el Form al backend:---> ", error);
+          setFormNotSubmitted(true);
         }
       } else {
         setErrors(validationErrors);
         console.log("errores de validación: " + JSON.stringify(validationErrors));
-        setFormSubmitted(true);
+        setFormSubmitted(false);
       }
     };
 
@@ -260,6 +294,11 @@ function Contacto() {
                   <span className="envioExito">
                     Formulario enviado con éxito! <br></br> A la brevedad nos comunicaremos
                     con usted.
+                  </span>
+                )}
+                {formNotSubmitted && (
+                  <span className="envioExito">
+                    La información no pudo ser enviada. <br></br> Por favor intente nuevamente más tarde.
                   </span>
                 )}
         </div>
