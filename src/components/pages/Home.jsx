@@ -36,7 +36,8 @@ function Home() {
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/home/IMG_4568-scaled-e1680126418462.jpg"
+                    src="/Images/cande/grupo.jpeg"
+                   /*  src="/Images/home/IMG_4568-scaled-e1680126418462.jpg" */
                     alt="amigos"
                   />
                 </div>
@@ -100,13 +101,13 @@ function Home() {
             <div className="image-cards">
               <article className="expresion">
                 <div>
-                  <img src="/Images/legales/imageLegales.jpg" alt="expresión" />
+                  <img src="/Images/cande/vidVerde.jpg" alt="expresión" />
                 </div>
               </article>
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/home/Vendimia-Uvas-Blancas-163-scaled-e1679414395201.jpg"
+                    src="/Images/cande/señores.jpeg"
                     alt="amigos"
                   />
                 </div>
@@ -114,7 +115,7 @@ function Home() {
               <article className="dueño">
                 <div>
                   <img
-                    src="/Images/home/MG_0160-scaled-e1680126635925.jpg"
+                    src="/Images/cande/fincaDron.jpeg"
                     alt="dueño"
                   />
                 </div>
@@ -125,13 +126,13 @@ function Home() {
             <div className="image-cards">
               <article className="expresion">
                 <div>
-                  <img src="/Images/home/procesos-04.jpg" alt="expresión" />
+                  <img src="/Images/cande/degustacion.jpg" alt="expresión" />
                 </div>
               </article>
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/home/IMG_4568-scaled-e1680126418462.jpg"
+                    src= "/Images/cande/pareja.jpg"
                     alt="amigos"
                   />
                 </div>
@@ -139,7 +140,7 @@ function Home() {
               <article className="dueño">
                 <div>
                   <img
-                    src="/Images/home/MG_0160-scaled-e1680126635925.jpg"
+                    src="/Images/cande/vidPrimerPlano.jpeg"
                     alt="dueño"
                   />
                 </div>
@@ -365,7 +366,7 @@ function Home() {
                   </div>
                 </div>
                 <div>
-                  <img src="/Images/cande/pareja.jpg" alt="amigos" />
+                  <img src="/Images/cande/brindisAmigas.jpg" alt="amigos" />
                 </div>
               </article>
               <article className="experience-container">

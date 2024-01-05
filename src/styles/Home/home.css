@@ -584,7 +584,11 @@
         z-index: 10;
         background-color: white;
         overflow: hidden;
+       
     }
+
+
+    
 
     .Home .parallax-container video {
         margin-top: 60px;
