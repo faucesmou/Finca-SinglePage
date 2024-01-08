@@ -1,0 +1,38 @@
+2024-01-08T17:53:27.120Z [INFO]: # Cloning repository: git@github.com:devopsandes/finca-propia-one-page.git
+2024-01-08T17:53:29.972Z [INFO]: 
+2024-01-08T17:53:29.973Z [INFO]: Cloning into 'finca-propia-one-page'...
+2024-01-08T17:53:29.973Z [INFO]: # Checking for Git submodules at: /codebuild/output/src4424815/src/finca-propia-one-page/.gitmodules
+2024-01-08T17:53:29.987Z [INFO]: # Retrieving environment cache...
+2024-01-08T17:53:30.025Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2024-01-08T17:53:30.025Z [INFO]: ---- Setting Up SSM Secrets ----
+2024-01-08T17:53:30.025Z [INFO]: SSM params {"Path":"/amplify/d3dcoo1hlxwkuk/staging/","WithDecryption":true}
+2024-01-08T17:53:30.058Z [WARNING]: !Failed to set up process.env.secrets
+2024-01-08T17:53:46.720Z [INFO]: # Patching NPM package '@aws-amplify/cli' from 10.5.2 to 12.10.0...
+2024-01-08T17:54:02.472Z [INFO]: # Done patching NPM package '@aws-amplify/cli' to version 12.10.0
+2024-01-08T17:54:02.553Z [INFO]: # Retrieving cache...
+2024-01-08T17:54:02.581Z [INFO]: # Retrieved cache
+2024-01-08T17:54:06.435Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+                                 ## Backend environment association found
+2024-01-08T17:54:08.238Z [INFO]: [33mNote: It is recommended to run this command from the root of your app directory[39m
+2024-01-08T17:54:08.239Z [INFO]: [32mThe following configuration will be applied:[39m
+2024-01-08T17:54:08.239Z [INFO]: [0mProject information[0m
+                                 [0m| Name: fincapropiaonepage[0m
+                                 [0m| Environment: staging[0m
+                                 [0m| Default editor: Visual Studio Code[0m
+2024-01-08T17:54:08.373Z [INFO]: [0m| App type: javascript[0m
+2024-01-08T17:54:08.373Z [INFO]: [0m| Javascript framework: react[0m
+2024-01-08T17:54:08.373Z [INFO]: [0m| Source Directory Path: src[0m
+                                 [0m| Distribution Directory Path: build[0m
+                                 [0m| Build Command: npm run-script build[0m
+                                 [0m| Start Command: npm run-script start[0m
+2024-01-08T17:54:08.374Z [INFO]: 
+2024-01-08T17:54:08.377Z [INFO]: 🛑 AWS access credentials can not be found.
+2024-01-08T17:54:08.377Z [INFO]: Learn more at: https://docs.amplify.aws/cli/project/troubleshooting/
+2024-01-08T17:54:08.421Z [INFO]: 
+2024-01-08T17:54:08.421Z [INFO]: Session Identifier: 2b3d6afe-995b-4268-99a8-6608b97d3311
+2024-01-08T17:54:08.438Z [ERROR]: !!! Build failed
+2024-01-08T17:54:08.438Z [ERROR]: !!! Non-Zero Exit Code detected
+2024-01-08T17:54:08.438Z [INFO]: # Starting environment caching...
+2024-01-08T17:54:08.439Z [INFO]: # Environment caching completed
+Terminating logging...
