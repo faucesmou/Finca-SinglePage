@@ -178,7 +178,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/cons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       40 mts lineales de vid (100m2).
@@ -186,7 +186,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       75 kg de uvas por cosecha.
@@ -194,7 +194,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       72 botellas de vino por año.
@@ -202,7 +202,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       Cosecha asegurada sin riesgos.
@@ -226,7 +226,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       80 mts lineales de vid(200m2)
@@ -234,7 +234,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       150 kg de uvas por cosecha
@@ -242,7 +242,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       144 botellas de vino por año
@@ -250,7 +250,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       Cosecha asegurada sin riesgos.
@@ -273,7 +273,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       80 mts lineales de vid(200m2)
@@ -281,7 +281,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       150 kg de uvas por cosecha
@@ -289,7 +289,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       144 botellas de vino por año
@@ -297,7 +297,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/images/icons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       Cosecha asegurada sin riesgos
