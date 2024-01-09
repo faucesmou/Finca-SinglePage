@@ -178,7 +178,7 @@ function Home() {
                     <li>
                       <img
                         className="uvitas"
-                        src="/Images/cons/uvas.png"
+                        src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
                       40 mts lineales de vid (100m2).
