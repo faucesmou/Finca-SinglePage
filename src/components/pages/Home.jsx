@@ -338,7 +338,7 @@ function Home() {
                     </span>
                   </div>
                   <p className="author-statement">
-                    Calendaria - Provincia de Santa Fé
+                    Candelaria - Provincia de Santa Fé
                   </p>
                 </div>
                 <div>
