@@ -111,6 +111,7 @@ header .redes ul li {
 
 header .burger-menu {
     width: 85px;
+    max-height: fit-content;
     padding: 25px;
     display: flex;
     align-items: center;
@@ -120,9 +121,11 @@ header .burger-menu {
 header .icono-dorado {
     fill: var(--colorIcons);
     stroke: var(--colorIcons);
+    height: 30px;/* AGREGADO EL 19 FEB PRUEBA  */
+    width: 30px;/* AGREGADO EL 19 FEB PRUEBA  */
 }
 header .redes ul li a .icono-dorado {
-    height: 20px;
+    height: 35px;
     fill: var(--colorIcons);
     stroke: var(--colorIcons);
 }
@@ -146,6 +149,7 @@ header .menu .dropdown-menu.active {
 
 header .dropdown-menu {
     max-width: 100px; /* Ajusta el ancho máximo según tus preferencias */
+    max-height: 100px; /* AGREGADO EL 19 FEB PRUEBA */
 }
 
 header .menu .dropdown-menu {
@@ -212,9 +216,9 @@ header .menu .dropdown-menu {
 
 /* Media query Tablets */
 @media (min-width: 768px) {
-    header .burger-menu {
+   /*  header .burger-menu {
         display: none;
-    }
+    } */
 
     header .menu {
         height: 85px;
@@ -278,6 +282,7 @@ header .menu .dropdown-menu {
 
     header .burger-menu {
         width: 85px;
+        max-height: fit-content;
         padding: 25px;
         display: flex;
         align-items: center;
@@ -290,6 +295,7 @@ header .menu .dropdown-menu {
     header .burger-menu {
         /* Estilos para el ícono de menú en tamaños pequeños */
         width: 60px;
+        max-height: fit-content;
         padding: 15px;
     }
 
