@@ -18,10 +18,12 @@ header {
 
 header .logo {
     height: 85px;
+    
 }
 
 header .logo img {
     height: 85px;
+    max-width: 85px;
 }
 
 header .info {

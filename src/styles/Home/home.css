@@ -563,6 +563,18 @@
 
 /* ------------------------------------------------------------------------------------------------ */
 
+/* 1284×2778 pixels at 460ppi  IPHONE iPhone 15 Plus and 15 Pro Max..*/
+
+/* @media only screen 
+    and (width: 430px) 
+    and (height: 932px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+
+    } */
+
+
+
+
 @media screen /* and (max-width: 320px) */and (min-width: 200px) and (max-width: 500px)  {
 
     .Home {
