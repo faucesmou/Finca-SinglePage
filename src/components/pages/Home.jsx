@@ -606,7 +606,7 @@ function Home() {
                       <button>
                         Ruta 88 Intersección Calle Campagnaro - Valle de Uco
                       </button>
-                      <button>(54) 9 11 2178-8701</button>
+                      <button>(+54) 9 2612 79-2795</button>
                       <button>contacto@fincapropia.com</button>
                       <button className="social-media-button">
                         <span className="our-social-networks-text">NUESTRAS REDES</span>
@@ -645,7 +645,7 @@ function Home() {
                     <div className="container-buttons">
                       <button>Av. Miruna 1569 - São Paulo - Brasil</button>
                       <button className="contact-button">
-                        <span className="phone-number">(54) 9 11 2178-8701</span>
+                        <span className="phone-number">(+54) 9 2612 79-2795</span>
                       </button>
 
                       <button>atencion.brasil@fincapropia.com</button>
@@ -684,7 +684,7 @@ function Home() {
                     </div>
                     <div className="container-buttons">
                       <button>Asunción: WTC torre 2 piso 10</button>
-                      <button>(54) 9 11 2178-8701</button>
+                      <button>(+54) 9 2612 79-2795</button>
                       <button>atencion.paraguay@fincapropia.com</button>
                       <button className="social-media-button">
                         <span className="our-social-networks-text">NUESTRAS REDES</span>
