@@ -481,7 +481,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                      propietariosbrasil@fincapropia.com - contacto.br@fincapropia.com
+                      propietariosbrasil@fincapropia.com <br /> contacto.br@fincapropia.com
                       </button>
                     </div>
                     <div className="descripcion">
@@ -648,7 +648,7 @@ function Home() {
                         <span className="phone-number">(+55) 11 93022 7013</span>
                       </button>
 
-                      <button>propietariosbrasil@fincapropia.com - contacto.br@fincapropia.com</button>
+                      <button className="mail-button">propietariosbrasil@fincapropia.com  contacto.br@fincapropia.com</button>
                       <button className="social-media-button">
                         <span className="our-social-networks-text">NUESTRAS REDES</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">

@@ -354,6 +354,26 @@
       }
 }
 
+.Home .products .container-buttons .mail-button  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 14px;
+    width: 100%;
+    border-radius: 25px;
+    font-family: var(--fuente-regular);
+    font-size: 17px;
+    border: 1px solid var(--colorIcons);
+    background-color: white;
+
+    box-shadow: 0 0 0 0 var(--colorIcons); /* Estado inicial */
+    transition: box-shadow 0.5s ease; /*transición suave */
+    &:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.283); /* Estado final al hacer hover */
+      }
+}
+
 .Home .products .container-buttons .social-media-button {
     background-color: var(--colorIcons);
     font-weight: bold;
