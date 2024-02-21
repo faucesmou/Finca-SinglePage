@@ -229,7 +229,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      80 mts lineales de vid(200m2)
+                      80 mts lineales de vid (200m2)
                     </li>
                     <li>
                       <img
@@ -276,7 +276,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      80 mts lineales de vid(200m2)
+                      200 mts lineales de vid (400m2)
                     </li>
                     <li>
                       <img
@@ -284,7 +284,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      150 kg de uvas por cosecha
+                      375 kg de uvas por cosecha
                     </li>
                     <li>
                       <img
@@ -292,7 +292,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      144 botellas de vino por año
+                      360 botellas de vino por año
                     </li>
                     <li>
                       <img
