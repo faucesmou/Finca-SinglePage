@@ -421,7 +421,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                        (54) 9 11 2178-8701
+                        (+54) 9 2613 300621 
                       </button>
                     </div>
                     <div className="descripcion">
@@ -476,12 +476,12 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                        (54) 9 11 2178-8701
+                       (+55) 11 93022 7013
                       </button>
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                        atencion.brasil@fincapropia.com
+                      propietariosbrasil@fincapropia.com - contacto.br@fincapropia.com
                       </button>
                     </div>
                     <div className="descripcion">
@@ -527,7 +527,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                        (54) 9 11 2178-8701
+                        (+59) 5 992 925106 
                       </button>
                     </div>
                     <div className="descripcion">
@@ -606,7 +606,7 @@ function Home() {
                       <button>
                         Ruta 88 Intersección Calle Campagnaro - Valle de Uco
                       </button>
-                      <button>(+54) 9 2612 79-2795</button>
+                      <button>(+54) 9 2613 300621</button>
                       <button>contacto@fincapropia.com</button>
                       <button className="social-media-button">
                         <span className="our-social-networks-text">NUESTRAS REDES</span>
@@ -645,10 +645,10 @@ function Home() {
                     <div className="container-buttons">
                       <button>Av. Miruna 1569 - São Paulo - Brasil</button>
                       <button className="contact-button">
-                        <span className="phone-number">(+54) 9 2612 79-2795</span>
+                        <span className="phone-number">(+55) 11 93022 7013</span>
                       </button>
 
-                      <button>atencion.brasil@fincapropia.com</button>
+                      <button>propietariosbrasil@fincapropia.com - contacto.br@fincapropia.com</button>
                       <button className="social-media-button">
                         <span className="our-social-networks-text">NUESTRAS REDES</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">
@@ -684,7 +684,7 @@ function Home() {
                     </div>
                     <div className="container-buttons">
                       <button>Asunción: WTC torre 2 piso 10</button>
-                      <button>(+54) 9 2612 79-2795</button>
+                      <button> (+59) 5 992 925106</button>
                       <button>atencion.paraguay@fincapropia.com</button>
                       <button className="social-media-button">
                         <span className="our-social-networks-text">NUESTRAS REDES</span>
@@ -727,13 +727,9 @@ function Home() {
                 <div className="contact-image-cards-form">
                   
                 <Contacto />
-             
-            
+               
                 </div>
               </section>
-
-
-
 
             </section>
           )}
