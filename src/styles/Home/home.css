@@ -1020,7 +1020,7 @@
     }
   
     .Home .products .image-cards-experience .experience-container .experience-descripcion .statements { 
-      font-size: 18px;
+      font-size: 16px;
       min-height: auto; 
       display: flex;
       flex-direction: column;
@@ -1036,6 +1036,7 @@
       color: black;
       line-height: 2;
       min-width: auto;
+      line-height: 1.5;
     }
   
   
