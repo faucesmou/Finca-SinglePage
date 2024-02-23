@@ -40,6 +40,15 @@
     padding: 3px 20px;
     align-items: flex-start;
 }
+.Home .cards-biografia {
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding: 3px 0px;
+    align-items: flex-start;
+    gap: 10px;
+}
 
 .container-comilla-linea {
     display: flex;
@@ -93,6 +102,14 @@
 
 
 .Home .products-title .letraGrande {
+    font-family: var(--fuente-regular);
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+.Home .texto-container-biografia .letraGrande {
     font-family: var(--fuente-regular);
     font-size: 36px;
     display: flex;
@@ -210,7 +227,7 @@
 
 .Home .products .texto-item .titulo-negro {
     font-family: var(--fuente-regular);
-    font-size: 32px;
+    font-size: 36px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -359,7 +376,7 @@
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     width: 100%;
     border-radius: 25px;
     font-family: var(--fuente-regular);
@@ -462,6 +479,23 @@
     min-height: 350px; /* ATENTI CON ESTO QUE ES PARA EL TAMAÑO MINIMO ALTO DE LAS IMAGENES DEL INICIO */
     max-height: 350px;
 }
+.Home .cards-biografia .image-cards-biografia {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 ;
+    padding: 0 5px;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.Home .cards-biografia .image-cards-biografia img {
+    object-fit: cover; /* Otra opción: contain */
+    height: 100%;
+    width: 100%;
+    min-height: 600px; /* ATENTI CON ESTO QUE ES PARA EL TAMAÑO MINIMO ALTO DE LAS IMAGENES DEL INICIO */
+    max-height: 680px;
+}
 
 @media (max-width: 1000px) {
     .Home .cards .image-cards img {
@@ -521,6 +555,10 @@
     width: 33%;
     margin-left: 5px;
 }
+/* .Home .cards article-biografia {
+    width: 33%;
+    margin-left: 5px;
+} */
 
 
 .Home .texto-container {
@@ -530,6 +568,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+
+}
+.Home .texto-container-biografia {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 5%;
 
 }
 
@@ -546,6 +594,26 @@
     justify-content: center;
 
 }
+.Home .cards-biografia .texto-item .titulo-dorado-biografia {
+    font-family: var(--fuente-terciaria);
+    font-style: italic;
+    font-size: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--colorIcons);
+
+}
+.Home .cards-biografia .texto-item .titulo-negro-biografia {
+    font-family: var(--fuente-regular);
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: 'black';
+    margin-right: 25%;
+
+}
 
 .Home .cards .texto-item .subtitulo-dorado {
     font-family: var(--fuente-terciaria);
@@ -556,8 +624,24 @@
     text-align: center;
     line-height: 1.5;
 }
+.Home .cards-biografia .texto-item .subtitulo-dorado-biografia {
+    font-family: var(--fuente-terciaria);
+    font-size: 15px;
+    color: 'black';/* var(--colorIcons); */
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 2;
+    margin-top: 12px;
+}
 
 .Home .cards article p {
+    letter-spacing: 1px;
+    color: #161922;
+    margin: 10px 0;
+}
+
+.Home .cards-biografia article p {
     letter-spacing: 1px;
     color: #161922;
     margin: 10px 0;

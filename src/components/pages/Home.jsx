@@ -37,7 +37,7 @@ function Home() {
                 <div>
                   <img
                     src="/Images/cande/grupo.jpeg"
-                   /*  src="/Images/home/IMG_4568-scaled-e1680126418462.jpg" */
+                    /*  src="/Images/home/IMG_4568-scaled-e1680126418462.jpg" */
                     alt="amigos"
                   />
                 </div>
@@ -45,7 +45,7 @@ function Home() {
               <article className="dueño">
                 <div>
                   <img
-                   /*  src="/Images/home/MG_0160-scaled-e1680126635925.jpg" */
+                    /*  src="/Images/home/MG_0160-scaled-e1680126635925.jpg" */
                     src="/Images/cande/chicosBrindando.jpg"
                     alt="dueño"
                   />
@@ -132,7 +132,7 @@ function Home() {
               <article className="amigos">
                 <div>
                   <img
-                    src= "/Images/cande/pareja.jpg"
+                    src="/Images/cande/pareja.jpg"
                     alt="amigos"
                   />
                 </div>
@@ -395,6 +395,48 @@ function Home() {
             </div>
           </section>
           <div className="linea-dorada"></div>
+{/* SECCIÓN DE LA BIOGRAFÍA ---------------------------------------Pantalla grande->>> */}
+
+          <section className="cards-biografia">
+            <div className="image-cards-biografia">
+              {/* <article className="expresion">
+                <div>
+
+                </div>
+              </article> */}
+             {/*  <article className="amigos">
+                <div>
+
+                </div>
+              </article> */}
+              <article className="amigos">
+                <div>
+                  <img
+                    src="/Images/winemaker/antonio-mas-antonio-mas-698x1024-1.jpg"
+                    alt="amigos"
+                  />
+                </div>
+              </article>
+
+            </div>
+            <section className="texto-container-biografia">
+              <div className="texto-item">
+                <p className="titulo-negro-biografia">
+                <span className="letraGrande">A</span>ntonio Mas</p>
+                <p className="titulo-dorado-biografia">Winemaker</p>
+                <p className="subtitulo-dorado-biografia">
+                En el año 2010 Antonio volvió a innovar con Finca Propia, un proyecto con el que se dio el gusto de tomarse el tiempo para elegir el viñedo de sus sueños, luego de recorrer tanto los terruños conocidos como los más recónditos de su querida provincia, terminó enamorándose de unas tierras enmarcadas por la cordillera, con un importante desnivel entre los dos extremos, y con un suelo que le brindaría un estilo con la intensidad y elegancia que siempre buscó para sus vinos. Allí, en el Paraje Dubois, La Arboleda, a 7 kilómetros del pueblo de Tupungato, rodeado de los viñedos más renombrados de la Argentina, Antonio apostó a hacer algo diferente.
+                <br />
+                <br />
+Este proyecto nace del deseo y de la inquietud de conocer, tratar en forma directa, y compartir momentos con aquellos que toman sus vinos, que hacer un vino no se limite a venderlo a un comercio, sino ir un poco más allá. Con el proyecto de Finca Propia, Antonio no solo se dedica a seguir elaborando vinos memorables, sino que también se da el gusto de compartir experiencias con aquellos que lo acompañan en este proyecto, con aquellos que adquirieron partes de este viñedo sobresaliente y que valoran y disfrutan de hacer un producto de la tierra, de aprender lo que implica hacer un vino de terruño.
+                {/*   más biografía  <br />
+                  más biografía  <br /> */}
+                </p>
+              </div>
+            </section>
+          </section>
+
+          <div className="linea-dorada"></div>
 
           {/* Menor a 500px se muestra el siguiente section(responsive)----------------------------------------------------------- */}
           {window.innerWidth <= 500 && (
@@ -421,7 +463,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                        (+54) 9 2613 300621 
+                        (+54) 9 2613 300621
                       </button>
                     </div>
                     <div className="descripcion">
@@ -476,12 +518,12 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                       (+55) 11 93022 7013
+                        (+55) 11 93022 7013
                       </button>
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                      propietariosbrasil@fincapropia.com <br /> contacto.br@fincapropia.com
+                        propietariosbrasil@fincapropia.com <br /> contacto.br@fincapropia.com
                       </button>
                     </div>
                     <div className="descripcion">
@@ -527,7 +569,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                        (+59) 5 992 925106 
+                        (+59) 5 992 925106
                       </button>
                     </div>
                     <div className="descripcion">
@@ -572,8 +614,8 @@ function Home() {
                 <div className="image-cards">
                   <article className="dueño2">
                     <div className="descripcion">
-                    <Contacto />
-                     
+                      <Contacto />
+
                     </div>
                   </article>
                 </div>
@@ -631,7 +673,7 @@ function Home() {
                         {/*  <span className="image-icon">ICON</span> */}
                       </button>
                     </div>
-                   {/*  <div className="author-statement">
+                    {/*  <div className="author-statement">
                       <p>Subtexto final</p>
                     </div> */}
                   </article>
@@ -672,7 +714,7 @@ function Home() {
                         {/*  <span className="image-icon">ICON</span> */}
                       </button>
                     </div>
-                 {/*    <div className="author-statement">
+                    {/*    <div className="author-statement">
                       <p>Subtexto final</p>
                     </div> */}
                   </article>
@@ -711,7 +753,7 @@ function Home() {
                       </button>
                     </div>
 
-                 {/*    <div className="author-statement">
+                    {/*    <div className="author-statement">
                       <p>Subtexto final</p>
                     </div> */}
                   </article>
@@ -725,9 +767,9 @@ function Home() {
               </div>
               <section className="products">
                 <div className="contact-image-cards-form">
-                  
-                <Contacto />
-               
+
+                  <Contacto />
+
                 </div>
               </section>
 
