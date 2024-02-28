@@ -310,7 +310,7 @@ function Home() {
               </article>
             </div>
             </section>
-            <section id="laFinca"></section>
+            
             <p className="fraseFinal">
             VINOS PERSONALIZADOS CON FIRMA/LOGO/FRASE/DIBUJO ETIQUETA PROPIA
             </p>
@@ -332,13 +332,11 @@ function Home() {
                   </div>
                   <div className="statements">
                     <span>
-                      Ser parte de Finca Propia me hace recordar a mi infancia,
-                      con mi padre, caminando por el campo. <br></br>Gracias
-                      totales.
+                      Ser parte de Finca Propia me hizo vivir el mundo del vino como dueño de un viñedo.<br></br>Una experiencia distinta.
                     </span>
                   </div>
                   <p className="author-statement">
-                    Candelaria - Provincia de Santa Fé
+                    Fernando - Provincia de San Luis
                   </p>
                 </div>
                 <div>
@@ -357,12 +355,11 @@ function Home() {
                   </div>
                   <div className="statements">
                     <span>
-                      Poder compartir con Antonio y su hijo un asado en nuestro
-                      viñedo, es una experiencia incomparable.
+                      Visitar la finca y conocer todo el esfuerzo y procesos que hay detrás de una botella de vino, cambió mi percepción totalmente.
                     </span>
                   </div>
                   <div className="author-statement">
-                    <p>Marco Antonio - Provincia de Chaco</p>
+                    <p>Marcelo - Provincia de Buenos Aires</p>
                   </div>
                 </div>
                 <div>
@@ -377,12 +374,11 @@ function Home() {
                   </div>
                   <div className="statements">
                     <span>
-                      Vivir las actividades como la vendimia, raleo y poda, me
-                      hacen sentir viva. Salud!
+                      Poder participar de las actividades, recibir información en tiempo real y consultar con los expertos, te hace aprender mucho rápidamente. 
                     </span>
                   </div>
                   <div className="author-statement">
-                    <p>German - Provincia de Buenos Aires</p>
+                    <p>Graciela - Provincia de Santa Fé</p>
                   </div>
                 </div>
                 <div>
@@ -404,7 +400,7 @@ function Home() {
             /* Seccion BIOGRAFÍA para responsive!------------------------------------->>> */
             
             <section className="conditional-small-size">
-
+            <section id="biografia"></section>
 
 
 {/* <div className="linea-dorada"></div> */}
@@ -440,7 +436,7 @@ function Home() {
             </div>
           </section>
           <div className="linea-dorada"></div>
-
+          <section id="laFinca"></section>
 
 
               <section id="contacto"></section>
@@ -525,7 +521,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                        propietariosbrasil@fincapropia.com <br /> contacto.br@fincapropia.com
+                        propietariosbrasil@fincapropia.com <br /> 
                       </button>
                     </div>
                     <div className="descripcion">
@@ -634,7 +630,7 @@ function Home() {
             <section className="conditional-big-size">
 
 {/* SECCIÓN DE LA BIOGRAFÍA ---------------------------------------Pantalla grande->>> */}
-
+<section id="biografia"></section>
 <section className="cards-biografia">
             <div className="image-cards-biografia">
               {/* <article className="expresion">
@@ -675,7 +671,7 @@ Este proyecto nace del deseo y de la inquietud de conocer, tratar en forma direc
           </section>
 
           <div className="linea-dorada"></div>
-
+          <section id="laFinca"></section>
 
 
               <section id="contacto"></section>
@@ -738,7 +734,7 @@ Este proyecto nace del deseo y de la inquietud de conocer, tratar en forma direc
                         <span className="phone-number">(+55) 11 93022 7013</span>
                       </button>
 
-                      <button className="mail-button">propietariosbrasil@fincapropia.com  contacto.br@fincapropia.com</button>
+                      <button className="">propietariosbrasil@fincapropia.com</button>
                       <button className="social-media-button">
                         <span className="our-social-networks-text">NUESTRAS REDES</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">

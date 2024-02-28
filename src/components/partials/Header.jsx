@@ -74,7 +74,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
               <Navegar2  to="/ser-dueno" sectionId="serDueno" >
                 <li onClick={closeMenu} >Ser Dueño</li>
                 </Navegar2>
-              <Navegar2  to="/experiencia" sectionId="experienciaPropietarios" >
+              <Navegar2  to="/biografia" sectionId="biografia" >
                 <li onClick={closeMenu} >Winemaker</li>
                 </Navegar2>
               <Navegar2  to="/" sectionId="fincaPropia" >

@@ -39,11 +39,15 @@ function LargeScreenHeader() {
           <Navegar2 to="/ser-dueno" sectionId="serDueno">
             <li>Ser Dueño</li>
           </Navegar2>
-          <li  onClick={toggleDropdown}> WineMaker
+          <Navegar2 to="/biografia" sectionId="biografia">
+            <li>WineMaker</li>
+          </Navegar2>
+
+          {/* <li  onClick={toggleDropdown}> WineMaker
               { isDropdownOpen ? (
                   <li className="dropdown-menu active" >
                     <div className="titulo">
-                    <Navegar2 to="/ser-dueno" sectionId="serDueno" >
+                    <Navegar2 to="/contacto" sectionId="serDueno"   >
                           Winemaker
                         </Navegar2>
                     </div>
@@ -57,10 +61,13 @@ function LargeScreenHeader() {
                   </li>
                 )
               : null}
-              </li>
+              </li> */}
 
           <Navegar2 to="/finca" sectionId="laFinca">
             <li>La Finca</li>
+          </Navegar2>
+          <Navegar2 to="/ser-dueno" sectionId="serDueno">
+            <li>Los vinos</li>
           </Navegar2>
           <Navegar2 to="/contacto" sectionId="contacto">
             <li>Contacto</li>

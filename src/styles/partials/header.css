@@ -241,6 +241,7 @@ header .menu .dropdown-menu {
         width: 100px;
         text-align: center;
         list-style: none;
+        font-weight: normal;
     }
 
    
