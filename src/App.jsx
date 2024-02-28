@@ -6,6 +6,8 @@ import './styles/styles.css'
 import LargeScreenHeader from './components/partials/LargeScreenHeader'
 import Header from './components/partials/Header';
 import Home from './components/pages/Home';
+import HomeBrasil from './components/pages/HomeBrasil';
+import HomeUSA from './components/pages/HomeUSA';
 
 
 import { useState } from "react";
@@ -27,6 +29,8 @@ function App() {
                 
                 <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/brasil" element={<HomeBrasil />} />
+                <Route path="/usa" element={<HomeUSA />} />
                     
                 </Routes>
             </div>

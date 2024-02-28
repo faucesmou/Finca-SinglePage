@@ -13,12 +13,12 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
 
   /* DROP DOWN NAVBAR */
 
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-      console.log("este es el dropdown:", isDropdownOpen)
-    setIsDropdownOpen(!isDropdownOpen);
-  };
+  /*  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+ 
+   const toggleDropdown = () => {
+       console.log("este es el dropdown:", isDropdownOpen)
+     setIsDropdownOpen(!isDropdownOpen);
+   }; */
 
   const [shouldShowInfo, setShouldShowInfo] = useState(false);
 
@@ -68,33 +68,49 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
               {/* <NavLink to="/" onClick={closeMenu}> 
               <li>Finca Propia</li>
                </NavLink> */}
-              <Navegar2  to="/ser-dueno" sectionId="fincaPropia" >
+              <Navegar2 to="/ser-dueno" sectionId="fincaPropia" >
                 <li onClick={closeMenu} >Finca Propia</li>
-                </Navegar2>
-              <Navegar2  to="/ser-dueno" sectionId="serDueno" >
+              </Navegar2>
+              <Navegar2 to="/ser-dueno" sectionId="serDueno" >
                 <li onClick={closeMenu} >Ser Dueño</li>
-                </Navegar2>
-              <Navegar2  to="/biografia" sectionId="biografia" >
+              </Navegar2>
+              <Navegar2 to="/biografia" sectionId="biografia" >
                 <li onClick={closeMenu} >Winemaker</li>
-                </Navegar2>
-              <Navegar2  to="/" sectionId="fincaPropia" >
+              </Navegar2>
+              <Navegar2 to="/" sectionId="fincaPropia" >
                 <li onClick={closeMenu} >Los Vinos</li>
-                </Navegar2>
-              <Navegar2  to="/finca" sectionId="laFinca" >
+              </Navegar2>
+              <Navegar2 to="/finca" sectionId="laFinca" >
                 <li onClick={closeMenu}>La Finca</li>
-                </Navegar2>
-              <Navegar2  to="/" sectionId="contacto" >
+              </Navegar2>
+              <Navegar2 to="/" sectionId="contacto" >
                 <li onClick={closeMenu}>Contacto</li>
-                </Navegar2>
-         
-             {/*  <NavLink to="/Winemaker" onClick={closeMenu}>
+              </Navegar2>
+              <div className="paises-contenedor" >
+                <li onClick={closeMenu}>
+                  <Navegar2 to="/" sectionId="fincaPropia">
+                    <img src="/Images/header/argentinaFabicomMediano.png" alt="argentina" className="banderaPequeña" />
+                  </Navegar2>
+                  <Navegar2 to="/" sectionId="fincaPropia">
+                    <img src="/Images/header/paraguayFabicomMediano.png" alt="paraguay" className="banderaPequeña" />
+                  </Navegar2>
+                  <Navegar2 to="/" sectionId="fincaPropia">
+                    <img src="/Images/header/brasilFabicomMediano.png" alt="brasil" className="banderaPequeña" />
+                  </Navegar2>
+                  <Navegar2 to="/" sectionId="fincaPropia">
+                    <img src="/Images/header/usaFabicomMediano.png" alt="usa" className="banderaPequeña" />
+                  </Navegar2>
+                </li>
+              </div>
+
+              {/*  <NavLink to="/Winemaker" onClick={closeMenu}>
                 <li>Winemaker</li>
               </NavLink>
               <NavLink to="/los-vinos" onClick={closeMenu}>
                 <li>Los Vinos</li>
               </NavLink> */}
 
-             {/*  <NavLink to="/finca" onClick={closeMenu}>
+              {/*  <NavLink to="/finca" onClick={closeMenu}>
                 <li>La Finca</li>
               </NavLink> */}
               {/* <NavLink to="/ContactoInicial" onClick={closeMenu}>
@@ -105,7 +121,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
           <section className="redes">
             <ul>
               <li className="instagram">
-                <a href="https://www.instagram.com/fincapropia/"  target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/fincapropia/" target="_blank" rel="noreferrer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -116,7 +132,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
                 </a>
               </li>
               <li className="facebook">
-                <a href="https://www.facebook.com/fincapropia"  target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -126,7 +142,20 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
                   </svg>
                 </a>
               </li>
-              <li className="email">
+              <Navegar2 to="/" sectionId="contacto" >
+                <li onClick={closeMenu}>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    className="icono-dorado"
+                  >
+                    <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                  </svg>
+
+                </li>
+              </Navegar2>
+
+             {/*  <li className="email">
                 <a href="https://www.fincapropia.com/contacto/" target="_blank" rel="noreferrer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +165,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
                     <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
                   </svg>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </section>
         </div>
@@ -147,26 +176,3 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
 
 export default Header;
 
-   {/*   <NavLink to="/ser-dueno" onClick={closeMenu}>
-                <li>Ser Dueño</li>
-              </NavLink> */}
-
-              {/*  <li onClick={toggleDropdown}> WineMaker</li>
-              { isDropdownOpen ? (
-                  <li className="dropdown-menu">
-                    <div className="titulo">Winemaker</div>
-                    <ul>
-                      <li>
-                        <NavLink to="/los-vinos" onClick={closeMenu}>
-                          Los Vinos
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to="/winemaker" onClick={closeMenu}>
-                          Winemaker
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </li>
-                )
-              : null} */}
