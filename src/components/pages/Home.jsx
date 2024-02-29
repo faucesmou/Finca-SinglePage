@@ -398,7 +398,7 @@ function Home() {
           {window.innerWidth <= 500 && (
 
 
-            /* Seccion BIOGRAFÍA para responsive!------------------------------------->>> */
+            /* Seccion  CONDICIONAL PEQUEÑO ---EMPIEZA CON BIOGRAFÍA para responsive!------------------------------------->>> */
 
             <section className="conditional-small-size">
               <section id="biografia"></section>
@@ -437,10 +437,62 @@ function Home() {
                 </div>
               </section>
               <div className="linea-dorada"></div>
+              <div className="wines-title-experience">
+                <p>
+                  <span className="letraGrandeExperience">L</span>os vinos
+                </p>
+              </div>
+              <section className="products">
+                <div className="image-cards">
+                  <article className="dueño">
+
+                    <div>
+                      <img
+                        src="/Images/losvinos/Botellas_Finca/Finca_MB2021.png"
+                        alt="expresión"
+                      />
+                    </div>
+                    <div className="descripcion"></div>
+
+                  </article>
+
+                  <article className="dueño">
+
+                    <div>
+                      <img src="/Images/losvinos/Botellas_Finca/Finca_CS2021.png" alt="amigos" />
+                    </div>
+                    <div className="descripcion">
+
+                    </div>
+                  </article>
+                  <article className="dueño">
+
+                    <div>
+                      <img src="/Images/losvinos/Botellas_Finca/Finca_CH2022_1512_4752.png" alt="dueño" />
+                    </div>
+                    <div className="descripcion"></div>
+
+
+
+                  </article>
+                </div>
+              </section>
+
+              <div className="wines-title-experience">
+              <Navegar2 to="/" sectionId="contacto">
+              <li>Más información</li>
+              </Navegar2>
+              </div>
+
+
+
+
+
+
               <section id="laFinca"></section>
 
 
-              <section id="contacto"></section>
+             
               <div className="products-title">
                 <p>
                   <span className="letraGrande">C</span>ONTACTO
@@ -602,6 +654,7 @@ function Home() {
                     </div>
                   </article>
                 </div>
+                <section id="contacto"></section>
               </section>
               {/* -------------------------ACÁ TERMINA EL RESPONSIVE PEQUEÑO------------------------------- */}
               <div className="contact-products-title">
@@ -674,15 +727,15 @@ function Home() {
               <div className="linea-dorada"></div>
 
 
-                  <section id="losVinos"></section>
+              <section id="losVinos"></section>
 
               <div className="wines-title-experience">
                 <p>
-                <span className="letraGrandeExperience">L</span>os vinos
+                  <span className="letraGrandeExperience">L</span>os vinos
                 </p>
               </div>
               <section className="cards">
-            
+
                 <div className="image-cards">
                   <article className="expresion">
                     <div className="cadaVino" >
@@ -710,12 +763,12 @@ function Home() {
                 </div>
               </section>
               <div className="wines-title-experience">
-              <Navegar2 to="/LosVinos" sectionId="losVinosInicio">
-              <li>Más información...</li>
-              </Navegar2>
+                <Navegar2 to="/LosVinos" sectionId="losVinosInicio">
+                  <li>Más información...</li>
+                </Navegar2>
               </div>
 
-             
+
               <section id="laFinca"></section>
 
               <section id="contacto"></section>
