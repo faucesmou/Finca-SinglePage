@@ -444,7 +444,7 @@ function Home() {
               </div>
               <section className="products">
                 <div className="image-cards">
-                  <article className="dueño">
+                  <article className="vino">
 
                     <div>
                       <img
@@ -456,7 +456,7 @@ function Home() {
 
                   </article>
 
-                  <article className="dueño">
+                  <article className="vino">
 
                     <div>
                       <img src="/Images/losvinos/Botellas_Finca/Finca_CS2021.png" alt="amigos" />
@@ -465,7 +465,7 @@ function Home() {
 
                     </div>
                   </article>
-                  <article className="dueño">
+                  <article className="vino">
 
                     <div>
                       <img src="/Images/losvinos/Botellas_Finca/Finca_CH2022_1512_4752.png" alt="dueño" />
