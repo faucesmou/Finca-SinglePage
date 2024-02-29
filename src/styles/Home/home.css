@@ -98,12 +98,47 @@
     justify-content: left;
     margin: 20px 80px 0 80px;
 }
+.Home .wines-title-experience p {
+    font-family: var(--fuente-regular);
+    font-size: 46px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 80px 0 80px;
+}
+.Home .wines-title-experience li { 
+    font-size: 20px;
+    min-height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: justify;
+    padding: 5px;
+    word-spacing: -1px;
+    hyphens: auto;
+    font-family: var(--fuente-terciaria);
+    font-weight:bold;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    color: var(--colorIcons);
+    line-height: 2;
+    min-width: auto;
+  }
 
 
 
 .Home .products-title .letraGrande {
     font-family: var(--fuente-regular);
     font-size: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+.Home .wines-title-experience .letraGrandeExperience {
+    font-family: var(--fuente-regular);
+    font-size: 46px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -479,6 +514,14 @@
     min-height: 350px; /* ATENTI CON ESTO QUE ES PARA EL TAMAÑO MINIMO ALTO DE LAS IMAGENES DEL INICIO */
     max-height: 350px;
 }
+
+.Home .cards .image-cards .cadaVino  img {
+    object-fit: cover; /* Otra opción: contain */
+    height: 100%;
+    width: 100%;
+    min-height: 480px; /* ATENTI CON ESTO QUE ES PARA EL TAMAÑO MINIMO ALTO DE LAS IMAGENES DEL INICIO */
+    max-height: 650px;
+}
 .Home .cards-biografia .image-cards-biografia {
     width: 50%;
     display: flex;
@@ -486,9 +529,9 @@
     margin: 0 ;
     padding: 0 5px;
     align-items: flex-start;
-    justify-content: center;
-    
+    justify-content: center;   
 }
+
 .Home .cards-biografia .image-cards-biografia img {
     object-fit: cover; /* Otra opción: contain */
     height: 100%;
@@ -522,7 +565,6 @@
     font-size: 34px;
     color: var(--colorIcons);
     text-align: center;
-    font-weight: bold;
 }
 
 .Home .products .paises-contacto {

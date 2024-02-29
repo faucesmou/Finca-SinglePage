@@ -77,7 +77,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
               <Navegar2 to="/biografia" sectionId="biografia" >
                 <li onClick={closeMenu} >Winemaker</li>
               </Navegar2>
-              <Navegar2 to="/" sectionId="fincaPropia" >
+              <Navegar2 to="/" sectionId="losVinos" >
                 <li onClick={closeMenu} >Los Vinos</li>
               </Navegar2>
               <Navegar2 to="/finca" sectionId="laFinca" >
@@ -94,7 +94,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
                   <Navegar2 to="/" sectionId="fincaPropia">
                     <img src="/Images/header/paraguayFabicomMediano.png" alt="paraguay" className="banderaPequeña" />
                   </Navegar2>
-                  <Navegar2 to="/" sectionId="fincaPropia">
+                  <Navegar2 to="/brasil" sectionId="fincaPropiaBrasil">
                     <img src="/Images/header/brasilFabicomMediano.png" alt="brasil" className="banderaPequeña" />
                   </Navegar2>
                   <Navegar2 to="/" sectionId="fincaPropia">

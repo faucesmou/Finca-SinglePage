@@ -1,24 +1,25 @@
 import React from "react";
 import Contacto from "../Contacto";
 import '../../styles/animations.css';
+import Navegar2 from "../Navegar/Navegar2";
 
 
 function Home() {
   return (
     <div className="Home" id="scroll-animate-main">
-        <div className="wrapper-parallax">
-            <div className="parallax-container">
-            <video autoPlay loop muted playsInline id="megavideofinca">
+      <div className="wrapper-parallax">
+        <div className="parallax-container">
+          <video autoPlay loop muted playsInline id="megavideofinca">
             <source
               src="/video/Finca-propia-sin-sonido-arreglo-1.mp4"
               type="video/mp4"
             />
-            </video>
-            </div>
-            <section id="fincaPropiaUsa"></section>
-              <div className="linea-dorada"></div>
-            <div className="Home content">
-            <section className="cards">
+          </video>
+        </div>
+        <section id="fincaPropia"></section>
+        <div className="linea-dorada"></div>
+        <div className="Home content">
+          <section className="cards">
             <section className="texto-container">
               <div className="texto-item">
                 <p className="titulo-negro">Viví la experiencia USA</p>
@@ -52,9 +53,9 @@ function Home() {
                 </div>
               </article>
             </div>
-            </section>
+          </section>
 
-            <section className="cards">
+          <section className="cards">
             <div className="image-cards">
               <article className="expresion">
                 <div>
@@ -90,8 +91,8 @@ function Home() {
                 </p>
               </div>
             </section>
-            </section>
-            <section className="cards">
+          </section>
+          <section className="cards">
             <section className="texto-container">
               <div className="texto-item">
                 <p className="titulo-negro">Compartir con amigos</p>
@@ -121,8 +122,8 @@ function Home() {
                 </div>
               </article>
             </div>
-            </section>
-            <section className="cards">
+          </section>
+          <section className="cards">
             <div className="image-cards">
               <article className="expresion">
                 <div>
@@ -152,15 +153,15 @@ function Home() {
                 <p className="subtitulo-dorado">De la tierra</p>
               </div>
             </section>
-            </section>
-            <section id="serDueno"></section>
-            <div className="linea-dorada"></div>
-            <div className="products-title">
+          </section>
+          <section id="serDueno"></section>
+          <div className="linea-dorada"></div>
+          <div className="products-title">
             <p>
               <span className="letraGrande">P</span>RODUCTOS
             </p>
-            </div>
-            <section className="products">
+          </div>
+          <section className="products">
             <div className="image-cards">
               <article className="dueño">
                 <div className="descripcion">
@@ -309,20 +310,20 @@ function Home() {
                 </div>
               </article>
             </div>
-            </section>
-            
-            <p className="fraseFinal">
+          </section>
+
+          <p className="fraseFinal">
             VINOS PERSONALIZADOS CON FIRMA/LOGO/FRASE/DIBUJO ETIQUETA PROPIA
-            </p>
-           <div className="linea-dorada"></div>
-            <div className="products-title-experience">
+          </p>
+          <div className="linea-dorada"></div>
+          <div className="products-title-experience">
             <p>
               <span className="letraGrandeExperience">E</span>xperiencia &nbsp;
               <span className="letraGrandeExperience">P</span>ropietarios
             </p>
-            </div>
-            <section id="experienciaPropietarios"></section>
-            <section className="products">
+          </div>
+          <section id="experienciaPropietarios"></section>
+          <section className="products">
             <div className="image-cards-experience">
               <article className="experience-container">
                 <div className="experience-descripcion">
@@ -374,7 +375,7 @@ function Home() {
                   </div>
                   <div className="statements">
                     <span>
-                      Poder participar de las actividades, recibir información en tiempo real y consultar con los expertos, te hace aprender mucho rápidamente. 
+                      Poder participar de las actividades, recibir información en tiempo real y consultar con los expertos, te hace aprender mucho rápidamente.
                     </span>
                   </div>
                   <div className="author-statement">
@@ -396,47 +397,47 @@ function Home() {
           {/* Menor a 500px se muestra el siguiente section(responsive)----------------------------------------------------------- */}
           {window.innerWidth <= 500 && (
 
-            
+
             /* Seccion BIOGRAFÍA para responsive!------------------------------------->>> */
-            
+
             <section className="conditional-small-size">
-            <section id="biografia"></section>
+              <section id="biografia"></section>
 
 
-{/* <div className="linea-dorada"></div> */}
-          <div className="products-title-experience">
-            <p>
-              <span className="letraGrandeExperience">A</span>ntonio Mas &nbsp;
-              <span className="letraGrandeExperience">W</span>inemaker
-            </p>
-          </div>
-          <section id="experienciaPropietarios"></section>
-          <section className="products">
-            <div className="image-cards-experience">
-              <article className="experience-container">
-              <div>
-                  <img
-                    src="/Images/winemaker/antonio-mas-antonio-mas-698x1024-1.jpg"
-                    alt="expresión"
-                  />
+              {/* <div className="linea-dorada"></div> */}
+              <div className="products-title-experience">
+                <p>
+                  <span className="letraGrandeExperience">A</span>ntonio Mas &nbsp;
+                  <span className="letraGrandeExperience">W</span>inemaker
+                </p>
+              </div>
+              <section id="experienciaPropietarios"></section>
+              <section className="products">
+                <div className="image-cards-experience">
+                  <article className="experience-container">
+                    <div>
+                      <img
+                        src="/Images/winemaker/antonio-mas-antonio-mas-698x1024-1.jpg"
+                        alt="expresión"
+                      />
+                    </div>
+                    <div className="experience-descripcion">
+                      <div className="container-comilla-linea">
+                        {/*    <div className="texto-comillas">“</div> */}
+                        <div className="linea-dorada2"></div>
+                      </div>
+                      <div className="statements">
+                        <span>
+                          En el año 2010 Antonio volvió a innovar con Finca Propia, un proyecto con el que se dio el gusto de tomarse el tiempo para elegir el viñedo de sus sueños, luego de recorrer tanto los terruños conocidos como los más recónditos de su querida provincia, donde terminó enamorándose de unas tierras enmarcadas por la cordillera, con un importante desnivel entre los dos extremos, y con un suelo que le brindaría un estilo con la intensidad y elegancia que siempre buscó para sus vinos.</span>
+                      </div>
+                    </div>
+
+                  </article>
+
                 </div>
-                <div className="experience-descripcion">
-                  <div className="container-comilla-linea">
-                 {/*    <div className="texto-comillas">“</div> */}
-                    <div className="linea-dorada2"></div>
-                  </div>
-                  <div className="statements">
-                    <span>
-                    En el año 2010 Antonio volvió a innovar con Finca Propia, un proyecto con el que se dio el gusto de tomarse el tiempo para elegir el viñedo de sus sueños, luego de recorrer tanto los terruños conocidos como los más recónditos de su querida provincia, donde terminó enamorándose de unas tierras enmarcadas por la cordillera, con un importante desnivel entre los dos extremos, y con un suelo que le brindaría un estilo con la intensidad y elegancia que siempre buscó para sus vinos.</span>
-                  </div>
-                </div>
-                
-              </article>
-
-            </div>
-          </section>
-          <div className="linea-dorada"></div>
-          <section id="laFinca"></section>
+              </section>
+              <div className="linea-dorada"></div>
+              <section id="laFinca"></section>
 
 
               <section id="contacto"></section>
@@ -521,7 +522,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="contact-media-button">
-                        propietariosbrasil@fincapropia.com <br /> 
+                        propietariosbrasil@fincapropia.com <br />
                       </button>
                     </div>
                     <div className="descripcion">
@@ -629,50 +630,93 @@ function Home() {
 
             <section className="conditional-big-size">
 
-{/* SECCIÓN DE LA BIOGRAFÍA ---------------------------------------Pantalla grande->>> */}
-<section id="biografia"></section>
-<section className="cards-biografia">
-            <div className="image-cards-biografia">
-              {/* <article className="expresion">
+              {/* SECCIÓN DE LA BIOGRAFÍA ---------------------------------------Pantalla grande->>> */}
+              <section id="biografia"></section>
+              <section className="cards-biografia">
+                <div className="image-cards-biografia">
+                  {/* <article className="expresion">
                 <div>
 
                 </div>
-              </article> */}
-             {/*  <article className="amigos">
+                </article> */}
+                  {/*  <article className="amigos">
                 <div>
 
                 </div>
-              </article> */}
-              <article className="amigos">
-                <div>
-                  <img
-                    src="/Images/winemaker/antonio-mas-antonio-mas-698x1024-1.jpg"
-                    alt="amigos"
-                  />
-                </div>
-              </article>
+                </article> */}
+                  <article className="amigos">
+                    <div>
+                      <img
+                        src="/Images/winemaker/antonio-mas-antonio-mas-698x1024-1.jpg"
+                        alt="amigos"
+                      />
+                    </div>
+                  </article>
 
-            </div>
-            <section className="texto-container-biografia">
-              <div className="texto-item">
-                <p className="titulo-negro-biografia">
-                <span className="letraGrande">A</span>ntonio Mas</p>
-                <p className="titulo-dorado-biografia">Winemaker</p>
-                <p className="subtitulo-dorado-biografia">
-                En el año 2010 Antonio volvió a innovar con Finca Propia, un proyecto con el que se dio el gusto de tomarse el tiempo para elegir el viñedo de sus sueños, luego de recorrer tanto los terruños conocidos como los más recónditos de su querida provincia, terminó enamorándose de unas tierras enmarcadas por la cordillera, con un importante desnivel entre los dos extremos, y con un suelo que le brindaría un estilo con la intensidad y elegancia que siempre buscó para sus vinos. Allí, en el Paraje Dubois, La Arboleda, a 7 kilómetros del pueblo de Tupungato, rodeado de los viñedos más renombrados de la Argentina, Antonio apostó a hacer algo diferente.
-                <br />
-                <br />
-Este proyecto nace del deseo y de la inquietud de conocer, tratar en forma directa, y compartir momentos con aquellos que toman sus vinos, que hacer un vino no se limite a venderlo a un comercio, sino ir un poco más allá. Con el proyecto de Finca Propia, Antonio no solo se dedica a seguir elaborando vinos memorables, sino que también se da el gusto de compartir experiencias con aquellos que lo acompañan en este proyecto, con aquellos que adquirieron partes de este viñedo sobresaliente y que valoran y disfrutan de hacer un producto de la tierra, de aprender lo que implica hacer un vino de terruño.
-                {/*   más biografía  <br />
+                </div>
+                <section className="texto-container-biografia">
+                  <div className="texto-item">
+                    <p className="titulo-negro-biografia">
+                      <span className="letraGrande">A</span>ntonio Mas</p>
+                    <p className="titulo-dorado-biografia">Winemaker</p>
+                    <p className="subtitulo-dorado-biografia">
+                      En el año 2010 Antonio volvió a innovar con Finca Propia, un proyecto con el que se dio el gusto de tomarse el tiempo para elegir el viñedo de sus sueños, luego de recorrer tanto los terruños conocidos como los más recónditos de su querida provincia, terminó enamorándose de unas tierras enmarcadas por la cordillera, con un importante desnivel entre los dos extremos, y con un suelo que le brindaría un estilo con la intensidad y elegancia que siempre buscó para sus vinos. Allí, en el Paraje Dubois, La Arboleda, a 7 kilómetros del pueblo de Tupungato, rodeado de los viñedos más renombrados de la Argentina, Antonio apostó a hacer algo diferente.
+                      <br />
+                      <br />
+                      Este proyecto nace del deseo y de la inquietud de conocer, tratar en forma directa, y compartir momentos con aquellos que toman sus vinos, que hacer un vino no se limite a venderlo a un comercio, sino ir un poco más allá. Con el proyecto de Finca Propia, Antonio no solo se dedica a seguir elaborando vinos memorables, sino que también se da el gusto de compartir experiencias con aquellos que lo acompañan en este proyecto, con aquellos que adquirieron partes de este viñedo sobresaliente y que valoran y disfrutan de hacer un producto de la tierra, de aprender lo que implica hacer un vino de terruño.
+                      {/*   más biografía  <br />
                   más biografía  <br /> */}
+                    </p>
+                  </div>
+                </section>
+              </section>
+
+              <div className="linea-dorada"></div>
+
+
+                  <section id="losVinos"></section>
+
+              <div className="wines-title-experience">
+                <p>
+                <span className="letraGrandeExperience">L</span>os vinos
                 </p>
               </div>
-            </section>
-          </section>
+              <section className="cards">
+            
+                <div className="image-cards">
+                  <article className="expresion">
+                    <div className="cadaVino" >
+                      <img src="/Images/losvinos/Botellas_Finca/Finca_MB2021.png" alt="expresión" />
+                    </div>
+                  </article>
+                  <article className="amigos">
+                    <div className="cadaVino" >
+                      <img
+                        src="/Images/losvinos/Botellas_Finca/Finca_CS2021.png"
+                        /*  src="/Images/home/IMG_4568-scaled-e1680126418462.jpg" */
+                        alt="amigos"
+                      />
+                    </div>
+                  </article>
+                  <article className="dueño">
+                    <div className="cadaVino" >
+                      <img
+                        /*  src="/Images/home/MG_0160-scaled-e1680126635925.jpg" */
+                        src="/Images/losvinos/Botellas_Finca/Finca_CH2022_1512_4752.png"
+                        alt="dueño"
+                      />
+                    </div>
+                  </article>
+                </div>
+              </section>
+              <div className="wines-title-experience">
+              <Navegar2 to="/LosVinos" sectionId="losVinosInicio">
+              <li>Más información...</li>
+              </Navegar2>
+              </div>
 
-          <div className="linea-dorada"></div>
-          <section id="laFinca"></section>
-
+             
+              <section id="laFinca"></section>
 
               <section id="contacto"></section>
               <div className="products-title">
@@ -806,7 +850,7 @@ Este proyecto nace del deseo y de la inquietud de conocer, tratar en forma direc
 
               <div className="products-title">
                 <p>
-                  <span className="letraGrande">C</span>ONTACTO USA
+                  <span className="letraGrande">C</span>ONTACTO
                 </p>
               </div>
               <section className="products">
