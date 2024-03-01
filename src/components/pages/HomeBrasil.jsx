@@ -437,10 +437,64 @@ function Home() {
                 </div>
               </section>
               <div className="linea-dorada"></div>
+
+              {/* SECCION LOS VINOS */}
+              <section id="losVinosBrasil"></section>
+              <div className="wines-title-experience">
+                <p>
+                  <span className="letraGrandeExperience">O</span>s vinhos
+                </p>
+              </div>
+              <section className="products">
+                <div className="image-cards">
+                  <article className="vino">
+
+                    <div>
+                      <img
+                        src="/Images/losvinos/Botellas_Finca/Finca_MB2021.png"
+                        alt="expresión"
+                      />
+                    </div>
+                    <div className="descripcion"></div>
+
+                  </article>
+
+                  <article className="vino">
+
+                    <div>
+                      <img src="/Images/losvinos/Botellas_Finca/Finca_CS2021.png" alt="amigos" />
+                    </div>
+                    <div className="descripcion">
+
+                    </div>
+                  </article>
+                  <article className="vino">
+
+                    <div>
+                      <img src="/Images/losvinos/Botellas_Finca/Finca_CH2022_1512_4752.png" alt="dueño" />
+                    </div>
+                    <div className="descripcion"></div>
+
+
+
+                  </article>
+                </div>
+              </section>
+
+              <div className="wines-title-experience">
+                <Navegar2 to="/brasil" sectionId="contactoBrasil">
+                  <li>Mais informações...</li>
+                </Navegar2>
+              </div>
+
+
+
+
+
               <section id="laFincaBrasil"></section>
 
 
-              <section id="contactoBrasil"></section>
+           
               <div className="products-title">
                 <p>
                   <span className="letraGrande">C</span>ONTATO
@@ -602,6 +656,7 @@ function Home() {
                     </div>
                   </article>
                 </div>
+                <section id="contactoBrasil"></section>
               </section>
               {/* -------------------------ACÁ TERMINA EL RESPONSIVE PEQUEÑO------------------------------- */}
               <div className="contact-products-title">
@@ -669,12 +724,13 @@ function Home() {
                     </p>
                   </div>
                 </section>
+                <section id="losVinosBrasil"></section>
               </section>
 
               <div className="linea-dorada"></div>
 
 
-                  <section id="losVinosBrasil"></section>
+                 
 
               <div className="wines-title-experience">
                 <p>

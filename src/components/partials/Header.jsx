@@ -85,13 +85,13 @@ const rutaActual = location.pathname;
               <Navegar2 to="/biografia" sectionId="biografiaBrasil" >
                 <li onClick={closeMenu} >Winemaker</li>
               </Navegar2>
-              <Navegar2 to="/" sectionId="losVinosBrasil" >
+              <Navegar2 to="/brasil" sectionId="losVinosBrasil" >
                 <li onClick={closeMenu} >Os Vinhos</li>
               </Navegar2>
               <Navegar2 to="/finca" sectionId="laFincaBrasil" >
                 <li onClick={closeMenu}>A Fazenda</li>
               </Navegar2>
-              <Navegar2 to="/" sectionId="contactoBrasil" >
+              <Navegar2 to="/brasil" sectionId="contactoBrasil" >
                 <li onClick={closeMenu}>Contato</li>
               </Navegar2>
               <div className="paises-contenedor" >

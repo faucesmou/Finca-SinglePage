@@ -931,6 +931,8 @@
         font-size: 20px;
         margin: 0px;
         padding: 0px;
+        justify-items: center;
+        width: 100%;
     }
 
     /* descripción */
