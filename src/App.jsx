@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route/* , useLocation  */ } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route , /* useLocation, useHistory  */ } from "react-router-dom";
 import './styles/partials/header.css'
 import './styles/styles.css'
 /* import './styles/estilos.css' */
@@ -12,24 +13,26 @@ import LosVinos from './components/pages/LosVinos';
 import LosVinosBrasil from './components/pages/LosVinosBrasil';
 
 
-import { useState } from "react";
-
-
-
-
 function App() {
 
 /*      const location = useLocation();  */
 /*    const history = useHistory(); */
     const isAnchoMayorA769 = window.matchMedia("(min-width: 769px)").matches;
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    const [idioma, setIdioma] = useState('español');
+ 
+ 
+    useEffect(() => {
+        setIdioma(window.location.pathname.includes('brasil') ? 'portugues' : 'español')
+    }, [ idioma])
+    
+    // Extraer el idioma de la ruta
 
     return (
-        <BrowserRouter>
+        <BrowserRouter> 
             <div className="App" id="scroll-animate">
-                  {isAnchoMayorA769 ? <LargeScreenHeader /> : <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />}
-            {/*     {isAnchoMayorA769 ? (
+                  {isAnchoMayorA769 ? <LargeScreenHeader idioma={idioma} /> : <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />}
+                {/*  {isAnchoMayorA769 ? (
                     // Renderizar el LargeScreenHeader según la ruta
                     <>
                         {location.pathname === '/brasil' ? (
@@ -41,7 +44,7 @@ function App() {
                     </>
                 ) : (
                     <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-                )} */}
+                )}  */}
 
                 <Routes>
                     <Route path="/" element={<Home />} />

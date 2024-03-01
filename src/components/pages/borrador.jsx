@@ -113,3 +113,8 @@
   </article>
 </div>
 </section>
+
+/* BORRADOR DE APP.JS:  */
+
+/*    <BrowserRouter>
+            <div className="App" id="scroll-animate">          {isAnchoMayorA769 ? <LargeScreenHeader /> : <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />}  */
