@@ -2,6 +2,7 @@ import React from "react";
 import Contacto from "../Contacto";
 import '../../styles/animations.css';
 import Navegar2 from "../Navegar/Navegar2";
+import ScrollToTopButton from './../../components/ScrollToTopButton';
 
 
 function Home() {
@@ -439,7 +440,7 @@ function Home() {
               <div className="linea-dorada"></div>
 
               {/* SECCION LOS VINOS */}
-              <section id="losVinosBrasil"></section>
+              <section id="losVinosBrasil2"></section>
               <div className="wines-title-experience">
                 <p>
                   <span className="letraGrandeExperience">O</span>s vinhos
@@ -724,19 +725,17 @@ function Home() {
                     </p>
                   </div>
                 </section>
-                <section id="losVinosBrasil"></section>
+                
               </section>
+              <section id="losVinosBrasil"></section>
 
               <div className="linea-dorada"></div>
-
-
-                 
-
               <div className="wines-title-experience">
                 <p>
                 <span className="letraGrandeExperience">O</span>s vinhos
                 </p>
               </div>
+            
               <section className="cards">
             
                 <div className="image-cards">
@@ -765,11 +764,20 @@ function Home() {
                   </article>
                 </div>
               </section>
+
               <div className="wines-title-experience">
+                <ScrollToTopButton>
+                  <Navegar2 to="/LosVinosBrasil" sectionId="losVinosInicioBrasil">
+                    <li>Mais informações...</li>
+                  </Navegar2>
+                </ScrollToTopButton>
+              </div>
+
+          {/*     <div className="wines-title-experience">
               <Navegar2 to="/LosVinosBrasil" sectionId="losVinosInicioBrasil">
               <li>Mais informações...</li>
               </Navegar2>
-              </div>
+              </div> */}
 
              
               <section id="laFincaBrasil"></section>

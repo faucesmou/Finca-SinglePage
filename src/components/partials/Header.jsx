@@ -85,7 +85,7 @@ const rutaActual = location.pathname;
               <Navegar2 to="/biografia" sectionId="biografiaBrasil" >
                 <li onClick={closeMenu} >Winemaker</li>
               </Navegar2>
-              <Navegar2 to="/brasil" sectionId="losVinosBrasil" >
+              <Navegar2 to="/brasil" sectionId="losVinosBrasil2" >
                 <li onClick={closeMenu} >Os Vinhos</li>
               </Navegar2>
               <Navegar2 to="/finca" sectionId="laFincaBrasil" >
@@ -96,8 +96,8 @@ const rutaActual = location.pathname;
               </Navegar2>
               <div className="paises-contenedor" >
                 <li onClick={closeMenu}>
-                  <Navegar2 to="/" sectionId="fincaPropia">
-                    <img src="/Images/header/argentinaFabicomMediano.png" alt="argentina" className="banderaPequeña" />
+                  <Navegar2 to="/" sectionId="fincaPropia" >
+                    < img src="/Images/header/argentinaFabicomMediano.png" alt="argentina" className="banderaPequeña" />
                   </Navegar2>
                   <Navegar2 to="/" sectionId="fincaPropia">
                     <img src="/Images/header/paraguayFabicomMediano.png" alt="paraguay" className="banderaPequeña" />

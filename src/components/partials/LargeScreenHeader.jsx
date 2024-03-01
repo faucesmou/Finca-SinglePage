@@ -46,7 +46,7 @@ const rutaActual = location.pathname;
             <Navegar2 to="/finca" sectionId="laFincaBrasil">
               <li>A Fazenda</li>
             </Navegar2>
-            <Navegar2 to="/ser-dueno" sectionId="losVinosBrasil">
+            <Navegar2 to="/brasil" sectionId="losVinosBrasil">
               <li>Os Vinhos</li>
             </Navegar2>
             <Navegar2 to="/contacto" sectionId="contactoBrasil">

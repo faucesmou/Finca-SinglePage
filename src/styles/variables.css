@@ -7,8 +7,15 @@
     --fuente-regular: 'Oswald'/* , 'Playfair Display', serif */;
     --fuente-secundaria: 'Oswald'/* 'Roboto', sans-serif */;
     --fuente-terciaria: 'Montserrat';
+    --fuente-cuaternaria: 'Roboto';
+
     --colorSeleccion: #866a35;
     --colorSeleccion2: #826022;
     --colorIcons: #b89251;
     --colorIcons2: #e9c17e;
+    --colorTitle: #4b4846;
+    --colorSubTitle: #29548F;
+    --colorSubTitleMalbec: #A45651;
+    --colorSubTitleCH: #97934C;
+
 }

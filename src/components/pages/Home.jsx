@@ -2,6 +2,7 @@ import React from "react";
 import Contacto from "../Contacto";
 import '../../styles/animations.css';
 import Navegar2 from "../../../src/components/Navegar/Navegar2";
+import ScrollToTopButton from './../../components/ScrollToTopButton';
 
 
 function Home() {
@@ -764,10 +765,17 @@ function Home() {
                 </div>
               </section>
               <div className="wines-title-experience">
+                <ScrollToTopButton>
+                  <Navegar2 to="/LosVinos" sectionId="losVinosInicio">
+                    <li>Más información...</li>
+                  </Navegar2>
+                </ScrollToTopButton>
+              </div>
+              {/*   <div className="wines-title-experience">
                 <Navegar2 to="/LosVinos" sectionId="losVinosInicio">
                   <li>Más información...</li>
                 </Navegar2>
-              </div>
+              </div> */}
 
 
               <section id="laFinca"></section>

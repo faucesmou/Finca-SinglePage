@@ -4,22 +4,27 @@
 /* CONTENEDOR MAYOR */
 
 
-
-
 /* TÍTULO DE LA PAGINA:  */
 
 
+.LosVinos-contenedorMayor  {
+ padding-top: 80px;
+}
+
+.LosVinos-contenedorMayor .wines-title-experience {
+    margin-left: 20px;
+}
 .LosVinos-contenedorMayor .wines-title-experience p {
     font-family: var(--fuente-regular);
-    font-size: 46px;
+    font-size: 35px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .LosVinos-contenedorMayor .wines-title-experience .letraGrandeExperience {
     font-family: var(--fuente-regular);
-    font-size: 46px;
+    font-size: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,23 +44,28 @@
     transform: scale(1.02); 
 
 }
-
-.LosVinos-contenedorMayor .cards {
-    width: 70%;
+/* 
+.LosVinos-contenedorMayor .cards  {
+    margin-top: 10px;
+} */
+.LosVinos-contenedorMayor .cards .card {
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
+    margin-top: 10px;
     margin: 0 auto;
     padding: 3px 20px;
     align-items: flex-start;
 }
 
+
 .LosVinos-contenedorMayor .cards .image-cards {
-    width: 100%;
+    width: 35%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0 auto;
-    margin-top: 50px;
-    padding: 10px 20px;
+    padding-top: 40px;
+    padding: 0px 20px;
     align-items: flex-start;
     justify-content: center;
 }
@@ -68,6 +78,81 @@
     margin-bottom: 0px;
     min-height: 430px; /* ATENTI CON ESTO QUE ES PARA EL TAMAÑO MINIMO ALTO DE LAS IMAGENES DEL INICIO */
     max-height: 430px;
+}
+
+/* ESTILO PARA TEXTO DE LA FICHA */
+
+.LosVinos-contenedorMayor .cards .texto-container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 30px;
+}
+.LosVinos-contenedorMayor .cards .texto-container .texto-item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-direction: flex-start;
+}
+.LosVinos-contenedorMayor .cards .texto-container .titulo-principal {
+    margin-bottom: 5px;
+    font-family: var(--fuente-regular);
+    font-size: 28px;
+    color: var(--colorTitle);
+    font-weight: bold;
+}
+.LosVinos-contenedorMayor .cards .texto-container .titulo-variedad-CS {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: var(--fuente-cuaternaria);
+    font-size: 23px;
+    color: var(--colorSubTitle);
+    font-weight: bold;
+}
+.LosVinos-contenedorMayor .cards .texto-container .titulo-variedad-Malbec {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: var(--fuente-cuaternaria);
+    font-size: 23px;
+    color: var(--colorSubTitleMalbec);
+    font-weight: bold;
+}
+.LosVinos-contenedorMayor .cards .texto-container .titulo-variedad-CH {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: var(--fuente-cuaternaria);
+    font-size: 23px;
+    color: var(--colorSubTitleCH);
+    font-weight: bold;
+}
+
+
+.LosVinos-contenedorMayor .cards .texto-container .ficha-caracteristicas .subtitulo-tiempo-notas{
+    width: 100%;
+    font-family: var(--fuente-regular);
+    font-size: 17px;
+    color: var(--colorIcons);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.LosVinos-contenedorMayor .cards .texto-container .ficha-caracteristicas {
+    width: 100%;
+    font-family: var(--fuente-terciaria);
+    font-size: 17px;
+    text-align: justify; 
+}
+.LosVinos-contenedorMayor .cards .texto-container .ficha-caracteristicas span{
+    width: 100%;
+    font-family: var(--fuente-terciaria);
+    font-size: 17px;
+    text-align: justify; 
+    line-height: 2;
+}
+.LosVinos-contenedorMayor .cards .texto-container .ficha-caracteristicas .subtitulosNegrosFicha{
+    width: 100%;
+    text-align: justify;
+    font-weight: bold;
 }
 
 /* BOTÓN VOLVER */
@@ -91,9 +176,46 @@
     min-width: auto;
   }
 
-  /* BOTÓN DESCARGAR FICHA TÉCNICA */
+  
+  /* CONTAINER DE IMAGEN + BOTÓN DE DESCARGA: */
+
+  .container-icono-boton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.iconoDescargaLosVinos {
+    font-size: 40px;
+    color: var(--colorIcons);
+    font-family: var( --fuente-secundaria);
+    cursor: pointer;
+}
+
+  /* BOTÓN DESCARGAR FICHA TÉCNICA DENTRO DEL TEXTO:  */
 
   .descargarFicha-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    color:var(--colorSubTitle);
+    font-family: var(--fuente-regular);
+    background-color: transparent;
+    border: 0px solid rgba(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 15px;
+    margin-left: 15px;
+   
+  }
+
+  /* BOTÓN DESCARGAR FICHA TÉCNICA dentro de la imagen*/
+
+/*   .descargarFicha-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,7 +230,7 @@
     transition: background-color 0.3s ease-in-out;
     margin-top: 5px;
     padding: 3px 18px;
-  }
+  } */
   
   .descargarFicha-button:hover {
     background-color: white;
