@@ -47,25 +47,23 @@ const LosVinos = () => {
         <div className="LosVinos-contenedorMayor" id="scroll-animate-main">
 
 
-          {/*   <div className="wines-title-experience">
+            {/*   <div className="wines-title-experience">
                 <p>
                     <span className="letraGrandeExperience">L</span>os vinos
                 </p>
             </div> */}
 
             <section className="cards">
-
-
                 <div className="image-cards">
 
                     <article className="expresion">
                         <div className="cadaVino" >
                             <img src="/Images/losvinos/Botellas_Finca/Finca_MB2021_BE.png" alt="expresión" />
                             <div className="button-container">
-      
+
                                 <button
                                     className="descargarFicha-button"
-                                    onClick={() =>handleDownloadPDF("LaArboleda", "malbec")}
+                                    onClick={() => handleDownloadPDF("LaArboleda", "malbec")}
                                     type="submit"
                                 >
                                     Descargar Ficha Técnica
@@ -74,6 +72,14 @@ const LosVinos = () => {
                             </div>
                         </div>
                     </article>
+                  {/*   <section className="texto-container">
+                        <div className="texto-item">
+                            <p className="titulo-negro">La expresión de tu Terroir</p>
+                            <p className="subtitulo-dorado">
+                                Vinos intensos que nacen <br /> en el mejor viñedo
+                            </p>
+                        </div>
+                    </section> */}
                     <article className="amigos">
                         <div className="cadaVino" >
                             <img
@@ -95,7 +101,7 @@ const LosVinos = () => {
                             </div>
                         </div>
                     </article>
-                    
+
                     <article className="dueño">
                         <div className="cadaVino" >
                             <img
@@ -115,7 +121,7 @@ const LosVinos = () => {
                             </div>
                         </div>
                     </article>
-                   
+
                 </div>
             </section>
             <div className="wines-title-experience">

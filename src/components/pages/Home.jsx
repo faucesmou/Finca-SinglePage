@@ -479,9 +479,9 @@ function Home() {
               </section>
 
               <div className="wines-title-experience">
-              <Navegar2 to="/" sectionId="contacto">
-              <li>Más información</li>
-              </Navegar2>
+                <Navegar2 to="/" sectionId="contacto">
+                  <li>Más información</li>
+                </Navegar2>
               </div>
 
 
@@ -492,7 +492,7 @@ function Home() {
               <section id="laFinca"></section>
 
 
-             
+
               <div className="products-title">
                 <p>
                   <span className="letraGrande">C</span>ONTACTO
