@@ -1,12 +1,11 @@
 import React/* , { useState } */ from "react";
 import { useLocation } from "react-router-dom";
 import Navegar2 from "../../../src/components/Navegar/Navegar2";
-/* import { Link } from 'react-router-dom'; */
-/* import { NavLink } from "react-router-dom"; */
+
 
 
 /* DROP DOWN NAVBAR */
-function LargeScreenHeader(/* { idioma } */) {
+function LargeScreenHeader() {
   /*   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   
     const toggleDropdown = () => {
@@ -19,8 +18,8 @@ function LargeScreenHeader(/* { idioma } */) {
 const location = useLocation();
 const rutaActual = location.pathname;
 
-  if (rutaActual.includes('brasil')) {
-    console.log('hola JUAN CARLOS')
+  if (rutaActual.includes('brasil') || rutaActual.includes('LosVinosBrasil')) {
+    console.log('hola header brasil')
     return (
       <header>
         <section className="logo">
