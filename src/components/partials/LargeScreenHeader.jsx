@@ -36,20 +36,20 @@ const rutaActual = location.pathname;
             <Navegar2 to="/brasil" sectionId="fincaPropiaBrasil">
               <li className="">Finca Própria</li>
             </Navegar2>
-            <Navegar2 to="/ser-dueno" sectionId="serDueno">
+            <Navegar2 to="/brasil" sectionId="serDueno">
               <li>Ser Dono</li>
             </Navegar2>
-            <Navegar2 to="/biografia" sectionId="biografiaBrasil">
+            <Navegar2 to="/brasil" sectionId="biografiaBrasil">
               <li>WineMaker</li>
             </Navegar2>
 
-            <Navegar2 to="/finca" sectionId="laFincaBrasil">
+            <Navegar2 to="/brasil" sectionId="laFincaBrasil">
               <li>A Fazenda</li>
             </Navegar2>
             <Navegar2 to="/brasil" sectionId="losVinosBrasil">
               <li>Os Vinhos</li>
             </Navegar2>
-            <Navegar2 to="/contacto" sectionId="contactoBrasil">
+            <Navegar2 to="/brasil" sectionId="contactoBrasil">
               <li>Contato</li>
             </Navegar2>
 
@@ -257,20 +257,20 @@ const rutaActual = location.pathname;
           <Navegar2 to="/" sectionId="fincaPropia">
             <li className="">Finca Propia</li>
           </Navegar2>
-          <Navegar2 to="/ser-dueno" sectionId="serDueno">
+          <Navegar2 to="/" sectionId="serDueno">
             <li>Ser Dueño</li>
           </Navegar2>
-          <Navegar2 to="/biografia" sectionId="biografia">
+          <Navegar2 to="/" sectionId="biografia">
             <li>WineMaker</li>
           </Navegar2>
 
-          <Navegar2 to="/finca" sectionId="laFinca">
+          <Navegar2 to="/" sectionId="laFinca">
             <li>La Finca</li>
           </Navegar2>
-          <Navegar2 to="/ser-dueno" sectionId="losVinos">
+          <Navegar2 to="/" sectionId="losVinos">
             <li>Los vinos</li>
           </Navegar2>
-          <Navegar2 to="/contacto" sectionId="contacto">
+          <Navegar2 to="/" sectionId="contacto">
             <li>Contacto</li>
           </Navegar2>
 

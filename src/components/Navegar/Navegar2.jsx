@@ -1,26 +1,38 @@
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 
 const Navegar2 = ({ to, sectionId, children }) => {
   const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const targetElement = document.getElementById(sectionId);
+
+    if (targetElement && location.pathname === to) {
+
+      setTimeout(() => {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+        });
+      }, 2000);
+    }
+  }, [sectionId, location.pathname, to]);
+
 
   const handleClick = (e) => {
     e.preventDefault();
     const targetElement = document.getElementById(sectionId);
 
     if (targetElement) {
-      // Primero, desplázate suavemente al inicio de la página
       window.scrollTo({
         top: 0,
         behavior: 'smooth',
       });
-
-      // Luego, después de un breve retraso, desplázate suavemente hacia la sección
       setTimeout(() => {
         targetElement.scrollIntoView({
           behavior:'smooth',
         });
-      }, 0); // Ajusta el valor del retraso según sea necesario
+      }, 0); 
     } else {
       navigate(to);
     }
