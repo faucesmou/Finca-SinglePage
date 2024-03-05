@@ -5,6 +5,7 @@ import Navegar2 from "../../../src/components/Navegar/Navegar2";
 import ScrollToTopButton from './../../components/ScrollToTopButton';
 
 
+
 function Home() {
   return (
     <div className="Home" id="scroll-animate-main">
@@ -723,6 +724,13 @@ function Home() {
                   más biografía  <br /> */}
                     </p>
                   </div>
+                  <div className="wines-title-experience">
+                <ScrollToTopButton>
+                  <Navegar2 to="/biografia" sectionId="">
+                    <li>Acceder a Biografía</li>
+                  </Navegar2>
+                </ScrollToTopButton>
+              </div>
                 </section>
               </section>
 

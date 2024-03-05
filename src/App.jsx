@@ -11,6 +11,7 @@ import HomeBrasil from './components/pages/HomeBrasil';
 import HomeUSA from './components/pages/HomeUSA';
 import LosVinos from './components/pages/LosVinos';
 import LosVinosBrasil from './components/pages/LosVinosBrasil';
+import Biografia from './components/pages/Biografia';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
 
                     <Route path="/LosVinos" element={<LosVinos />} />
                     <Route path="/LosVinosBrasil" element={<LosVinosBrasil />} />
+                    <Route path="/biografia" element={<Biografia />} />
 
                 </Routes>
             </div>

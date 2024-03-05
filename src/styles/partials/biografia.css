@@ -1,0 +1,361 @@
+@import url('../animations.css');
+@import url('../variables.css');
+
+
+/* CONTENEDOR MAYOR */
+
+.biografia-contenedorMayor  {
+ padding-top: 100px;
+ margin-left: 20px;
+ margin-right: 20px;
+ padding-bottom: 20px;
+/*  background-image:url('../../../public/Images/biografia/fincaDron.jpeg'); */
+}
+
+/* TITULO INICIAL DE LA PÁGINA */
+
+.biografia-contenedorMayor .biografia-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.biografia-contenedorMayor .biografia-experience p {
+    font-family: var(--fuente-terciaria);
+    color: var( --colorIcons);
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center
+}
+
+
+/* SECCIÓN LINEA DEL TIEMPO: CONTENEDOR MAYOR */
+.biografia-contenedorMayor .contenedor-de-cards-biografia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   /*  padding-top: 70px; */
+}
+
+/* SECCIÓN LINEA DEL TIEMPO: LÍNEA INTERMEDIA DIVISORA CON PUNTITOS */
+
+.biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea {
+    width: 88%;
+    height: 3px; 
+    background-color: #ddd; 
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ 
+}
+
+.biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea .circulo {
+    width: 16px; /* Diámetro total del círculo exterior */
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Círculo exterior gris */
+   
+    background-color: var(--colorIcons); /* Centro dorado */
+    border: 2px solid white;
+    border-radius: 50%;
+
+    /* Círculo interior blanco */
+    &::before {
+        content: "";
+        width: 10px; /* Diámetro del círculo blanco */
+        height: 10px;
+        display: block;
+        background-color: var(--colorIcons);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Línea gris entre círculo blanco y exterior */
+    &::after {
+        content: "";
+        width: 16px; /* Diámetro total del círculo exterior */
+        height: 16px;
+        display: block;
+        border: 2px solid #ddd; /* Color de la línea gris */
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+/* .biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea .circulo:nth-child(1) {
+    left: 3cm;
+}
+.biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea .circulo:nth-child(2) {
+    left: 8.3cm;
+}
+.biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea .circulo:nth-child(3) {
+    left: 13.7cm; 
+}
+.biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea .circulo:nth-child(4) {
+    left: 19cm;
+}
+.biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea .circulo:nth-child(5) {
+    left: 24.3cm;
+}
+.biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea .circulo:nth-child(6) {
+    left: 29.6cm;
+} */
+
+
+/* .biografia-contenedorMayor .contenedor-de-cards-biografia .contenedor-linea .circulo {
+    width: 10px; 
+    height: 10px;
+    background-color: white; 
+    border: 2px solid var( --colorIcons); 
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+ 
+} */
+
+
+/* SECCIÓN LINEA DEL TIEMPO: SECCIÓN HORIZONTAL DE TARJETAS DE ARRIBA Y ABAJO DE LA LÍNEA */
+/* LAS CLASES QUE DIGAN -FILA2 SON LA SECCIÓN QUE ESTÁ POR DEBAJO DE LA LÍNEA CON PUNTOS */
+
+.biografia-contenedorMayor .cards-biografia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+.biografia-contenedorMayor .cards-biografia .image-cards {
+    width: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    padding: 0px 0px;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 330px;
+    max-height: 330px;
+}
+.biografia-contenedorMayor .cards-biografia .image-cards-texto {
+    width: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    padding: 5px 5px;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 330px;
+    max-height: 330px;
+    border: 3px solid var( --colorIcons);
+}
+.biografia-contenedorMayor .cards-biografia .image-cards-texto-fila2 {
+    width: 200px;
+    /* font-family: var(--fuente-terciaria);
+   font-size: 13px;
+    font-weight:500;  */
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    padding: 5px 5px;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 350px;
+    max-height: 350px;
+    border: 3px solid var( --colorIcons);
+}
+.biografia-contenedorMayor .cards-biografia .image-cards-fila2 {
+    width: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    padding: 0px 0px;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 330px;
+    max-height: 330px;
+}
+
+
+.biografia-contenedorMayor .cards-biografia .card-biografia-imagen {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0;
+    padding: 0px 0px;
+    align-items: flex-end;
+    min-height: 200px;
+    
+
+}
+.biografia-contenedorMayor .cards-biografia .card-biografia-imagen-texto {
+    width: 200px;
+ /*    max-width: 30%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin: 0;
+    padding: 0px 0px;
+    align-items: flex-end;
+    min-height: 300px;
+    max-height: 300px;
+   
+}
+
+.biografia-contenedorMayor .card-biografia-imagen img {
+ /*    width:min-content; */
+    max-width: 180px;
+    border-radius: 0px;
+    margin-top: 0px;
+    min-height: 250px;
+    max-height: 250px;
+    transition: transform 0.3s ease;
+    margin-bottom: 0px;
+    border: 4px solid var( --colorBorder);
+    object-fit: cover;
+}
+
+
+.biografia-contenedorMayor .card-biografia-imagen-texto .image-cards {
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 300px;
+    max-height: 300px;
+    
+}
+
+.biografia-contenedorMayor .card-biografia-imagen-texto .image-cards .contenedor-texto{
+   width:90%;
+  /*  height: 90%; */
+   max-height:290px 
+   
+}
+.biografia-contenedorMayor .card-biografia-imagen-texto .image-cards-texto .contenedor-texto .titulo-texto{
+font-size: 20px;
+font-weight: bold;
+}
+.biografia-contenedorMayor .card-biografia-imagen-texto .image-cards-texto-fila2 .contenedor-texto .titulo-texto{
+font-size: 20px;
+font-weight: bold;
+}
+
+.biografia-contenedorMayor .card-biografia-imagen-texto .image-cards-texto p {
+    border-radius: 0px;
+    margin-top: 0px;
+    transition: transform 0.3s ease;
+    margin-bottom: 0px;
+    background-color: white;
+    word-wrap: break-word;
+    white-space: normal; 
+    max-height: 300px;
+    text-align: center;
+   
+}
+.biografia-contenedorMayor .card-biografia-imagen-texto .image-cards-texto-fila2 p {
+    border-radius: 0px;
+    margin-top: 0px;
+    transition: transform 0.3s ease;
+    margin-bottom: 0px;
+    background-color: white;
+    word-wrap: break-word;
+    white-space: normal; 
+    max-height: 300px;
+    text-align: center; 
+}
+
+/* SECCION TEXTO COMPLETO DE TODA LA HISTORIA QUE SIGUE A LA LÍNEA DE TIEMPO: */
+
+.biografia-contenedorMayor .biografia-texto-completo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.biografia-contenedorMayor .biografia-texto-completo-container .titulo-principal{
+    font-family: var(--fuente-regular);
+    font-size:35px;
+    color: var(--colorIcons);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.biografia-contenedorMayor .biografia-texto-completo-container .titulo-secundario{
+    font-family: var(--fuente-regular);
+    font-size:35px;
+    color: var(--colorIcons);
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.biografia-contenedorMayor .biografia-texto-completo-container .biografia-historia p{
+    font-family: var(--fuente-terciaria);
+    font-size:18px;
+    color: black;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+
+.biografia-contenedorMayor .biografia-volver {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.biografia-volver li { 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 5px;
+    font-family: var(--fuente-terciaria);
+    font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: var(--colorIcons);
+  }
+
+.biografia-contenedorMayor img:hover {
+    transform: scale(1.02); 
+}
+
+.biografia-contenedorMayor .cards-biografia .card-biografia {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 3px 10px;
+    align-items: flex-start;
+}
+
