@@ -89,12 +89,12 @@ const LosVinos = () => {
 
                         <div className="container-icono-boton" onClick={() => handleDownloadPDF("LaArboleda", "cabernet")}>
                             <div className="iconoDescargaLosVinos">
-                              {/*   <img
-                                    src="/Images/Icons/DescargaIcon.png"
-                                    src="/components/fichas/DescargaIcon2.png"
-                                    src="/Images/losvinos/Botellas_Finca/descargaIcon2"
+                                <img
+                                    src="/Images/icons/descargaIcon.png"
+                                   /*  src="/components/fichas/DescargaIcon2.png" */
+                                   /*  src="/Images/losvinos/Botellas_Finca/descargaIcon2" */
                                     alt=""
-                                /> */}
+                                />
                             </div>
                             <button
                                 className="descargarFicha-button"
@@ -140,10 +140,10 @@ const LosVinos = () => {
 
                         <div className="container-icono-boton" onClick={() => handleDownloadPDF("LaArboleda", "malbec")}>
                             <div className="iconoDescargaLosVinos">
-                               {/*  <img
-                                    src="/Images/Icons/DescargaIcon.png"
+                                <img
+                                    src="/Images/icons/descargaIcon.png"
                                     alt=""
-                                /> */}
+                                />
                             </div>
                             <button
                                 className="descargarFicha-button"
@@ -188,10 +188,10 @@ const LosVinos = () => {
 
                         <div className="container-icono-boton" onClick={() => handleDownloadPDF("LaArboleda", "chardonay")}>
                             <div className="iconoDescargaLosVinos">
-                               {/*  <img
-                                    src="/Images/Icons/DescargaIcon.png"
+                                <img
+                                    src="/Images/icons/descargaIcon.png"
                                     alt=""
-                                /> */}
+                                />
                             </div>
                             <button
                                 className="descargarFicha-button"
