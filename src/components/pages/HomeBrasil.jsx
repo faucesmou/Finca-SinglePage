@@ -210,7 +210,7 @@ function Home() {
                       Colheita assegurada sem riscos.
                     </li>
                   </ul>
-                  <p className="total-precio">USD 5.000</p>
+                 {/*  <p className="total-precio">USD 5.000</p> */}
                   <div className="linea-dorada"></div>
                 </div>
               </article>
@@ -257,7 +257,7 @@ function Home() {
                       ></img>{" "}
                       Colheita assegurada sem riscos.
                     </li>
-                    <p className="total-precio">USD 8.000</p>
+                {/*     <p className="total-precio">USD 8.000</p> */}
                   </ul>
                   <div className="linea-dorada"></div>
                 </div>
@@ -305,7 +305,7 @@ function Home() {
                       Colheita assegurada sem riscos.
                     </li>
                   </ul>
-                  <li className="total-precio">USD 14.800 </li>
+                {/*   <li className="total-precio">USD 14.800 </li> */}
                   {/* <p className="total-precio">USD 14.800</p> */}
                   <div className="linea-dorada"></div>
                 </div>
