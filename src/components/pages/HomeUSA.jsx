@@ -482,7 +482,7 @@ function HomeUSA() {
               </section>
 
               <div className="wines-title-experience">
-                <Navegar2 to="/LosVinosUsa" sectionId="contacto">
+                <Navegar2 to="/usa" sectionId="contacto">
                   <li>More information</li>
                 </Navegar2>
               </div>
@@ -492,7 +492,7 @@ function HomeUSA() {
 
 
 
-              <section id="laFinca"></section>
+              <section id="laFincaUsa"></section>
 
 
 
