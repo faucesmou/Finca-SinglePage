@@ -33,13 +33,13 @@ function Home() {
             <div className="image-cards">
               <article className="expresion">
                 <div>
-                  <img src="/Images/home/procesos-04.jpg" alt="expresión" />
+                  <img src="/Images/cande/seleccionCande/cosechandoChicas.jpeg" alt="expresión" />
                 </div>
               </article>
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/cande/grupo.jpeg"
+                    src="/Images/cande/seleccionCande/cajonNoche.jpeg"
                     /*  src="/Images/home/IMG_4568-scaled-e1680126418462.jpg" */
                     alt="amigos"
                   />
@@ -49,7 +49,7 @@ function Home() {
                 <div>
                   <img
                     /*  src="/Images/home/MG_0160-scaled-e1680126635925.jpg" */
-                    src="/Images/cande/chicosBrindando.jpg"
+                    src="/Images/cande/seleccionCande/tirandoGorras.jpeg"
                     alt="dueño"
                   />
                 </div>
@@ -62,7 +62,7 @@ function Home() {
               <article className="expresion">
                 <div>
                   <img
-                    src="/Images/Finca/FincaPropiaMar20-198-scaled.jpg"
+                    src="/Images/cande/seleccionCande/casitaAtardecer.jpeg"
                     alt="expresión"
                   />
                 </div>
@@ -78,7 +78,7 @@ function Home() {
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/Finca/FincaPropiaMar20-488-scaled.jpg"
+                    src="/Images/cande/seleccionCande/3vinos.jpeg"
                     alt="amigos"
                   />
                 </div>
@@ -104,13 +104,13 @@ function Home() {
             <div className="image-cards">
               <article className="expresion">
                 <div>
-                  <img src="/Images/cande/vidVerde.jpg" alt="expresión" />
+                  <img src="/Images/cande/seleccionCande/brindisAdentro.jpeg" alt="expresión" />
                 </div>
               </article>
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/cande/señores.jpeg"
+                    src="/Images/cande/seleccionCande/amigosAfuera.jpeg"
                     alt="amigos"
                   />
                 </div>
@@ -118,7 +118,7 @@ function Home() {
               <article className="dueño">
                 <div>
                   <img
-                    src="/Images/cande/fincaDron.jpeg"
+                    src="/Images/cande/seleccionCande/brindisAntonio.jpeg"
                     alt="dueño"
                   />
                 </div>
@@ -129,13 +129,13 @@ function Home() {
             <div className="image-cards">
               <article className="expresion">
                 <div>
-                  <img src="/Images/cande/degustacion.jpg" alt="expresión" />
+                  <img src="/Images/cande/fincaDron.jpeg" alt="expresión" />
                 </div>
               </article>
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/cande/pareja.jpg"
+                    src="/Images/cande/seleccionCande/cartelFamilia.jpeg"
                     alt="amigos"
                   />
                 </div>
@@ -143,7 +143,7 @@ function Home() {
               <article className="dueño">
                 <div>
                   <img
-                    src="/Images/cande/vidPrimerPlano.jpeg"
+                    src="/Images/cande/seleccionCande/vidZoom.jpeg"
                     alt="dueño"
                   />
                 </div>
