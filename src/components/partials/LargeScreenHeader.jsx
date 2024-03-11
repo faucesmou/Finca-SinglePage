@@ -140,10 +140,10 @@ const rutaActual = location.pathname;
           <ul>
             {/* <Link   to="/#productosSection">Finca Propia</Link> */}
             <Navegar2 to="/usa" sectionId="fincaPropiaUsa">
-              <li className="">Private Vineyard</li>
+              <li className="">Finca Propia{/* Private Vineyard */}</li>
             </Navegar2>
             <Navegar2 to="/usa" sectionId="serDueno">
-              <li>To be the owner</li>
+              <li>Be the owner</li>
             </Navegar2>
             <Navegar2 to="/usa" sectionId="biografiaUsa">
               <li>WineMaker</li>

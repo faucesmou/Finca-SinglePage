@@ -26,7 +26,7 @@ function HomeUSA() {
               <div className="texto-item">
                 <p className="titulo-negro">Live the experience</p>
                 <p className="subtitulo-dorado">
-                Enjoy being the owner <br /> of your own wine
+                Enjoy being the owner <br /> of your own wine.
                 </p>
               </div>
             </section>

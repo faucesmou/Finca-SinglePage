@@ -208,6 +208,8 @@ header .menu .dropdown-menu {
     font-size: 20px;
     color: var(--colorIcons); 
     font-weight: 600;
+  
+   
 }
 
   header .menu ul li:hover {
@@ -267,6 +269,7 @@ header .menu .dropdown-menu {
         list-style: none;
         font-weight: normal;
         flex-direction: row;
+        flex-wrap: nowrap;
     }
  /*    flex: 1; 
     text-align: center;
