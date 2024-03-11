@@ -11,7 +11,7 @@ function HomeUSA() {
     <div className="Home" id="usa-scroll-animate-main">
       <div className="wrapper-parallax">
         <div className="parallax-container">
-          <video autoPlay loop muted playsInline id="megavideofinca">
+          <video autoPlay loop muted playsInline id="megavideofinca-usa">
             <source
               src="/video/Finca-propia-sin-sonido-arreglo-1.mp4"
               type="video/mp4"

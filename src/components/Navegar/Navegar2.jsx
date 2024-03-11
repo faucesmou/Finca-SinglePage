@@ -5,7 +5,7 @@ const Navegar2 = ({ to, sectionId, children }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  useEffect(() => {
+ /*  useEffect(() => {
     const targetElement = document.getElementById(sectionId);
 
     if (targetElement && location.pathname === to) {
@@ -16,18 +16,37 @@ const Navegar2 = ({ to, sectionId, children }) => {
         }) ;
       }, 0);
     }
+  }, [sectionId, location.pathname, to]); */
+
+  useEffect(() => {
+    const targetElement = document.getElementById(sectionId);
+  
+    if (targetElement && location.pathname === to) {
+      window.addEventListener('beforeunload', () => {
+        targetElement.scrollIntoView({
+          behavior: 'auto',
+        });
+      });
+    }
+    return () => {
+      window.removeEventListener('beforeunload', () => {
+        targetElement.scrollIntoView({
+          behavior: 'auto',
+        });
+      });
+    };
   }, [sectionId, location.pathname, to]);
 
 
-  const handleClick = (e) => {
-    e.preventDefault();
+  const handleClick = (/* e */) => {
+/*     e.preventDefault(); */
     const targetElement = document.getElementById(sectionId);
 
     if (targetElement) {
       console.log('entrando a handleClick porque hay targetElement')
        window.scrollTo({
         top: 0,
-        behavior: 'smooth',
+        behavior: 'auto',
       }); 
       targetElement.scrollIntoView({
         behavior: 'smooth',
@@ -38,8 +57,14 @@ const Navegar2 = ({ to, sectionId, children }) => {
         });
       }, 0);   */
     } else {
-      console.log('entrando hola');
+      console.log('entrando al else navigate to');
       navigate(to);
+      console.log('entrando al window.scroll to');
+      window.scrollTo({
+        top: 0,
+        behavior: 'auto',
+      }); 
+      console.log('finalizó el window.scroll to');
     }
   };
 

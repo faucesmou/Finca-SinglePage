@@ -23,7 +23,7 @@ const rutaActual = location.pathname;
     return (
       <header>
         <section className="logo">
-          <Navegar2 to="/">
+          <Navegar2 to="/brasil" sectionId="fincaPropiaBrasil">
             <img
               src="/Images/home/logo-400x400px-01.png"
               alt="Finca Propia logo"
@@ -180,7 +180,7 @@ const rutaActual = location.pathname;
               </Navegar2>
             </li>
             <li className="instagram">
-              <Navegar2 to="/usa" sectionId="usa-scroll-animate-main" /* sectionId="fincaPropiaUsa" */>
+              <Navegar2 to="/usa" sectionId="usa-scroll-animate-main">
                 <img src="/Images/header/usa.png" alt="usa" />
               </Navegar2>
             </li>
@@ -295,7 +295,7 @@ const rutaActual = location.pathname;
             </Navegar2>
           </li>
           <li className="instagram">
-            <Navegar2 to="/usa" sectionId="usa-scroll-animate-main" /* sectionId="fincaPropiaUsa" */>
+            <Navegar2 to="/usa" sectionId="megavideofinca-usa">
               <img src="/Images/header/usa.png" alt="usa" />
             </Navegar2>
           </li>
