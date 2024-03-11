@@ -38,7 +38,7 @@ const Navegar2 = ({ to, sectionId, children }) => {
         });
       }, 0);   */
     } else {
-      console.log('entrando a else navigate to');
+      console.log('entrando hola');
       navigate(to);
     }
   };
