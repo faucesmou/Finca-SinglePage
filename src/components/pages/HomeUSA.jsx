@@ -6,7 +6,7 @@ import ScrollToTopButton from '../ScrollToTopButton';
 
 
 
-function HomeUsa() {
+function HomeUSA() {
   return (
     <div className="Home" id="usa-scroll-animate-main">
       <div className="wrapper-parallax">
@@ -939,4 +939,4 @@ function HomeUsa() {
   );
 }
 
-export default HomeUsa;
+export default HomeUSA;

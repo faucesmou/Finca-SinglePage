@@ -8,12 +8,12 @@ import LargeScreenHeader from './components/partials/LargeScreenHeader'
 import Header from './components/partials/Header';
 import Home from './components/pages/Home';
 import HomeBrasil from './components/pages/HomeBrasil';
-import HomeUsa from './components/pages/HomeUsa';
 import LosVinos from './components/pages/LosVinos';
 import LosVinosBrasil from './components/pages/LosVinosBrasil';
 import LosVinosUsa from "./components/pages/LosVinosUsa";
 import Biografia from './components/pages/Biografia';
 import Navegar2 from "./components/Navegar/Navegar2";
+import HomeUSA from './components/pages/HomeUSA';
 
 
 function App() {
@@ -41,8 +41,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/brasil" element={<HomeBrasil />} />
-                    <Route path="/usa" element={<HomeUsa />} />
-
+                    <Route path="/usa" element={<HomeUSA />} />
                     <Route path="/LosVinos" element={<LosVinos />} />
                     <Route path="/LosVinosBrasil" element={<LosVinosBrasil />} />
                     <Route path="/LosVinosUsa" element={<LosVinosUsa />} />
