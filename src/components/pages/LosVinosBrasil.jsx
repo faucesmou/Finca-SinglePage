@@ -87,10 +87,10 @@ const LosVinosBrasil = () => {
 
                         <div className="container-icono-boton" onClick={() => handleDownloadPDF("LaArboleda", "cabernet")}>
                             <div className="iconoDescargaLosVinos">
-                               {/*  <img
-                                    src="/Images/Icons/DescargaIcon.png"
+                               <img
+                                    src="/Images/icons/descargaIcon.png"
                                     alt="dueño"
-                                /> */}
+                                />
                             </div>
                             <button
                                 className="descargarFicha-button"
@@ -136,10 +136,10 @@ const LosVinosBrasil = () => {
 
                         <div className="container-icono-boton" onClick={() => handleDownloadPDF("LaArboleda", "malbec")}>
                             <div className="iconoDescargaLosVinos">
-                               {/*  <img
-                                    src="/Images/Icons/DescargaIcon.png"
+                                 <img
+                                    src="/Images/icons/descargaIcon.png"
                                     alt="dueño"
-                                /> */}
+                                /> 
                             </div>
                             <button
                                 className="descargarFicha-button"
@@ -184,10 +184,10 @@ const LosVinosBrasil = () => {
 
                         <div className="container-icono-boton" onClick={() => handleDownloadPDF("LaArboleda", "chardonay")}>
                             <div className="iconoDescargaLosVinos">
-                              {/*   <img
-                                    src="/Images/Icons/DescargaIcon.png"
+                               <img
+                                    src="/Images/icons/descargaIcon.png"
                                     alt="dueño"
-                                /> */}
+                                /> 
                             </div>
                             <button
                                 className="descargarFicha-button"
