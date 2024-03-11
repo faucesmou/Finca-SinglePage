@@ -11,10 +11,10 @@ const Navegar2 = ({ to, sectionId, children }) => {
     if (targetElement && location.pathname === to) {
 
       setTimeout(() => {
-        targetElement.scrollIntoView({
+         targetElement.scrollIntoView({
           behavior: 'smooth',
-        });
-      }, 2000);
+        }) ;
+      }, 0);
     }
   }, [sectionId, location.pathname, to]);
 
@@ -24,16 +24,21 @@ const Navegar2 = ({ to, sectionId, children }) => {
     const targetElement = document.getElementById(sectionId);
 
     if (targetElement) {
-      window.scrollTo({
+      console.log('entrando a handleClick porque hay targetElement')
+       window.scrollTo({
         top: 0,
         behavior: 'smooth',
+      }); 
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
       });
-      setTimeout(() => {
+/*        setTimeout(() => {
         targetElement.scrollIntoView({
           behavior:'smooth',
         });
-      }, 0); 
+      }, 0);   */
     } else {
+      console.log('entrando a else navigate to');
       navigate(to);
     }
   };

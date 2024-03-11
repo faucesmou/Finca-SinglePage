@@ -7,7 +7,7 @@ import ScrollToTopButton from './../../components/ScrollToTopButton';
 
 function Home() {
   return (
-    <div className="Home" id="scroll-animate-main">
+    <div className="Home" id="scroll-animate-main-brasil">
       <div className="wrapper-parallax">
         <div className="parallax-container">
           <video autoPlay loop muted playsInline id="megavideofinca">

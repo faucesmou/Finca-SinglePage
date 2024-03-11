@@ -2,11 +2,13 @@ import React from "react";
 import Contacto from "../Contacto";
 import '../../styles/animations.css';
 import Navegar2 from "../Navegar/Navegar2";
+import ScrollToTopButton from '../ScrollToTopButton';
 
 
-function Home() {
+
+function HomeUsa() {
   return (
-    <div className="Home" id="scroll-animate-main">
+    <div className="Home" id="usa-scroll-animate-main">
       <div className="wrapper-parallax">
         <div className="parallax-container">
           <video autoPlay loop muted playsInline id="megavideofinca">
@@ -16,28 +18,28 @@ function Home() {
             />
           </video>
         </div>
-        <section id="fincaPropia"></section>
+        <section id="fincaPropiaUsa"></section>
         <div className="linea-dorada"></div>
         <div className="Home content">
           <section className="cards">
             <section className="texto-container">
               <div className="texto-item">
-                <p className="titulo-negro">Viví la experiencia USA</p>
+                <p className="titulo-negro">Live the experience</p>
                 <p className="subtitulo-dorado">
-                  Disfrutá de ser dueño <br /> de tu propio vino
+                Enjoy being the owner <br /> of your own wine
                 </p>
               </div>
             </section>
             <div className="image-cards">
               <article className="expresion">
                 <div>
-                  <img src="/Images/home/procesos-04.jpg" alt="expresión" />
+                  <img src="/Images/cande/seleccionCande/cosechandoChicas.jpeg" alt="expresión" />
                 </div>
               </article>
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/cande/grupo.jpeg"
+                    src="/Images/cande/seleccionCande/cajonNoche.jpeg"
                     /*  src="/Images/home/IMG_4568-scaled-e1680126418462.jpg" */
                     alt="amigos"
                   />
@@ -47,7 +49,7 @@ function Home() {
                 <div>
                   <img
                     /*  src="/Images/home/MG_0160-scaled-e1680126635925.jpg" */
-                    src="/Images/cande/chicosBrindando.jpg"
+                    src="/Images/cande/seleccionCande/tirandoGorras.jpeg"
                     alt="dueño"
                   />
                 </div>
@@ -60,7 +62,7 @@ function Home() {
               <article className="expresion">
                 <div>
                   <img
-                    src="/Images/Finca/FincaPropiaMar20-198-scaled.jpg"
+                    src="/Images/cande/seleccionCande/casitaAtardecer.jpeg"
                     alt="expresión"
                   />
                 </div>
@@ -76,7 +78,7 @@ function Home() {
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/Finca/FincaPropiaMar20-488-scaled.jpg"
+                    src="/Images/cande/seleccionCande/3vinos.jpeg"
                     alt="amigos"
                   />
                 </div>
@@ -85,9 +87,9 @@ function Home() {
             </div>
             <section className="texto-container">
               <div className="texto-item">
-                <p className="titulo-negro">La expresión de tu Terroir</p>
+                <p className="titulo-negro">The expression of your Terroir</p>
                 <p className="subtitulo-dorado">
-                  Vinos intensos que nacen <br /> en el mejor viñedo
+                Intense wines that are born <br /> In the finest vineyard.
                 </p>
               </div>
             </section>
@@ -95,20 +97,20 @@ function Home() {
           <section className="cards">
             <section className="texto-container">
               <div className="texto-item">
-                <p className="titulo-negro">Compartir con amigos</p>
-                <p className="subtitulo-dorado">El fruto de tu producción</p>
+                <p className="titulo-negro">Share with friends.</p>
+                <p className="subtitulo-dorado">The fruit of your production.</p>
               </div>
             </section>
             <div className="image-cards">
               <article className="expresion">
                 <div>
-                  <img src="/Images/cande/vidVerde.jpg" alt="expresión" />
+                  <img src="/Images/cande/seleccionCande/brindisAdentro.jpeg" alt="expresión" />
                 </div>
               </article>
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/cande/señores.jpeg"
+                    src="/Images/cande/seleccionCande/amigosAfuera.jpeg"
                     alt="amigos"
                   />
                 </div>
@@ -116,7 +118,7 @@ function Home() {
               <article className="dueño">
                 <div>
                   <img
-                    src="/Images/cande/fincaDron.jpeg"
+                    src="/Images/cande/seleccionCande/brindisAntonio.jpeg"
                     alt="dueño"
                   />
                 </div>
@@ -127,13 +129,13 @@ function Home() {
             <div className="image-cards">
               <article className="expresion">
                 <div>
-                  <img src="/Images/cande/degustacion.jpg" alt="expresión" />
+                  <img src="/Images/cande/fincaDron.jpeg" alt="expresión" />
                 </div>
               </article>
               <article className="amigos">
                 <div>
                   <img
-                    src="/Images/cande/pareja.jpg"
+                    src="/Images/cande/seleccionCande/cartelFamilia.jpeg"
                     alt="amigos"
                   />
                 </div>
@@ -141,7 +143,7 @@ function Home() {
               <article className="dueño">
                 <div>
                   <img
-                    src="/Images/cande/vidPrimerPlano.jpeg"
+                    src="/Images/cande/seleccionCande/vidZoom.jpeg"
                     alt="dueño"
                   />
                 </div>
@@ -149,8 +151,8 @@ function Home() {
             </div>
             <section className="texto-container">
               <div className="texto-item">
-                <p className="titulo-negro">Sé dueño</p>
-                <p className="subtitulo-dorado">De la tierra</p>
+                <p className="titulo-negro">Be the owner</p>
+                <p className="subtitulo-dorado">Of the land.</p>
               </div>
             </section>
           </section>
@@ -158,14 +160,14 @@ function Home() {
           <div className="linea-dorada"></div>
           <div className="products-title">
             <p>
-              <span className="letraGrande">P</span>RODUCTOS
+              <span className="letraGrande">P</span>RODUCTS
             </p>
           </div>
           <section className="products">
             <div className="image-cards">
               <article className="dueño">
                 <div className="descripcion">
-                  <p>24 Vides</p>
+                  <p>24 Vines</p>
                 </div>
                 <div>
                   <img
@@ -182,7 +184,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      40 mts lineales de vid (100m2).
+                      40 linear meters of vines (100m2).
                     </li>
                     <li>
                       <img
@@ -190,7 +192,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      75 kg de uvas por cosecha.
+                      75 kg of grapes per harvest
                     </li>
                     <li>
                       <img
@@ -198,7 +200,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      72 botellas de vino por año.
+                     72 bottles of wine per year.
                     </li>
                     <li>
                       <img
@@ -206,17 +208,17 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      Cosecha asegurada sin riesgos.
+                      Guaranteed harvest without risks.
                     </li>
                   </ul>
-                  <p className="total-precio">USD 5.000</p>
+                {/*   <p className="total-precio">USD 5.000</p> */}
                   <div className="linea-dorada"></div>
                 </div>
               </article>
 
               <article className="dueño">
                 <div className="descripcion">
-                  <p>Hilera</p>
+                  <p>Row</p>
                 </div>
                 <div>
                   <img src="/Images/dueno/hilera-scaled.jpg" alt="amigos" />
@@ -230,7 +232,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      80 mts lineales de vid (200m2)
+                      80 linear meters of vines (200m2)
                     </li>
                     <li>
                       <img
@@ -238,7 +240,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      150 kg de uvas por cosecha
+                      150 kg of grapes per harvest.
                     </li>
                     <li>
                       <img
@@ -246,7 +248,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      144 botellas de vino por año
+                      144 bottles of wine per year.
                     </li>
                     <li>
                       <img
@@ -254,9 +256,9 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      Cosecha asegurada sin riesgos.
+                      Guaranteed harvest without risks.
                     </li>
-                    <p className="total-precio">USD 8.000</p>
+                   {/*  <p className="total-precio">USD 8.000</p> */}
                   </ul>
                   <div className="linea-dorada"></div>
                 </div>
@@ -277,7 +279,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      200 mts lineales de vid (400m2)
+                      200 linear meters of vines (400m2)
                     </li>
                     <li>
                       <img
@@ -285,7 +287,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      375 kg de uvas por cosecha
+                      375 kg of grapes per harvest.
                     </li>
                     <li>
                       <img
@@ -293,7 +295,7 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      360 botellas de vino por año
+                      360 bottles of wine per year.
                     </li>
                     <li>
                       <img
@@ -301,10 +303,10 @@ function Home() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                      Cosecha asegurada sin riesgos
+                      Guaranteed harvest without risks.
                     </li>
                   </ul>
-                  <li className="total-precio">USD 14.800 </li>
+                {/*   <li className="total-precio">USD 14.800 </li> */}
                   {/* <p className="total-precio">USD 14.800</p> */}
                   <div className="linea-dorada"></div>
                 </div>
@@ -313,13 +315,13 @@ function Home() {
           </section>
 
           <p className="fraseFinal">
-            VINOS PERSONALIZADOS CON FIRMA/LOGO/FRASE/DIBUJO ETIQUETA PROPIA
+           CUSTOMIZED WINES WITH SIGNATURE/LOGO/PHRASE/DESIGN ON OWN LABEL.
           </p>
           <div className="linea-dorada"></div>
           <div className="products-title-experience">
             <p>
-              <span className="letraGrandeExperience">E</span>xperiencia &nbsp;
-              <span className="letraGrandeExperience">P</span>ropietarios
+              <span className="letraGrandeExperience">E</span>xperience &nbsp;
+              <span className="letraGrandeExperience">O</span>wners
             </p>
           </div>
           <section id="experienciaPropietarios"></section>
@@ -333,11 +335,11 @@ function Home() {
                   </div>
                   <div className="statements">
                     <span>
-                      Ser parte de Finca Propia me hizo vivir el mundo del vino como dueño de un viñedo.<br></br>Una experiencia distinta.
+                    Being part of Finca Propia made me live the world of wine as the owner of a vineyard.<br></br>A unique experience.
                     </span>
                   </div>
                   <p className="author-statement">
-                    Fernando - Provincia de San Luis
+                    Fernando - Province of San Luis
                   </p>
                 </div>
                 <div>
@@ -356,11 +358,11 @@ function Home() {
                   </div>
                   <div className="statements">
                     <span>
-                      Visitar la finca y conocer todo el esfuerzo y procesos que hay detrás de una botella de vino, cambió mi percepción totalmente.
+                    Visiting the vineyard and learning about all the effort and processes behind a bottle of wine completely changed my perception.
                     </span>
                   </div>
                   <div className="author-statement">
-                    <p>Marcelo - Provincia de Buenos Aires</p>
+                    <p>Marcelo - Province of Buenos Aires</p>
                   </div>
                 </div>
                 <div>
@@ -375,11 +377,11 @@ function Home() {
                   </div>
                   <div className="statements">
                     <span>
-                      Poder participar de las actividades, recibir información en tiempo real y consultar con los expertos, te hace aprender mucho rápidamente.
+                    Being able to participate in activities, receive real-time information, and consult with experts makes you learn a lot quickly.
                     </span>
                   </div>
                   <div className="author-statement">
-                    <p>Graciela - Provincia de Santa Fé</p>
+                    <p>Graciela - Province of Santa Fé</p>
                   </div>
                 </div>
                 <div>
@@ -398,10 +400,10 @@ function Home() {
           {window.innerWidth <= 500 && (
 
 
-            /* Seccion BIOGRAFÍA para responsive!------------------------------------->>> */
+            /* Seccion  CONDICIONAL PEQUEÑO ---EMPIEZA CON BIOGRAFÍA para responsive!------------------------------------->>> */
 
             <section className="conditional-small-size">
-              <section id="biografia"></section>
+              <section id="biografiaUsa"></section>
 
 
               {/* <div className="linea-dorada"></div> */}
@@ -428,7 +430,7 @@ function Home() {
                       </div>
                       <div className="statements">
                         <span>
-                          En el año 2010 Antonio volvió a innovar con Finca Propia, un proyecto con el que se dio el gusto de tomarse el tiempo para elegir el viñedo de sus sueños, luego de recorrer tanto los terruños conocidos como los más recónditos de su querida provincia, donde terminó enamorándose de unas tierras enmarcadas por la cordillera, con un importante desnivel entre los dos extremos, y con un suelo que le brindaría un estilo con la intensidad y elegancia que siempre buscó para sus vinos.</span>
+                        In 2010, Antonio once again innovated with Finca Propia, a project that allowed him to take the time to choose the vineyard of his dreams. After exploring both well-known and remote terroirs in his beloved province, he fell in love with lands framed by the mountains, featuring a significant slope between the two extremes and soil that would provide a style with the intensity and elegance he always sought for his wines.</span>
                       </div>
                     </div>
 
@@ -437,13 +439,66 @@ function Home() {
                 </div>
               </section>
               <div className="linea-dorada"></div>
+              <section id="losVinos"></section>
+              <div className="wines-title-experience">
+                <p>
+                  <span className="letraGrandeExperience">T</span>he wines
+                </p>
+              </div>
+              <section className="products">
+                <div className="image-cards">
+                  <article className="vino">
+
+                    <div>
+                      <img
+                        src="/Images/losvinos/Botellas_Finca/Finca_MB2021.png"
+                        alt="expresión"
+                      />
+                    </div>
+                    <div className="descripcion"></div>
+
+                  </article>
+
+                  <article className="vino">
+
+                    <div>
+                      <img src="/Images/losvinos/Botellas_Finca/Finca_CS2021.png" alt="amigos" />
+                    </div>
+                    <div className="descripcion">
+
+                    </div>
+                  </article>
+                  <article className="vino">
+
+                    <div>
+                      <img src="/Images/losvinos/Botellas_Finca/Finca_CH2022_1512_4752.png" alt="dueño" />
+                    </div>
+                    <div className="descripcion"></div>
+
+
+
+                  </article>
+                </div>
+              </section>
+
+              <div className="wines-title-experience">
+                <Navegar2 to="/LosVinosUsa" sectionId="contacto">
+                  <li>More information</li>
+                </Navegar2>
+              </div>
+
+
+
+
+
+
               <section id="laFinca"></section>
 
 
-              <section id="contacto"></section>
+
               <div className="products-title">
                 <p>
-                  <span className="letraGrande">C</span>ONTACTO
+                  <span className="letraGrande">C</span>ONTACT
                 </p>
               </div>
               <div className="contact-products-title">
@@ -472,7 +527,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="social-media-button">
-                        <span className="our-social-networks-text">NUESTRAS REDES</span>
+                        <span className="our-social-networks-text">OUR SOCIAL NETWORKS</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">
 
                           <svg
@@ -527,7 +582,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="social-media-button">
-                        <span className="our-social-networks-text">NUESTRAS REDES</span>
+                        <span className="our-social-networks-text">OUR SOCIAL NETWORKS</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer" >
                           <svg
                             className="icon"
@@ -578,7 +633,7 @@ function Home() {
                     </div>
                     <div className="descripcion">
                       <button className="social-media-button">
-                        <span className="our-social-networks-text">NUESTRAS REDES</span>
+                        <span className="our-social-networks-text">OUR SOCIAL NETWORKS</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">
                           <svg
                             className="icon"
@@ -602,11 +657,12 @@ function Home() {
                     </div>
                   </article>
                 </div>
+                <section id="contacto"></section>
               </section>
               {/* -------------------------ACÁ TERMINA EL RESPONSIVE PEQUEÑO------------------------------- */}
               <div className="contact-products-title">
                 <p>
-                  <span className="letraGrande">C</span>ONTACTO
+                  <span className="letraGrande">C</span>ONTACT
                 </p>
               </div>
               <section className="products">
@@ -631,7 +687,7 @@ function Home() {
             <section className="conditional-big-size">
 
               {/* SECCIÓN DE LA BIOGRAFÍA ---------------------------------------Pantalla grande->>> */}
-              <section id="biografia"></section>
+              <section id="biografiaUsa"></section>
               <section className="cards-biografia">
                 <div className="image-cards-biografia">
                   {/* <article className="expresion">
@@ -660,29 +716,36 @@ function Home() {
                       <span className="letraGrande">A</span>ntonio Mas</p>
                     <p className="titulo-dorado-biografia">Winemaker</p>
                     <p className="subtitulo-dorado-biografia">
-                      En el año 2010 Antonio volvió a innovar con Finca Propia, un proyecto con el que se dio el gusto de tomarse el tiempo para elegir el viñedo de sus sueños, luego de recorrer tanto los terruños conocidos como los más recónditos de su querida provincia, terminó enamorándose de unas tierras enmarcadas por la cordillera, con un importante desnivel entre los dos extremos, y con un suelo que le brindaría un estilo con la intensidad y elegancia que siempre buscó para sus vinos. Allí, en el Paraje Dubois, La Arboleda, a 7 kilómetros del pueblo de Tupungato, rodeado de los viñedos más renombrados de la Argentina, Antonio apostó a hacer algo diferente.
+                    In 2010, Antonio once again innovated with Finca Propia, a project that allowed him to take the time to choose the vineyard of his dreams. After exploring both well-known and remote terroirs in his beloved province, he fell in love with lands framed by the mountains, featuring a significant slope between the two extremes and soil that would provide a style with the intensity and elegance he always sought for his wines. There, in Paraje Dubois, La Arboleda, 7 kilometers from the town of Tupungato, surrounded by Argentina's most renowned vineyards, Antonio decided to do something different.
                       <br />
                       <br />
-                      Este proyecto nace del deseo y de la inquietud de conocer, tratar en forma directa, y compartir momentos con aquellos que toman sus vinos, que hacer un vino no se limite a venderlo a un comercio, sino ir un poco más allá. Con el proyecto de Finca Propia, Antonio no solo se dedica a seguir elaborando vinos memorables, sino que también se da el gusto de compartir experiencias con aquellos que lo acompañan en este proyecto, con aquellos que adquirieron partes de este viñedo sobresaliente y que valoran y disfrutan de hacer un producto de la tierra, de aprender lo que implica hacer un vino de terruño.
+                      This project stems from the desire and curiosity to personally know and share moments with those who enjoy his wines. For Antonio, creating wine is not just about selling it to a store; it goes beyond that. With the Finca Propia project, Antonio not only continues to craft memorable wines but also takes pleasure in sharing experiences with those who join him in this venture. Those who have acquired parts of this outstanding vineyard appreciate and enjoy the process of creating a product from the land, learning what it takes to make a terroir-driven wine.
                       {/*   más biografía  <br />
                   más biografía  <br /> */}
                     </p>
                   </div>
+                  <div className="wines-title-experience">
+                <ScrollToTopButton>
+                  <Navegar2 to="/biografia" sectionId="">
+                    <li>Access Biography</li>
+                  </Navegar2>
+                </ScrollToTopButton>
+              </div>
                 </section>
               </section>
 
               <div className="linea-dorada"></div>
 
 
-                  <section id="losVinos"></section>
+              <section id="losVinosSectionUsa"></section>
 
               <div className="wines-title-experience">
                 <p>
-                <span className="letraGrandeExperience">L</span>os vinos
+                  <span className="letraGrandeExperience">T</span>he wines
                 </p>
               </div>
               <section className="cards">
-            
+
                 <div className="image-cards">
                   <article className="expresion">
                     <div className="cadaVino" >
@@ -710,18 +773,25 @@ function Home() {
                 </div>
               </section>
               <div className="wines-title-experience">
-              <Navegar2 to="/LosVinos" sectionId="losVinosInicio">
-              <li>Más información...</li>
-              </Navegar2>
+                <ScrollToTopButton>
+                  <Navegar2 to="/LosVinosUsa" sectionId="losVinosInicioUsa">
+                    <li>More information...</li>
+                  </Navegar2>
+                </ScrollToTopButton>
               </div>
+              {/*   <div className="wines-title-experience">
+                <Navegar2 to="/LosVinos" sectionId="losVinosInicio">
+                  <li>Más información...</li>
+                </Navegar2>
+              </div> */}
 
-             
+
               <section id="laFinca"></section>
 
               <section id="contacto"></section>
               <div className="products-title">
                 <p>
-                  <span className="letraGrande">O</span>FICINAS
+                  <span className="letraGrande">O</span>FFICES
                 </p>
               </div>
               <section className="products">
@@ -739,7 +809,7 @@ function Home() {
                       <button>(+54) 9 2613 300621</button>
                       <button>contacto@fincapropia.com</button>
                       <button className="social-media-button">
-                        <span className="our-social-networks-text">NUESTRAS REDES</span>
+                        <span className="our-social-networks-text">OUR SOCIAL NETWORKS</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">
                           <svg
                             className="icon"
@@ -780,7 +850,7 @@ function Home() {
 
                       <button className="">propietariosbrasil@fincapropia.com</button>
                       <button className="social-media-button">
-                        <span className="our-social-networks-text">NUESTRAS REDES</span>
+                        <span className="our-social-networks-text">OUR SOCIAL NETWORKS</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">
                           <svg
                             className="icon"
@@ -817,7 +887,7 @@ function Home() {
                       <button> (+59) 5 992 925106</button>
                       <button>atencion.paraguay@fincapropia.com</button>
                       <button className="social-media-button">
-                        <span className="our-social-networks-text">NUESTRAS REDES</span>
+                        <span className="our-social-networks-text">OUR SOCIAL NETWORKS</span>
                         <a href="https://www.facebook.com/fincapropia" target="_blank" rel="noreferrer">
                           <svg
                             className="icon"
@@ -850,7 +920,7 @@ function Home() {
 
               <div className="products-title">
                 <p>
-                  <span className="letraGrande">C</span>ONTACTO
+                  <span className="letraGrande">C</span>ONTACT
                 </p>
               </div>
               <section className="products">
@@ -869,4 +939,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeUsa;

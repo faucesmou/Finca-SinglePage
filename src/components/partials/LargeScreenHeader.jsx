@@ -58,23 +58,23 @@ const rutaActual = location.pathname;
         <section className="redes">
           <ul>
             <li className="instagram">
-              <Navegar2 to="/" sectionId="fincaPropia" >
+              <Navegar2 to="/" sectionId="argentina-scroll-animate-main" >
                 <img src="/Images/header/argentina.png" alt="argentina" />
               </Navegar2>
             </li>
             <li className="instagram">
-              <Navegar2 to="/" sectionId="fincaPropia">
+              <Navegar2 to="/" sectionId="argentina-scroll-animate-main">
                 <img src="/Images/header/paraguay.png" alt="paraguay" />
               </Navegar2>
             </li>
             <li className="instagram">
-              <Navegar2 to="/brasil" sectionId="fincaPropiaBrasil" >
+              <Navegar2 to="/brasil" sectionId="scroll-animate-main-brasil" >
                 <img src="/Images/header/brasil.png" alt="Brasil" />
 
               </Navegar2>
             </li>
             <li className="instagram">
-              <Navegar2 to="/" sectionId="fincaPropia" >
+              <Navegar2 to="/usa" sectionId="usa-scroll-animate-main" >
                 <img src="/Images/header/usa.png" alt="usa" />
               </Navegar2>
             </li>
@@ -124,12 +124,12 @@ const rutaActual = location.pathname;
 
   }
 
-  if (rutaActual.includes('usa')) {
-    console.log('hola JUAN giordano')
+  if (rutaActual.includes('usa')|| rutaActual.includes('Usa')) {
+    console.log('hola header usa')
     return (
       <header>
         <section className="logo">
-          <Navegar2 to="/">
+          <Navegar2 to="/usa" sectionId="usa-scroll-animate-main">
             <img
               src="/Images/home/logo-400x400px-01.png"
               alt="Finca Propia logo"
@@ -139,24 +139,24 @@ const rutaActual = location.pathname;
         <section className="menu">
           <ul>
             {/* <Link   to="/#productosSection">Finca Propia</Link> */}
-            <Navegar2 to="/" sectionId="fincaPropia">
-              <li className="">Finca Propia</li>
+            <Navegar2 to="/usa" sectionId="fincaPropiaUsa">
+              <li className="">Private Vineyard</li>
             </Navegar2>
-            <Navegar2 to="/ser-dueno" sectionId="serDueno">
-              <li>Ser Dueño</li>
+            <Navegar2 to="/usa" sectionId="serDueno">
+              <li>To be the owner</li>
             </Navegar2>
-            <Navegar2 to="/biografia" sectionId="biografia">
+            <Navegar2 to="/usa" sectionId="biografiaUsa">
               <li>WineMaker</li>
             </Navegar2>
 
-            <Navegar2 to="/finca" sectionId="laFinca">
-              <li>La Finca</li>
+            <Navegar2 to="/usa" sectionId="laFinca">
+              <li>The vineyard</li>
             </Navegar2>
-            <Navegar2 to="/ser-dueno" sectionId="losVinos">
-              <li>Los vinos</li>
+            <Navegar2 to="/usa" sectionId="losVinosSectionUsa">
+              <li>The wines</li>
             </Navegar2>
-            <Navegar2 to="/contacto" sectionId="contacto">
-              <li>Contacto</li>
+            <Navegar2 to="/usa" sectionId="contacto">
+              <li>Contact</li>
             </Navegar2>
 
           </ul>
@@ -164,7 +164,7 @@ const rutaActual = location.pathname;
         <section className="redes">
           <ul>
             <li className="instagram">
-              <Navegar2 to="/" sectionId="fincaPropia" >
+              <Navegar2 to="/" sectionId="argentina-scroll-animate-main" >
                 <img src="/Images/header/argentina.png" alt="argentina" />
               </Navegar2>
             </li>
@@ -174,13 +174,13 @@ const rutaActual = location.pathname;
               </Navegar2>
             </li>
             <li className="instagram">
-              <Navegar2 to="/brasil" sectionId="fincaPropiaBrasil" >
+              <Navegar2 to="/brasil" sectionId="scroll-animate-main-brasil" >
                 <img src="/Images/header/brasil.png" alt="Brasil" />
 
               </Navegar2>
             </li>
             <li className="instagram">
-              <Navegar2 to="/" sectionId="fincaPropia" /* sectionId="fincaPropiaUsa" */>
+              <Navegar2 to="/usa" sectionId="usa-scroll-animate-main" /* sectionId="fincaPropiaUsa" */>
                 <img src="/Images/header/usa.png" alt="usa" />
               </Navegar2>
             </li>
@@ -211,7 +211,7 @@ const rutaActual = location.pathname;
                 </svg>
               </a>
             </li>
-            <Navegar2 to="/" sectionId="contacto" >
+            <Navegar2 to="/usa" sectionId="contacto" >
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +244,7 @@ const rutaActual = location.pathname;
   return (
     <header>
       <section className="logo">
-        <Navegar2 to="/">
+        <Navegar2 to="/" sectionId="argentina-scroll-animate-main">
           <img
             src="/Images/home/logo-400x400px-01.png"
             alt="Finca Propia logo"
@@ -254,7 +254,7 @@ const rutaActual = location.pathname;
       <section className="menu">
         <ul>
           {/* <Link   to="/#productosSection">Finca Propia</Link> */}
-          <Navegar2 to="/" sectionId="fincaPropia">
+          <Navegar2 to="/" sectionId="argentina-scroll-animate-main">
             <li className="">Finca Propia</li>
           </Navegar2>
           <Navegar2 to="/" sectionId="serDueno">
@@ -279,23 +279,23 @@ const rutaActual = location.pathname;
       <section className="redes">
         <ul>
           <li className="instagram">
-            <Navegar2 to="/" sectionId="fincaPropia" >
+            <Navegar2 to="/" sectionId="argentina-scroll-animate-main" >
               <img src="/Images/header/argentina.png" alt="argentina" />
             </Navegar2>
           </li>
           <li className="instagram">
-            <Navegar2 to="/" sectionId="fincaPropia">
+            <Navegar2 to="/" sectionId="argentina-scroll-animate-main">
               <img src="/Images/header/paraguay.png" alt="paraguay" />
             </Navegar2>
           </li>
           <li className="instagram">
-            <Navegar2 to="/brasil" sectionId="fincaPropiaBrasil" >
+            <Navegar2 to="/brasil" sectionId="scroll-animate-main-brasil" >
               <img src="/Images/header/brasil.png" alt="Brasil" />
 
             </Navegar2>
           </li>
           <li className="instagram">
-            <Navegar2 to="/" sectionId="fincaPropia" /* sectionId="fincaPropiaUsa" */>
+            <Navegar2 to="/usa" sectionId="usa-scroll-animate-main" /* sectionId="fincaPropiaUsa" */>
               <img src="/Images/header/usa.png" alt="usa" />
             </Navegar2>
           </li>
