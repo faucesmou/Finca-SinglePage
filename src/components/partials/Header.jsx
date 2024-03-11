@@ -79,10 +79,10 @@ const rutaActual = location.pathname;
               <Navegar2 to="/brasil" sectionId="fincaPropiaBrasil" >
                 <li onClick={closeMenu} >Finca Própria</li>
               </Navegar2>
-              <Navegar2 to="/ser-dueno" sectionId="serDueno" >
+              <Navegar2 to="/brasil" sectionId="serDueno" >
                 <li onClick={closeMenu} >Ser Dono</li>
               </Navegar2>
-              <Navegar2 to="/biografia" sectionId="biografiaBrasil" >
+              <Navegar2 to="/brasil" sectionId="biografiaBrasil" >
                 <li onClick={closeMenu} >Winemaker</li>
               </Navegar2>
               <Navegar2 to="/brasil" sectionId="losVinosBrasil2" >
@@ -316,13 +316,13 @@ const rutaActual = location.pathname;
                         {/* <NavLink to="/" onClick={closeMenu}> 
                         <li>Finca Propia</li>
                          </NavLink> */}
-                        <Navegar2 to="/ser-dueno" sectionId="fincaPropia" >
+                        <Navegar2 to="/" sectionId="fincaPropia" >
                           <li onClick={closeMenu} >Finca Propia</li>
                         </Navegar2>
-                        <Navegar2 to="/ser-dueno" sectionId="serDueno" >
+                        <Navegar2 to="/" sectionId="serDueno" >
                           <li onClick={closeMenu} >Ser Dueño</li>
                         </Navegar2>
-                        <Navegar2 to="/biografia" sectionId="biografia" >
+                        <Navegar2 to="/" sectionId="biografia" >
                           <li onClick={closeMenu} >Winemaker</li>
                         </Navegar2>
                         <Navegar2 to="/" sectionId="losVinos" >
