@@ -26,7 +26,7 @@ function Home() {
               <div className="texto-item">
                 <p className="titulo-negro">Viví la experiencia</p>
                 <p className="subtitulo-dorado">
-                  Disfrutá de  dueño <br /> de tu propio vino
+                  Disfrutá ser dueño <br /> de tu propio vino.
                 </p>
               </div>
             </section>
@@ -98,7 +98,7 @@ function Home() {
             <section className="texto-container">
               <div className="texto-item">
                 <p className="titulo-negro">Compartir con amigos</p>
-                <p className="subtitulo-dorado">El fruto de tu producción</p>
+                <p className="subtitulo-dorado">el fruto de tu producción</p>
               </div>
             </section>
             <div className="image-cards">
