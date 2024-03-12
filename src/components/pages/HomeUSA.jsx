@@ -726,8 +726,8 @@ function HomeUSA() {
                   </div>
                   <div className="wines-title-experience">
                 <ScrollToTopButton>
-                  <Navegar2 to="/biografia" sectionId="">
-                    <li>Access Biography</li>
+                  <Navegar2 to="/biografiaUsa" sectionId="">
+                    <li>Access the Biography</li>
                   </Navegar2>
                 </ScrollToTopButton>
               </div>

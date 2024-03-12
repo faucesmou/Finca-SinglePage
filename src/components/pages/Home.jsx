@@ -725,12 +725,12 @@ function Home() {
                     </p>
                   </div>
                   <div className="wines-title-experience">
-                <ScrollToTopButton>
-                  <Navegar2 to="/biografia" sectionId="">
-                    <li>Acceder a Biografía</li>
-                  </Navegar2>
-                </ScrollToTopButton>
-              </div>
+                    <ScrollToTopButton>
+                      <Navegar2 to="/biografia" sectionId="">
+                        <li>Acceder a Biografía</li>
+                      </Navegar2>
+                    </ScrollToTopButton>
+                  </div>
                 </section>
               </section>
 
