@@ -12,7 +12,7 @@ import FichaTecnicaChardonnayLA from "../fichas/FichaTecnicaChardonnayLA.pdf"
 
 
 
-const Biografia = () => {
+const BiografiaBrasil = () => {
 
 
     useEffect(() => {
@@ -73,10 +73,9 @@ const Biografia = () => {
 
             <div className="biografia-experience" id="">
                 <p>
-                    "Soñamos con elaborar un vino auténtico, natural, fácil de beber,
-                    que represente el
+                    "Sonhamos em elaborar um vinho autêntico, natural, fácil de beber, que represente 
                     <br />
-                    máximo potencial del terroir en variedad, sin modas, con magia y sinceridad."
+                    o máximo potencial do terroir em variedade, sem modismos, com magia e sinceridade."
                 </p>
             </div>
             <div className="contenedor-de-cards-biografia">
@@ -90,17 +89,7 @@ const Biografia = () => {
 
                                 <p className="titulo-texto" >1968</p>
 
-                                <p>Viajó a la Patagonia y
-                                    transformó el proceso
-                                    de vinificación en los
-                                    años siguientes. Puso
-                                    los cimientos del actual
-                                    terroir patagónico, ya
-                                    que comenzó a
-                                    estudiar las variedades
-                                    de vino y vinificar las
-                                    variedades rojas y
-                                    blancas por separado</p>
+                                <p>Viajou para a Patagônia e transformou o processo de vinificação nos anos seguintes. Lançou as bases do atual terroir patagônico, pois começou a estudar as variedades de vinho e vinificar as variedades tintas e brancas separadamente. </p>
                             </div>
                         </section>
                     </div>
@@ -119,21 +108,7 @@ const Biografia = () => {
 
                                 <p className="titulo-texto" >1997</p>
 
-                                <p>Los vinos de Antonio se
-                                    destacan por su alta
-                                    calidad, lanzando vinos
-                                    emblemáticos como
-                                    Finca La Anita Syrah,
-                                    Finca La Anita Sauvignon
-                                    Blanc y Malbec Finca La
-                                    Anita (1997), entre otros. El
-                                    Malbec 1997 de Finca La
-                                    Anita obtuvo 93 puntos
-                                    según la puntuación
-                                    excepcionalmente
-                                    rigurosa de la revista
-                                    estadounidense Wine&
-                                    Spirits.
+                                <p>Os vinhos de Antonio se destacam pela alta qualidade, lançando vinhos emblemáticos como Finca La Anita Syrah, Finca La Anita Sauvignon Blanc e Malbec Finca La Anita (1997), entre outros. O Malbec 1997 de Finca La Anita obteve 93 pontos segundo a pontuação excepcionalmente rigorosa da revista americana Wine & Spirits. 
                                 </p>
                             </div>
                         </section>
@@ -152,19 +127,7 @@ const Biografia = () => {
                                 <div className="titulo-texto">
                                     <p className="titulo-texto" >2012</p>
                                 </div>
-                                <p>Formó en parte de un
-                                    proyecto de
-                                    investigación junto con
-                                    la Universidad Juan
-                                    Agustín Maza, INTA
-                                    (Instituto Nacional de
-                                    Tecnología Agrícola) y
-                                    Finca Propia sobre «La
-                                    influencia de las
-                                    especies aromáticas en
-                                    Malbec, Cabernet
-                                    Sauvignon y
-                                    Chardonnay Aromas».
+                                <p>Participou de um projeto de pesquisa em conjunto com a Universidad Juan Agustín Maza, INTA (Instituto Nacional de Tecnologia Agrícola) e Finca Propia sobre "A influência das espécies aromáticas nos aromas de Malbec, Cabernet Sauvignon e Chardonnay".
                                 </p>
                             </div>
                         </section>
@@ -210,21 +173,7 @@ const Biografia = () => {
 
                                 <p className="titulo-texto" >1992</p>
 
-                                <p>Fundó la primera bodega
-                                    boutique argentina:
-                                    Finca La Anita, donde se
-                                    inspiró en el concepto de
-                                    Château francés: viñedos
-                                    de gran pureza genética
-                                    y variedad, identificando
-                                    clones de cada variedad,
-                                    y cultivando uvas y
-                                    vinificándolas cerca del
-                                    mismo lugar donde se
-                                    plantaron, a partir de
-                                    parcelas específicas,
-                                    verdaderos viñedos
-                                    individuales.o</p>
+                                <p>Fundou a primeira vinícola boutique argentina: Finca La Anita, onde se inspirou no conceito de Château francês: vinhas de grande pureza genética e variedade, identificando clones de cada variedade, cultivando uvas e vinificando-as próximo ao local onde foram plantadas, a partir de parcelas específicas, verdadeiras vinhas individuais.</p>
                             </div>
                         </section>
                     </div>
@@ -244,25 +193,7 @@ const Biografia = () => {
 
                                 <p className="titulo-texto" >2009</p>
 
-                                <p>En 2009, Antonio
-                                    comenzó a ilusionarse con
-                                    un proyecto que su hijo
-                                    traía con el nombre de
-                                    “Finca Propia”: 56
-                                    hectáreas en el Valle de
-                                    Uco, donde, en forma de
-                                    fideicomiso, los
-                                    propietarios podrán
-                                    elaborar su propio vino y
-                                    compartir experiencias y
-                                    adquirir conocimientos.
-                                    Una vez más dio un paso
-                                    más, creando un producto
-                                    único e innovador en una
-                                    industria que parece no
-                                    tener límites.
-
-
+                                <p>Em 2009, Antonio começou a se entusiasmar com um projeto que seu filho trouxe com o nome de "Finca Propia": 56 hectares no Vale do Uco, onde, na forma de um fideicomisso, os proprietários poderão elaborar seu próprio vinho, compartilhar experiências e adquirir conhecimentos. 
                                 </p>
                             </div>
                         </section>
@@ -282,21 +213,10 @@ const Biografia = () => {
                                 <div className="titulo-texto">
                                     <p className="titulo-texto" >2024</p>
                                 </div>
-                                <p>Ya son más de 1500
-                                    los propietarios que
-                                    disfrutan de vivir la
-                                    experiencia y el
-                                    proceso de producir
-                                    su propio vino.
+                                <p>Já são mais de 1500 proprietários que desfrutam de viver a experiência e o processo de produzir seu próprio vinho.
                                     <br />
                                     <br />
-                                    El proyecto traspasa
-                                    las barreras
-                                    nacionales para
-                                    desarrollarse por
-                                    primera vez en
-                                    Paraguay y Brasil.
-
+                                    O projeto ultrapassa as barreiras nacionais para se desenvolver pela primeira vez no Paraguai e Brasil. 
                                 </p>
                             </div>
                         </section>
@@ -316,113 +236,63 @@ const Biografia = () => {
                 <div className="biografia-historia">
 
 
-                    <p>Creador, amante y pionero de la vitivinicultura argentina, el reconocido agrónomo y enólogo
-                        se destaca por su innovación en la industria, sus vinos de alta calidad y el excepcional
-                        desarrollo de los viñedos.
+                    <p>Criador, amante e pioneiro da viticultura argentina, o renomado agrônomo e enólogo destaca-se por sua inovação na indústria, seus vinhos de alta qualidade e o excepcional desenvolvimento dos vinhedos.
                     </p>
                     <br />
-                    <p >Pionero en el desarrollo y producción de vino a pequeña escala, Antonio Mas –enólogo
-                        mendocino– ha tenido una enorme influencia en la vitivinicultura argentina durante los
-                        últimos 20 años. Innovación, visión de futuro de la industria, gestión del terroir y vinos de la
-                        más alta calidad son sinónimos de Mas. Destaca en el sector por estar siempre un paso por
-                        delante, conocer como pocos el manejo del viñedo e incorporar tecnología avanzada. Es de los
-                        pocos que sabe elaborar vino en la viña y prueba de ello se ve en cada uno de los proyectos
-                        que realiza en la industria y, por eso, fue reconocido, junto con los vinos producidos</p>
+                    <p >Pioneiro no desenvolvimento e produção de vinho em pequena escala, Antonio Mas - enólogo mendocino - teve uma enorme influência na vitivinicultura argentina nos últimos 20 anos. Inovação, visão futurista da indústria, gestão do terroir e vinhos de altíssima qualidade são sinônimos de Mas. Destaca-se no setor por estar sempre um passo à frente, conhecer como poucos o manejo do vinhedo e incorporar tecnologia avançada. Ele é um dos poucos que sabe elaborar vinho na vinha, e essa habilidade é evidente em cada um dos projetos que realiza na indústria, sendo reconhecido junto com os vinhos produzidos.</p>
                     <br />
-                    <p>Hoy forma parte del emprendimiento Finca Propia. En él comparte toda su experiencia y su
-                        devoción por la actividad a la que dedicó tantos años de su exitosa carrera, con quienes se
-                        dejan seducir por una actividad que combina conocimiento, sofisticación, amor por la
-                        naturaleza y espíritu creativo. Fue ahí donde Antônio encontró un proyecto adecuado para
-                        esta etapa de su carrera. "Hoy hago vinos para consumidores que conozco y con quienes
-                        puedo interactuar y, a partir de ahí, conocer sus opiniones y enriquecerme cada día", destaca
-                        el agrónomo Antonio Mas.
-
+                    <p>Hoje, ele faz parte do empreendimento Finca Propia. Nele, compartilha toda a sua experiência e devoção pela atividade à qual dedicou tantos anos de sua bem-sucedida carreira, com aqueles que se deixam seduzir por uma atividade que combina conhecimento, sofisticação, amor pela natureza e espírito criativo. Foi aí que Antonio encontrou um projeto adequado para esta fase de sua carreira. "Hoje faço vinhos para consumidores que conheço e com quem posso interagir, conhecendo assim suas opiniões e enriquecendo-me a cada dia", destaca o agrônomo Antonio Mas.
                     </p>
                     <br />
 
                 </div>
                 <div className="titulo-secundario">
-                    <p >El comienzo de la historia</p>
+                    <p >O início da história.</p>
                 </div>
                 <div className="biografia-historia">
 
-                    <p>Antonio Mas es el primero de su dinastía en resaltar esta pasión por la enología. Graduado de
-                        la Facultad de Ciencias Agrícolas de Mendoza hace más de 40 años y con una maestría en
-                        Economía Agrícola de la Universidad de Chicago, dio sus primeros pasos en la profesión en el
-                        estado de Río Negro. Allí se dedicó a la viticultura y silvicultura, horticultura y fruticultura. En
-                        sus años en RioNegro se convirtió en el primer formador de la Agencia de Extensión Rural del
-                        INTA en Choel y Choel.
+                    <p>
+Antonio Mas é o primeiro de sua dinastia a destacar essa paixão pela enologia. Graduado pela Faculdade de Ciências Agrícolas de Mendoza há mais de 40 anos e com mestrado em Economia Agrícola pela Universidade de Chicago, ele deu seus primeiros passos na profissão no estado de Río Negro. Lá, dedicou-se à viticultura e silvicultura, horticultura e fruticultura. Em seus anos em Rio Negro, tornou-se o primeiro instrutor da Agência de Extensão Rural do INTA em Choel e Choel.
 
                     </p>
 
 
                 </div>
                 <div className="titulo-secundario">
-                    <p >Bodega Boutique y vinos únicos</p>
+                    <p >Vinícola Boutique e vinhos únicos</p>
                 </div>
                 <div className="biografia-historia">
 
 
-                    <p>En 1992, Antonio regresó a Mendoza y decidió radicarse en Agrelo, Luján de Cuyo. En aquella época el terruño no era
-                        reconocido y había muy pocas bodegas. Junto a su hermano fundó Finca La Anita, instalando el concepto de Chateau
-                        Francés (Bodega Boutique) y viñedo único. Con sus vinos mostró al mundo las virtudes, tan en boga hoy, del terroir de
-                        Agrelo.
+                    <p>Em 1992, Antonio retornou a Mendoza e decidiu se estabelecer em Agrelo, Luján de Cuyo. Naquela época, o terroir não era reconhecido, e havia muito poucas vinícolas. Junto com seu irmão, fundou a Finca La Anita, introduzindo o conceito de Chateau Francês (Vinícola Boutique) e vinhedo único. Com seus vinhos, mostrou ao mundo as virtudes, tão em alta hoje, do terroir de Agrelo. 
                         <br />
                         <br />
-
-                        El antiguo modelo era el de bodegas artesanales que los inmigrantes europeos desarrollaron en Mendoza a finales del
-                        siglo XIX, prevaleciendo las tradiciones de las mejores bodegas de Europa. Antonio Mas rescató estos usos
-                        desplazados en las últimas décadas por el fenómeno de la producción en masa. Utilizó uvas de su propia producción y
-                        sólo produjo vinos cuando alcanzaron los más altos niveles de calidad. Antônio trabajó los viñedos con variedades tan
-                        diversas como: Syrah, Friulano Tocai, Semillon, Petit Verdot, Blanc Sauvignan, Malbec y Cabernet Sauvignon, entre
-                        otras.
+                        O antigo modelo era o das vinícolas artesanais que os imigrantes europeus desenvolveram em Mendoza no final do século XIX, prevalecendo as tradições das melhores vinícolas da Europa. Antonio Mas resgatou esses métodos deslocados nas últimas décadas pelo fenômeno da produção em massa. Ele utilizou uvas de sua própria produção e só produziu vinhos quando atingiram os mais altos níveis de qualidade. Antonio trabalhou nos vinhedos com variedades tão diversas como: Syrah, Friulano Tocai, Semillon, Petit Verdot, Blanc Sauvignan, Malbec e Cabernet Sauvignon, entre outras.
                         <br />
                         <br />
-                        Su pasión, poder de decisión y visión lo llevaron por un camino único y especial. Un camino que no tuvo miedo de
-                        construir con sus propias manos.
+                        Sua paixão, poder de decisão e visão o levaram por um caminho único e especial. Um caminho que não teve medo de construir com as próprias mãos.
                         <br />
                         <br />
-                        Construyó el desarrollo basándose en su creencia de que "en una bodega pequeña, se pueden elaborar grandes
-                        vinos". Desde entonces, la bodega argentina puso sus ojos en él.
+                        Construiu o desenvolvimento com base em sua crença de que 'em uma vinícola pequena, se podem produzir grandes vinhos'. Desde então, a vinícola argentina colocou seus olhos nele.
                         <br />
                         <br />
-                        Los vinos de Antonio se destacan por su alta calidad, lanzando vinos emblemáticos como Finca La Anita Syrah, Finca
-                        La Anita Sauvignon Blanc y Malbec Finca La Anita (1997), entre otros. El Malbec 1997 de Finca La Anita obtuvo 93
-                        puntos según la puntuación excepcionalmente rigurosa de la revista estadounidense Wine& Spirits.
+                        
+Os vinhos de Antonio se destacam pela alta qualidade, lançando vinhos emblemáticos como Finca La Anita Syrah, Finca La Anita Sauvignon Blanc e Malbec Finca La Anita (1997), entre outros. O Malbec de 1997 da Finca La Anita recebeu 93 pontos, de acordo com a pontuação excepcionalmente rigorosa da revista americana Wine & Spirits.
                         <br />
                         <br />
-                        El Malbec de Antonio fue elogiado por las más prestigiosas publicaciones: "Uno de los Malbec con
-                        más personalidad del mercado argentino. Elaborado con uvas Agrelo, este vino se destaca por su
-                        estilo único, elegancia y gran complejidad de aromas, además de su buena Paladar centrado,
-                        equilibrado, armonioso y muy especial. “Una obra maestra ideal para ocasiones especiales”,
-                        destacó uno de los principales críticos de vino del mundo.
+                        O Malbec de Antonio foi elogiado pelas publicações mais prestigiosas: "Um dos Malbecs com mais personalidade do mercado argentino. Elaborado com uvas de Agrelo, este vinho se destaca por seu estilo único, elegância e grande complexidade aromática, além de seu paladar centrado, equilibrado, harmonioso e muito especial. Uma obra-prima ideal para ocasiões especiais", destacou um dos principais críticos de vinho do mundo.
                         <br />
                         <br />
-                        Además, Robert Parker, una de las figuras más influyentes del mundo del vino, seleccionó los
-                        mejores vinos de Argentina entre los que se encuentran en los vinos de Antonio.
+                        Além disso, Robert Parker, uma das figuras mais influentes do mundo do vinho, selecionou os melhores vinhos da Argentina, incluindo os vinhos de Antonio.
                         <br />
                         <br />
-                        Sus palabras respecto al Sauvignon Blanc 2006 fueron las siguientes: “Argentina elabora una
-                        buena cantidad de vinos Sauvignon Blanc, desde aceptables hasta bastante buenos. Sin embargo,
-                        una de nuestras bodegas líderes, Finca La Anita, que elabora algunos de nuestros vinos más
-                        destacados, no ha elaborado Sauvignon Blanc hasta ahora. Hace muy poco recibí un par de
-                        botellas de su primer vino SB, una cosecha de 2006. El vino es, ante todo, un vino de Antonio Mas:
-                        elegante como un modelo y tan bien estructurado como una Torre de Londres. También se
-                        diferencia de un Sauvignon Blanc local como un Torrontés de un Chardonnay. Si bien no se ha
-                        sacrificado la delicadeza, hay un cuerpo firme que respalda una fruta seca tenue, atractiva y difícil
-                        de precisar, realzada por el grado justo de acidez que proporciona una frescura seductora.
-                        (Buenos Aires Herald, marzo de 2007).
+                        As palavras dele sobre o Sauvignon Blanc 2006 foram as seguintes: "A Argentina produz uma boa quantidade de vinhos Sauvignon Blanc, desde aceitáveis até bastante bons. No entanto, uma de nossas principais vinícolas, Finca La Anita, que elabora alguns de nossos vinhos mais destacados, não tinha produzido Sauvignon Blanc até agora. Recebi recentemente algumas garrafas do primeiro vinho SB deles, da safra de 2006. O vinho é, acima de tudo, um vinho de Antonio Mas: elegante como um modelo e tão bem estruturado quanto uma Torre de Londres. Também se destaca de um Sauvignon Blanc local como um Torrontés de um Chardonnay. Embora a delicadeza não tenha sido sacrificada, há um corpo firme que sustenta uma fruta seca sutil, atraente e difícil de precisar, realçada pelo grau certo de acidez que proporciona uma frescura sedutora. (Buenos Aires Herald, março de 2007).
                         <br />
                         <br />
-                        El Cabernet Sauvignon de 1994 se vendió a 1.400 dólares la botella, una fortuna en ese momento, y
-                        sus vinos costaban hasta 200 dólares.
+                        O Cabernet Sauvignon de 1994 foi vendido por 1.400 dólares a garrafa, uma fortuna naquela época, e seus vinhos chegavam a custar até 200 dólares.
                         <br />
                         <br />
-                        "Que el público viva la experiencia de Anita en todo su esplendor, por otro lado, cada vez que
-                        bebas una copa de cualquiera de estos vinos, sentirás el fruto del esfuerzo sublime por lograr un
-                        recuerdo memorable. producto.Cada botella trae la historia de la cultura a la que pertenece, el
-                        procedimiento utilizado para elaborar el vino, la dedicación, el mimo, la exigencia, el amor por el
-                        vino", palabras que resumen su espíritu emprendedor y amante del vino.
+                        "Que o público viva a experiência de Anita em todo o seu esplendor; por outro lado, cada vez que beber uma taça de qualquer destes vinhos, sentirá o fruto do esforço sublime para criar uma lembrança memorável. Cada garrafa traz a história da cultura à qual pertence, o procedimento utilizado para elaborar o vinho, a dedicação, o carinho, a exigência, o amor pelo vinho", palavras que resumem o espírito empreendedor e amante do vinho.
                     </p>
 
 
@@ -433,38 +303,27 @@ const Biografia = () => {
                 <div className="biografia-historia">
 
 
-                    <p>En 2009, Antonio comenzó a ilusionarse con un proyecto que su hijo traía con el nombre de
-                        “Finca Propia”: 56 hectáreas en el Valle de Uco, donde, en forma de fideicomiso, los
-                        propietarios podrán elaborar su propio vino y compartir experiencias y adquirir
-                        conocimientos. Una vez más dio un paso más, creando un producto único e innovador en una
-                        industria que parece no tener límites.
+                    <p>Em 2009, Antonio começou a se entusiasmar com um projeto que seu filho trazia com o nome de "Finca Propia": 56 hectares no Vale do Uco, onde, por meio de um fideicomisso, os proprietários podem elaborar seu próprio vinho, compartilhar experiências e adquirir conhecimento. Mais uma vez, ele deu um passo adiante, criando um produto único e inovador em uma indústria que parece não ter limites. 
                     </p>
 
 
                 </div>
                 <div className="titulo-secundario">
-                    <p >Antonio hoy</p>
+                    <p >Antonio hoje</p>
                 </div>
                 <div className="biografia-historia">
 
 
-                    <p>Lidera el equipo técnico de “Finca Propia”, compartiendo toda su experiencia en el campo. Finca Propia
-                        permite a los viticultores alcanzar su sueño de tener su propio viñedo. Te permite elaborar tu propio vino de
-                        una forma accesible y sencilla.
+                    <p>Continua liderando a equipe técnica da "Finca Propia", compartilhando toda sua experiência no campo. "Finca Propia" permite que viticultores alcancem o sonho de ter seu próprio vinhedo, elaborando seu próprio vinho de maneira acessível e simples.
                         <br />
                         <br />
-                        En Finca Propia, fiel a sus principios, Antonio continúa produciendo vinos. Conoce cada una de tus plantas y
-                        apuesta siempre más. Su nuevo emprendimiento no es ajeno a los principios de innovación e incorporación de
-                        tecnología de punta.
+                        Na Finca Propia, fiel aos seus princípios, Antonio continua produzindo vinhos. Ele conhece cada uma de suas plantas e sempre aposta mais. Seu novo empreendimento não foge aos princípios de inovação e incorporação de tecnologia de ponta.
                         <br />
                         <br />
-                        Incorporó ROLL FERMENTOR, un sistema que muy pocas bodegas han adquirido debido a su alto costo y
-                        porque se debe producir uva de alta calidad. Procedente de Francia, se utiliza para elaborar vinos tintos
-                        elaborados en pequeñas cantidades pero de excelente calidad.
+                        Incorporou o ROLL FERMENTOR, um sistema que poucas vinícolas adquiriram devido ao seu alto custo e à necessidade de produzir uvas de alta qualidade. Proveniente da França, é utilizado para a elaboração de vinhos tintos em pequenas quantidades, mas de excelente qualidade.
                         <br />
                         <br />
-                        Se trata de un nuevo sistema que produce diferentes vinos y se utiliza para cantidades limitadas de vinos
-                        premium.
+                        Trata-se de um novo sistema que produz diferentes vinhos e é utilizado para quantidades limitadas de vinhos premium.
                         <br />
                     </p>
                 </div>
@@ -472,8 +331,8 @@ const Biografia = () => {
             </section>
 
             <section className="biografia-volver" >
-                <Navegar2 to="/" sectionId="biografia">
-                    <li>Volver...</li>
+                <Navegar2 to="/brasil" sectionId="">
+                    <li>Retornar à página principal.</li>
                 </Navegar2>
             </section >
 
@@ -482,5 +341,5 @@ const Biografia = () => {
     )
 }
 
-export default Biografia
+export default BiografiaBrasil
 

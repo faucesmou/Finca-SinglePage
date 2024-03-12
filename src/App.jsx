@@ -13,6 +13,7 @@ import LosVinosBrasil from './components/pages/LosVinosBrasil';
 import LosVinosUsa from "./components/pages/LosVinosUsa";
 import Biografia from './components/pages/Biografia';
 import BiografiaUsa from './components/pages/BiografiaUsa';
+import BiografiaBrasil from './components/pages/BiografiaBrasil';
 import Navegar2 from "./components/Navegar/Navegar2";
 import HomeUSA from './components/pages/HomeUSA';
 
@@ -48,6 +49,7 @@ function App() {
                     <Route path="/LosVinosUsa" element={<LosVinosUsa />} />
                     <Route path="/biografia" element={<Biografia />} />
                     <Route path="/biografiaUsa" element={<BiografiaUsa />} />
+                    <Route path="/biografiaBrasil" element={<BiografiaBrasil />} />
 
                 </Routes>
                 {firstLoad && <Navegar2 to="/" sectionId="argentina-scroll-animate-main" />}

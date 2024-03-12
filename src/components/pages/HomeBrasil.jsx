@@ -724,6 +724,13 @@ function Home() {
                   más biografía  <br /> */}
                     </p>
                   </div>
+                  <div className="wines-title-experience">
+                <ScrollToTopButton>
+                  <Navegar2 to="/biografiaBrasil" sectionId="">
+                    <li>Acesso à Biografia.</li>
+                  </Navegar2>
+                </ScrollToTopButton>
+              </div>
                 </section>
                 
               </section>
