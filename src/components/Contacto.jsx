@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 
+
 function Contacto() {
 
 
@@ -87,8 +88,19 @@ function Contacto() {
       return re.test(email);
     };
 
+  // Efecto para desplazar hacia abajo cuando formSubmitted cambia a true
+useEffect(() => {
+  if (formSubmitted) {
+    // Desplazamiento hacia abajo una vez que el formulario se ha enviado con éxito
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "auto",
+    });
+  }
+}, [formSubmitted]);
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e) => {
+      e.preventDefault();
       const validationErrors = validateForm();
       if (Object.keys(validationErrors).length === 0) {
         try {
@@ -119,13 +131,18 @@ function Contacto() {
             dataFormulario
           );
           console.log("Respuesta del servidor:", response.data);
-          // Redirección al usuario a la página que corresponda:
-          /* 
-          const respuestaPeticion = response.data.data.url;
-          console.log("este es la respuestaPetición--->", respuestaPeticion);
-          window.location.href = respuestaPeticion; */
 
-          setFormSubmitted(true);
+
+         /*  window.location.hash = "#confirmationMessage"; */
+         // Redirección al usuario a la página que corresponda:
+         /* 
+         const respuestaPeticion = response.data.data.url;
+         console.log("este es la respuestaPetición--->", respuestaPeticion);
+         window.location.href = respuestaPeticion; */
+         
+         setFormSubmitted(true);
+      
+
         } catch (error) {
           console.error("Error al enviar el Form al backend:---> ", error);
           setFormNotSubmitted(true);
@@ -299,13 +316,13 @@ function Contacto() {
           Enviar
         </button>
                 {formSubmitted && (
-                  <span className="envioExito">
+                  <span  className="envioExito" >
                     Formulario enviado con éxito! <br></br> A la brevedad nos comunicaremos
                     con usted.
                   </span>
                 )}
                 {formNotSubmitted && (
-                  <span className="envioExito">
+                  <span className="envioExito" >
                     La información no pudo ser enviada. <br></br> Por favor intente nuevamente más tarde.
                   </span>
                 )}

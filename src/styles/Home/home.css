@@ -134,7 +134,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-weight: bold;
+   /*  font-weight:200; */
+
+    
 }
 .Home .wines-title-experience .letraGrandeExperience {
     font-family: var(--fuente-regular);
@@ -142,7 +144,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-weight: bold;
+ /*    font-weight: bold; */
 }
 .Home .texto-container-biografia .letraGrande {
     font-family: var(--fuente-regular);
@@ -150,7 +152,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-weight: bold;
+   /*  font-weight: bold; */
 }
 
 .Home .products-title-experience .letraGrandeExperience {
