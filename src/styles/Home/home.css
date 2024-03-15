@@ -430,7 +430,7 @@
 
 .Home .products .container-buttons .social-media-button {
     background-color: var(--colorIcons);
-    font-weight: bold;
+/*     font-weight: bold; */
     height: 50px;
     width: 100%;
     display: flex;
@@ -470,7 +470,7 @@
     font-size: 15px;
     font-family: var(--fuente-regular);
     text-align: center;
-    font-weight: bold;
+/*     font-weight: bold; */
     justify-content: center;
     margin-right: 10px;
 }
@@ -852,7 +852,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        font-weight: bold;
+     /*    font-weight: bold; */
     }
 
     .Home .products-title p {
@@ -1266,7 +1266,7 @@ justify-content: flex-start;
     font-size: 10px;
     font-family: var(--fuente-regular);
     text-align: center;
-    font-weight: bold;
+ /*    font-weight: bold; */
     justify-content: center;
     margin-right: 10px;
 }
@@ -1463,7 +1463,7 @@ justify-content: flex-start;
         font-size: 10px;
         font-family: var(--fuente-regular);
         text-align: center;
-        font-weight: bold;
+      /*   font-weight: bold; */
         justify-content: center;
         margin-right: 10px;
     }
