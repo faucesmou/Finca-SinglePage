@@ -49,12 +49,12 @@ const LaFinca = () => {
 
                 <div className="laFinca-caracteristicas-tarjeta">
 
-                    <p className="laFinca-titulo-caracteristica">TERROIR</p>
+                    <p className="laFinca-titulo-caracteristica">UBICACIÓN</p>
 
                     <p> Mendoza, Valle de Uco,
                         Tupungato, en el distrito
                         de La Arboleda. </p>
-                    <br />
+                  
                     <p className="laFinca-titulo-caracteristica">EDAD DEL VIÑEDO</p>
                     <p> 24 años. </p>
 
@@ -63,7 +63,6 @@ const LaFinca = () => {
                 <div className="laFinca-caracteristicas-tarjeta">
 
                     <p className="laFinca-titulo-caracteristica">ALTITUD</p>
-
                     <p>950 metros sobre el nivel del
                         mar. El momento correcto
                         para la plantación y cosecha
@@ -76,6 +75,7 @@ const LaFinca = () => {
                     <p className="laFinca-titulo-caracteristica">ÁREA TOTAL</p>
                     <p> 54 hectáreas. </p>
                     <br />
+                    
                     <p className="laFinca-titulo-caracteristica">VARIEDADES</p>
                     <p> Malbec,Cabernet y
                         Chardonnay.

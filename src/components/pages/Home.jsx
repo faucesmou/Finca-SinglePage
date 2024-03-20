@@ -800,7 +800,7 @@ function Home() {
 
               <div className="wines-title-experience">
                 <p>
-                  <span className="letraGrandeExperience">L</span>os vinos
+                  <span className="letraGrandeExperience">L</span>os vinos 
                 </p>
               </div>
               <section className="cards">
@@ -978,7 +978,7 @@ function Home() {
               </section>
 
               <div className="linea-dorada"></div>
-              
+
               <div className="products-title">
                 <p>
                   <span className="letraGrande">C</span>ONTACTO
