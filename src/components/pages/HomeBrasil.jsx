@@ -2,7 +2,7 @@ import React from "react";
 import Contacto from "../Contacto";
 import '../../styles/animations.css';
 import Navegar2 from "../Navegar/Navegar2";
-import ScrollToTopButton from './../../components/ScrollToTopButton';
+import ScrollToTopButton from '../ScrollToTopButton';
 
 
 function Home() {

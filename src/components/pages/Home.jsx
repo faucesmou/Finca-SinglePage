@@ -4,9 +4,34 @@ import '../../styles/animations.css';
 import Navegar2 from "../../../src/components/Navegar/Navegar2";
 import ScrollToTopButton from './../../components/ScrollToTopButton';
 
-
+import FichaLaFinca from "../../components/fichas/FincaPropia2024.pdf";
 
 function Home() {
+
+
+  let archivoPdf = FichaLaFinca;
+  const link = document.createElement('a');
+
+  const handleDownloadPDF = () => {
+
+    let pdfFileName = "LaFinca-Ficha-Técnica";
+
+    console.log('Entrando a handleDownloadPDF');
+    const pdfPath = archivoPdf;
+    link.href = pdfPath;
+    link.download = pdfFileName;
+    document.body.appendChild(link);
+    if (document.body.contains(link)) {
+      setTimeout(() => {
+        link.click();
+        document.body.removeChild(link);
+      }, 0);
+    }
+  }
+
+
+
+
   return (
     <div className="Home" id="argentina-scroll-animate-main">
       <div className="wrapper-parallax">
@@ -314,6 +339,21 @@ function Home() {
             </div>
           </section>
 
+          <section className="home-descargaFicha-container">
+            <div className="container-icono-boton" onClick={() => handleDownloadPDF()}>
+              {/* <div className="iconoDescargaFichaFinca">
+                        <img
+                            src="/Images/icons/descargaIcon.png"
+                            alt="" />
+                    </div> */}
+              <button
+                className="descargarFichaFinca-button"
+                type="submit">
+                Descargar Ficha de Productos
+              </button>
+            </div>
+          </section>
+          <div className="linea-dorada3"></div>
           <p className="fraseFinal">
             VINOS PERSONALIZADOS CON FIRMA/LOGO/FRASE/DIBUJO ETIQUETA PROPIA
           </p>
@@ -487,14 +527,7 @@ function Home() {
                 </Navegar2>
               </div>
 
-
-
-
-
-
               <section id="laFinca"></section>
-
-
 
               <div className="products-title">
                 <p>
@@ -733,10 +766,36 @@ function Home() {
                   </div>
                 </section>
               </section>
-
+              <section id="laFinca"></section>
               <div className="linea-dorada"></div>
 
 
+              <div className="wines-title-experience">
+                <p>
+                  <span className="letraGrandeExperience">L</span>a Finca
+                </p>
+              </div>
+
+
+              <section className="cards-finca">
+
+                <div className="image-cards-finca">
+                  <article >
+                    <div  >
+                      <img src="/Images/Finca/fondo-finca-2-01.jpg" alt="expresión" />
+                    </div>
+                  </article>
+                </div>
+
+              </section>
+              <div className="wines-title-experience">
+                <ScrollToTopButton>
+                  <Navegar2 to="/laFinca" sectionId="laFincaInicio">
+                    <li>Más información</li>
+                  </Navegar2>
+                </ScrollToTopButton>
+              </div>
+              <div className="linea-dorada"></div>
               <section id="losVinos"></section>
 
               <div className="wines-title-experience">
@@ -785,8 +844,8 @@ function Home() {
                 </Navegar2>
               </div> */}
 
+              <div className="linea-dorada"></div>
 
-              <section id="laFinca"></section>
 
               <section id="contacto"></section>
               <div className="products-title">
@@ -918,6 +977,8 @@ function Home() {
                 </div>
               </section>
 
+              <div className="linea-dorada"></div>
+              
               <div className="products-title">
                 <p>
                   <span className="letraGrande">C</span>ONTACTO

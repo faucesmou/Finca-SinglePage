@@ -5,22 +5,22 @@ const Navegar2 = ({ to, sectionId, children }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
- /*  useEffect(() => {
-    const targetElement = document.getElementById(sectionId);
-
-    if (targetElement && location.pathname === to) {
-
-      setTimeout(() => {
-         targetElement.scrollIntoView({
-          behavior: 'smooth',
-        }) ;
-      }, 0);
-    }
-  }, [sectionId, location.pathname, to]); */
+  /*  useEffect(() => {
+     const targetElement = document.getElementById(sectionId);
+ 
+     if (targetElement && location.pathname === to) {
+ 
+       setTimeout(() => {
+          targetElement.scrollIntoView({
+           behavior: 'smooth',
+         }) ;
+       }, 0);
+     }
+   }, [sectionId, location.pathname, to]); */
 
   useEffect(() => {
     const targetElement = document.getElementById(sectionId);
-  
+
     if (targetElement && location.pathname === to) {
       window.addEventListener('beforeunload', () => {
         targetElement.scrollIntoView({
@@ -39,23 +39,27 @@ const Navegar2 = ({ to, sectionId, children }) => {
 
 
   const handleClick = (/* e */) => {
-/*     e.preventDefault(); */
+    /*     e.preventDefault(); */
     const targetElement = document.getElementById(sectionId);
 
+
+
     if (targetElement) {
+   /* problema con el scroll para que se vean los títulos REVISAR:  */
       console.log('entrando a handleClick porque hay targetElement')
-       window.scrollTo({
+      window.scrollTo({
         top: 0,
         behavior: 'auto',
-      }); 
+       /*  block: 'start', */
+      });
       targetElement.scrollIntoView({
         behavior: 'smooth',
       });
-/*        setTimeout(() => {
-        targetElement.scrollIntoView({
-          behavior:'smooth',
-        });
-      }, 0);   */
+      /*        setTimeout(() => {
+              targetElement.scrollIntoView({
+                behavior:'smooth',
+              });
+            }, 0);   */
     } else {
       console.log('entrando al else navigate to');
       navigate(to);
@@ -63,7 +67,7 @@ const Navegar2 = ({ to, sectionId, children }) => {
       window.scrollTo({
         top: 0,
         behavior: 'auto',
-      }); 
+      });
       console.log('finalizó el window.scroll to');
     }
   };

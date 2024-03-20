@@ -6,16 +6,23 @@ import './styles/styles.css'
 
 import LargeScreenHeader from './components/partials/LargeScreenHeader'
 import Header from './components/partials/Header';
+
 import Home from './components/pages/Home';
 import HomeBrasil from './components/pages/HomeBrasil';
+import HomeUSA from './components/pages/HomeUSA';
+
+
 import LosVinos from './components/pages/LosVinos';
 import LosVinosBrasil from './components/pages/LosVinosBrasil';
 import LosVinosUsa from "./components/pages/LosVinosUsa";
+
+import LaFinca from './components/pages/LaFinca';
+
 import Biografia from './components/pages/Biografia';
 import BiografiaUsa from './components/pages/BiografiaUsa';
 import BiografiaBrasil from './components/pages/BiografiaBrasil';
+
 import Navegar2 from "./components/Navegar/Navegar2";
-import HomeUSA from './components/pages/HomeUSA';
 
 
 function App() {
@@ -44,12 +51,16 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/brasil" element={<HomeBrasil />} />
                     <Route path="/usa" element={<HomeUSA />} />
+
                     <Route path="/LosVinos" element={<LosVinos />} />
                     <Route path="/LosVinosBrasil" element={<LosVinosBrasil />} />
                     <Route path="/LosVinosUsa" element={<LosVinosUsa />} />
+
                     <Route path="/biografia" element={<Biografia />} />
                     <Route path="/biografiaUsa" element={<BiografiaUsa />} />
                     <Route path="/biografiaBrasil" element={<BiografiaBrasil />} />
+
+                    <Route path="/laFinca" element={<LaFinca />} />
 
                 </Routes>
                 {firstLoad && <Navegar2 to="/" sectionId="argentina-scroll-animate-main" />}
