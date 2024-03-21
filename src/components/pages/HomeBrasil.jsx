@@ -1,5 +1,6 @@
 import React from "react";
 import Contacto from "../Contacto";
+import ContactoBrasil from "../ContactoBrasil";
 import '../../styles/animations.css';
 import Navegar2 from "../Navegar/Navegar2";
 import ScrollToTopButton from '../ScrollToTopButton';
@@ -713,7 +714,8 @@ function Home() {
                 <div className="image-cards">
                   <article className="dueño2">
                     <div className="descripcion">
-                      <Contacto />
+                     
+                      <ContactoBrasil />
 
                     </div>
                   </article>
@@ -1004,7 +1006,8 @@ function Home() {
               <section className="products">
                 <div className="contact-image-cards-form">
 
-                  <Contacto />
+              
+                  <ContactoBrasil />
 
                 </div>
               </section>
