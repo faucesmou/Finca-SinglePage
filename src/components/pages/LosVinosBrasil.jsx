@@ -204,7 +204,7 @@ const LosVinosBrasil = () => {
             </section>
             <div className="wines-title-experience">
                 <Navegar2 to="/brasil" sectionId="losVinosBrasil">
-                    <li>Voltar...</li>
+                    <li>Voltar ao Início</li>
                 </Navegar2>
             </div>
 

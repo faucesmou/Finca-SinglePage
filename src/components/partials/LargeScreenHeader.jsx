@@ -149,7 +149,7 @@ const rutaActual = location.pathname;
               <li>WineMaker</li>
             </Navegar2>
 
-            <Navegar2 to="/usa" sectionId="laFinca">
+            <Navegar2 to="/usa" sectionId="laFincaUsaHome">
               <li>The vineyard</li>
             </Navegar2>
             <Navegar2 to="/usa" sectionId="losVinosSectionUsa">

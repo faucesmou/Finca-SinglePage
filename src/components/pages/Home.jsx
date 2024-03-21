@@ -30,8 +30,6 @@ function Home() {
   }
 
 
-
-
   return (
     <div className="Home" id="argentina-scroll-animate-main">
       <div className="wrapper-parallax">

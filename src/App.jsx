@@ -17,6 +17,8 @@ import LosVinosBrasil from './components/pages/LosVinosBrasil';
 import LosVinosUsa from "./components/pages/LosVinosUsa";
 
 import LaFinca from './components/pages/LaFinca';
+import LaFincaBrasil from './components/pages/LaFincaBrasil';
+import LaFincaUsa from './components/pages/LaFincaUSA';
 
 import Biografia from './components/pages/Biografia';
 import BiografiaUsa from './components/pages/BiografiaUsa';
@@ -61,6 +63,8 @@ function App() {
                     <Route path="/biografiaBrasil" element={<BiografiaBrasil />} />
 
                     <Route path="/laFinca" element={<LaFinca />} />
+                    <Route path="/laFincaBrasil" element={<LaFincaBrasil />} />
+                    <Route path="/laFincaUsa" element={<LaFincaUsa />} />
 
                 </Routes>
                 {firstLoad && <Navegar2 to="/" sectionId="argentina-scroll-animate-main" />}

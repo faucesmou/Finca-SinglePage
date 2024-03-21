@@ -9,7 +9,7 @@ import FichaLaFinca from "../fichas/FincaPropia2024.pdf"
 
 
 
-const LaFinca = () => {
+const LaFincaBrasil = () => {
 
 
     let archivoPdf = FichaLaFinca;
@@ -37,9 +37,10 @@ const LaFinca = () => {
         <div className="laFinca-contenedorMayor" id="scroll-animate-main" >
 
 
-            <div className="biografia-experience" id="laFincaInicio">
+            <div className="biografia-experience" id="laFincaInicioBrasil">
                 <p className="laFinca-title">
-                    LA FINCA
+
+                    A FAZENDA
                 </p>
             </div>
 
@@ -47,35 +48,29 @@ const LaFinca = () => {
 
                 <div className="laFinca-caracteristicas-tarjeta">
 
-                    <p className="laFinca-titulo-caracteristica">UBICACIÓN</p>
+                    <p className="laFinca-titulo-caracteristica">UBICAÇÃO</p>
 
-                    <p> Mendoza, Valle de Uco,
-                        Tupungato, en el distrito
-                        de La Arboleda. </p>
-                  
-                    <p className="laFinca-titulo-caracteristica">EDAD DEL VIÑEDO</p>
-                    <p> 24 años. </p>
+                    <p> Mendoza, Vale do Uco, Tupungato, no distrito de La Arboleda. </p>
+
+                    <p className="laFinca-titulo-caracteristica">IDADE DO VINHEDO</p>
+                    <p> 24 anos. </p>
 
                 </div>
 
                 <div className="laFinca-caracteristicas-tarjeta">
 
-                    <p className="laFinca-titulo-caracteristica">ALTITUD</p>
-                    <p>950 metros sobre el nivel del
-                        mar. El momento correcto
-                        para la plantación y cosecha
-                        de vides para la elaboración
-                        de vinos premium. </p>
+                    <p className="laFinca-titulo-caracteristica">ALTITUDE</p>
+                    <p>950 metros acima do nível do mar. O momento correto para o plantio e colheita de uvas para a produção de vinhos premium. </p>
 
                 </div>
 
                 <div className="laFinca-caracteristicas-tarjeta">
                     <p className="laFinca-titulo-caracteristica">ÁREA TOTAL</p>
-                    <p> 54 hectáreas. </p>
+                    <p> 54 hectares. </p>
                     <br />
-                    
+
                     <p className="laFinca-titulo-caracteristica">VARIEDADES</p>
-                    <p> Malbec,Cabernet y
+                    <p> Malbec,Cabernet e
                         Chardonnay.
                     </p>
                 </div>
@@ -97,7 +92,7 @@ const LaFinca = () => {
                 <div className="laFinca-caracteristicas-tarjeta">
 
 
-                <img
+                    <img
                         src="/Images/Finca/procesosuvas-02.jpg"
                         alt=""
                     />
@@ -106,7 +101,7 @@ const LaFinca = () => {
 
                 <div className="laFinca-caracteristicas-tarjeta">
 
-                <img
+                    <img
                         src="/Images/Finca/fondo-finca-2-01.jpg"
                         alt=""
                     />
@@ -122,19 +117,16 @@ const LaFinca = () => {
 
                 <div className="finca-caracteristicas">
 
-                    <p> Frente a las estribaciones de la Cordillera de los Andes, con inviernos duros y veranos
-                        calurosos con noches muy frías. Suelo arcilloso y limoso, bien drenado, que produce buena
-                        materia colorante, taninos y perfecta acidez, dando como resultado uvas de excelente calidad.
+                    <p> Diante das estribações dos Andes, com invernos rigorosos e verões quentes, com noites muito frias. Solo argiloso e limoso, bem drenado, que produz boa matéria corante, taninos e acidez perfeita, resultando em uvas de excelente qualidade.
                     </p>
                 </div>
 
                 <div className="titulo-secundario">
-                    <p >SUELOS</p>
+                    <p>SUELOS</p>
                 </div>
                 <div className="finca-caracteristicas">
 
-                    <p> Suelos formados en la era mezozoica triásico superior. Profundos. Sin presencia de
-                        gravas ni guijarros en el horizonte. De textura fina a moderadamente fina.
+                    <p> Solos formados na era mesozoica triássica superior. Profundos. Sem presença de cascalhos ou seixos no horizonte. De textura fina a moderadamente fina.
                     </p>
                 </div>
                 <div className="titulo-secundario">
@@ -142,24 +134,16 @@ const LaFinca = () => {
                 </div>
                 <div className="finca-caracteristicas">
 
-                    <p>Tejido negro de alta densidad y baja presión, con una resistencia de 20 mm a
-                        40 m/seg. En Argentina está controlado y reguladoo por el INTA. En viñedos de jerarquía donde
-                        la uva se destina a la elaboración de vino premium, su uso es necesario para garantizar el 100%
-                        de protección de la cosecha.
+                    <p>Tecido preto de alta densidade e baixa pressão, com resistência de 20 mm a 40 m/s. Na Argentina, é controlado e regulado pelo INTA. Em vinhedos de destaque, onde as uvas são destinadas à produção de vinho premium, seu uso é necessário para garantir 100% de proteção da colheita.
                     </p>
 
                 </div>
                 <div className="titulo-secundario">
-                    <p >RIEGO POR GOTEO COMPUTARIZADO</p>
+                    <p>RIEGO POR GOTEJO COMPUTADORIZADO</p>
                 </div>
                 <div className="finca-caracteristicas">
 
-                    <p>En un innovador sistema de riego utilizado en viñedos donde se
-                        producen vinos de alta calidad. Permite regar correctamente la planta, creando condiciones
-                        favorables de humedad en la zona radicular, proporcionando un mejor desarrollo de cultivo.
-                        Garantiza el riego necesario durante todo el año, sin provocarle estrés hídrico a las plantas.
-                        En Finca Propia este sistema se utiliza para fertirrigación, aportando los aditivos necesarios
-                        para un óptimo desarrollo.
+                    <p>Em um inovador sistema de irrigação utilizado em vinhedos onde são produzidos vinhos de alta qualidade. Permite regar adequadamente a planta, criando condições favoráveis de umidade na zona radicular, proporcionando um melhor desenvolvimento do cultivo. Garante a irrigação necessária durante todo o ano, sem causar estresse hídrico às plantas. Na Finca Própria, esse sistema é usado para fertirrigação, fornecendo os aditivos necessários para um desenvolvimento ótimo.
                     </p>
                 </div>
 
@@ -181,8 +165,8 @@ const LaFinca = () => {
             </section>
 
             <section className="laFinca-volver" >
-                <Navegar2 to="/" sectionId="biografia">
-                    <li>Volver al Inicio</li>
+                <Navegar2 to="/brasil" sectionId="losVinosBrasil">
+                    <li>Voltar ao Início</li>
                 </Navegar2>
             </section >
 
@@ -191,5 +175,5 @@ const LaFinca = () => {
     )
 }
 
-export default LaFinca
+export default LaFincaBrasil
 

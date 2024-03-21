@@ -23,10 +23,10 @@
     padding-top: 10px;
 }
 .laFinca-contenedorMayor .biografia-experience p {
-    font-family: var(--fuente-terciaria);
+    font-family: var(--fuente-regular);
     color: 'black';
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 40px;
+  /*   font-weight: bold; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

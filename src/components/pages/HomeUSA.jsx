@@ -3,10 +3,39 @@ import Contacto from "../Contacto";
 import '../../styles/animations.css';
 import Navegar2 from "../Navegar/Navegar2";
 import ScrollToTopButton from '../ScrollToTopButton';
-
+import FichaLaFinca from "../../components/fichas/FincaPropia2024.pdf";
 
 
 function HomeUSA() {
+
+  let archivoPdf = FichaLaFinca;
+  const link = document.createElement('a');
+
+  const handleDownloadPDF = () => {
+
+    let pdfFileName = "Products-Technical-Sheet";
+
+    console.log('Entrando a handleDownloadPDF');
+    const pdfPath = archivoPdf;
+    link.href = pdfPath;
+    link.download = pdfFileName;
+    document.body.appendChild(link);
+    if (document.body.contains(link)) {
+      setTimeout(() => {
+        link.click();
+        document.body.removeChild(link);
+      }, 0);
+    }
+  }
+
+
+
+
+
+
+
+
+
   return (
     <div className="Home" id="usa-scroll-animate-main">
       <div className="wrapper-parallax">
@@ -26,7 +55,7 @@ function HomeUSA() {
               <div className="texto-item">
                 <p className="titulo-negro">Live the experience</p>
                 <p className="subtitulo-dorado">
-                Enjoy being the owner <br /> of your own wine.
+                  Enjoy being the owner <br /> of your own wine.
                 </p>
               </div>
             </section>
@@ -89,7 +118,7 @@ function HomeUSA() {
               <div className="texto-item">
                 <p className="titulo-negro">The expression of your Terroir</p>
                 <p className="subtitulo-dorado">
-                Intense wines that are born <br /> In the finest vineyard.
+                  Intense wines that are born <br /> In the finest vineyard.
                 </p>
               </div>
             </section>
@@ -200,7 +229,7 @@ function HomeUSA() {
                         src="/Images/icons/uvas.png"
                         alt="Icono de uva"
                       ></img>{" "}
-                     72 bottles of wine per year.
+                      72 bottles of wine per year.
                     </li>
                     <li>
                       <img
@@ -211,7 +240,7 @@ function HomeUSA() {
                       Guaranteed harvest without risks.
                     </li>
                   </ul>
-                <p className="total-precio">USD 5.000</p> 
+                  <p className="total-precio">USD 5.000</p>
                   <div className="linea-dorada"></div>
                 </div>
               </article>
@@ -258,7 +287,7 @@ function HomeUSA() {
                       ></img>{" "}
                       Guaranteed harvest without risks.
                     </li>
-                   <p className="total-precio">USD 8.000</p> 
+                    <p className="total-precio">USD 8.000</p>
                   </ul>
                   <div className="linea-dorada"></div>
                 </div>
@@ -306,16 +335,33 @@ function HomeUSA() {
                       Guaranteed harvest without risks.
                     </li>
                   </ul>
-                {/*   <li className="total-precio">USD 14.800 </li> */}
-                <p className="total-precio">USD 14.800</p>
+                  {/*   <li className="total-precio">USD 14.800 </li> */}
+                  <p className="total-precio">USD 14.800</p>
                   <div className="linea-dorada"></div>
                 </div>
               </article>
             </div>
           </section>
 
+
+          <section className="home-descargaFicha-container">
+            <div className="container-icono-boton" onClick={() => handleDownloadPDF()}>
+              {/* <div className="iconoDescargaFichaFinca">
+                        <img
+                            src="/Images/icons/descargaIcon.png"
+                            alt="" />
+                    </div> */}
+              <button
+                className="descargarFichaFinca-button"
+                type="submit">
+                Download Product Sheet
+              </button>
+            </div>
+          </section>
+          <div className="linea-dorada3"></div>
+
           <p className="fraseFinal">
-           CUSTOMIZED WINES WITH SIGNATURE/LOGO/PHRASE/DESIGN ON OWN LABEL.
+            CUSTOMIZED WINES WITH SIGNATURE/LOGO/PHRASE/DESIGN ON OWN LABEL.
           </p>
           <div className="linea-dorada"></div>
           <div className="products-title-experience">
@@ -335,7 +381,7 @@ function HomeUSA() {
                   </div>
                   <div className="statements">
                     <span>
-                    Being part of Finca Propia made me live the world of wine as the owner of a vineyard.<br></br>A unique experience.
+                      Being part of Finca Propia made me live the world of wine as the owner of a vineyard.<br></br>A unique experience.
                     </span>
                   </div>
                   <p className="author-statement">
@@ -358,7 +404,7 @@ function HomeUSA() {
                   </div>
                   <div className="statements">
                     <span>
-                    Visiting the vineyard and learning about all the effort and processes behind a bottle of wine completely changed my perception.
+                      Visiting the vineyard and learning about all the effort and processes behind a bottle of wine completely changed my perception.
                     </span>
                   </div>
                   <div className="author-statement">
@@ -377,7 +423,7 @@ function HomeUSA() {
                   </div>
                   <div className="statements">
                     <span>
-                    Being able to participate in activities, receive real-time information, and consult with experts makes you learn a lot quickly.
+                      Being able to participate in activities, receive real-time information, and consult with experts makes you learn a lot quickly.
                     </span>
                   </div>
                   <div className="author-statement">
@@ -430,7 +476,7 @@ function HomeUSA() {
                       </div>
                       <div className="statements">
                         <span>
-                        In 2010, Antonio once again innovated with Finca Propia, a project that allowed him to take the time to choose the vineyard of his dreams. After exploring both well-known and remote terroirs in his beloved province, he fell in love with lands framed by the mountains, featuring a significant slope between the two extremes and soil that would provide a style with the intensity and elegance he always sought for his wines.</span>
+                          In 2010, Antonio once again innovated with Finca Propia, a project that allowed him to take the time to choose the vineyard of his dreams. After exploring both well-known and remote terroirs in his beloved province, he fell in love with lands framed by the mountains, featuring a significant slope between the two extremes and soil that would provide a style with the intensity and elegance he always sought for his wines.</span>
                       </div>
                     </div>
 
@@ -716,7 +762,7 @@ function HomeUSA() {
                       <span className="letraGrande">A</span>ntonio Mas</p>
                     <p className="titulo-dorado-biografia">Winemaker</p>
                     <p className="subtitulo-dorado-biografia">
-                    In 2010, Antonio once again innovated with Finca Propia, a project that allowed him to take the time to choose the vineyard of his dreams. After exploring both well-known and remote terroirs in his beloved province, he fell in love with lands framed by the mountains, featuring a significant slope between the two extremes and soil that would provide a style with the intensity and elegance he always sought for his wines. There, in Paraje Dubois, La Arboleda, 7 kilometers from the town of Tupungato, surrounded by Argentina's most renowned vineyards, Antonio decided to do something different.
+                      In 2010, Antonio once again innovated with Finca Propia, a project that allowed him to take the time to choose the vineyard of his dreams. After exploring both well-known and remote terroirs in his beloved province, he fell in love with lands framed by the mountains, featuring a significant slope between the two extremes and soil that would provide a style with the intensity and elegance he always sought for his wines. There, in Paraje Dubois, La Arboleda, 7 kilometers from the town of Tupungato, surrounded by Argentina's most renowned vineyards, Antonio decided to do something different.
                       <br />
                       <br />
                       This project stems from the desire and curiosity to personally know and share moments with those who enjoy his wines. For Antonio, creating wine is not just about selling it to a store; it goes beyond that. With the Finca Propia project, Antonio not only continues to craft memorable wines but also takes pleasure in sharing experiences with those who join him in this venture. Those who have acquired parts of this outstanding vineyard appreciate and enjoy the process of creating a product from the land, learning what it takes to make a terroir-driven wine.
@@ -725,16 +771,44 @@ function HomeUSA() {
                     </p>
                   </div>
                   <div className="wines-title-experience">
+                    <ScrollToTopButton>
+                      <Navegar2 to="/biografiaUsa" sectionId="">
+                        <li>Access the Biography</li>
+                      </Navegar2>
+                    </ScrollToTopButton>
+                  </div>
+                </section>
+              </section>
+              <section id="laFincaUsaHome"></section>
+              <div className="linea-dorada"></div>
+
+              <div className="wines-title-experience">
+                <p>
+                  <span className="letraGrandeExperience">T</span>he Vineyard
+                </p>
+              </div>
+
+
+              <section className="cards-finca">
+
+                <div className="image-cards-finca">
+                  <article >
+                    <div  >
+                      <img src="/Images/Finca/fondo-finca-2-01.jpg" alt="expresión" />
+                    </div>
+                  </article>
+                </div>
+
+              </section>
+              <div className="wines-title-experience">
                 <ScrollToTopButton>
-                  <Navegar2 to="/biografiaUsa" sectionId="">
-                    <li>Access the Biography</li>
+                  <Navegar2 to="/laFincaUsa" sectionId="laFincaInicioUsa">
+                    <li>More information</li>
                   </Navegar2>
                 </ScrollToTopButton>
               </div>
-                </section>
-              </section>
-
               <div className="linea-dorada"></div>
+
 
 
               <section id="losVinosSectionUsa"></section>
@@ -784,7 +858,7 @@ function HomeUSA() {
                   <li>Más información...</li>
                 </Navegar2>
               </div> */}
-
+              <div className="linea-dorada"></div>
 
               <section id="laFinca"></section>
 
@@ -917,7 +991,7 @@ function HomeUSA() {
                   </article>
                 </div>
               </section>
-
+              <div className="linea-dorada"></div>
               <div className="products-title">
                 <p>
                   <span className="letraGrande">C</span>ONTACT

@@ -9,7 +9,7 @@ import FichaLaFinca from "../fichas/FincaPropia2024.pdf"
 
 
 
-const LaFinca = () => {
+const LaFincaUSA = () => {
 
 
     let archivoPdf = FichaLaFinca;
@@ -37,9 +37,9 @@ const LaFinca = () => {
         <div className="laFinca-contenedorMayor" id="scroll-animate-main" >
 
 
-            <div className="biografia-experience" id="laFincaInicio">
+            <div className="biografia-experience" id="laFincaInicioUsa">
                 <p className="laFinca-title">
-                    LA FINCA
+                The Vineyard
                 </p>
             </div>
 
@@ -47,36 +47,36 @@ const LaFinca = () => {
 
                 <div className="laFinca-caracteristicas-tarjeta">
 
-                    <p className="laFinca-titulo-caracteristica">UBICACIÓN</p>
+                    <p className="laFinca-titulo-caracteristica">LOCATION</p>
 
-                    <p> Mendoza, Valle de Uco,
-                        Tupungato, en el distrito
-                        de La Arboleda. </p>
+                    <p> Mendoza, Uco Valley,
+                         Tupungato, in the district
+                         from The Grove. </p>
                   
-                    <p className="laFinca-titulo-caracteristica">EDAD DEL VIÑEDO</p>
-                    <p> 24 años. </p>
+                    <p className="laFinca-titulo-caracteristica">VINEYARD AGE</p>
+                    <p> 24 years. </p>
 
                 </div>
 
                 <div className="laFinca-caracteristicas-tarjeta">
 
-                    <p className="laFinca-titulo-caracteristica">ALTITUD</p>
-                    <p>950 metros sobre el nivel del
-                        mar. El momento correcto
-                        para la plantación y cosecha
-                        de vides para la elaboración
-                        de vinos premium. </p>
+                    <p className="laFinca-titulo-caracteristica">ALTITUDE</p>
+                    <p>950 meters above sea level
+                         sea. The right time
+                         for planting and harvesting
+                         of vines for production
+                         of premium wines. </p>
 
                 </div>
 
                 <div className="laFinca-caracteristicas-tarjeta">
-                    <p className="laFinca-titulo-caracteristica">ÁREA TOTAL</p>
-                    <p> 54 hectáreas. </p>
+                    <p className="laFinca-titulo-caracteristica">TOTAL AREA</p>
+                    <p> 54 hectares. </p>
                     <br />
                     
-                    <p className="laFinca-titulo-caracteristica">VARIEDADES</p>
-                    <p> Malbec,Cabernet y
-                        Chardonnay.
+                    <p className="laFinca-titulo-caracteristica">VARIETIES</p>
+                    <p>Malbec,Cabernet and
+                         Chardonnay.
                     </p>
                 </div>
 
@@ -122,44 +122,44 @@ const LaFinca = () => {
 
                 <div className="finca-caracteristicas">
 
-                    <p> Frente a las estribaciones de la Cordillera de los Andes, con inviernos duros y veranos
-                        calurosos con noches muy frías. Suelo arcilloso y limoso, bien drenado, que produce buena
-                        materia colorante, taninos y perfecta acidez, dando como resultado uvas de excelente calidad.
+                    <p> In front of the foothills of the Andes Mountains, with harsh winters and summers
+                         hot with very cold nights. Clay and silty soil, well drained, which produces good
+                         coloring matter, tannins and perfect acidity, resulting in grapes of excellent quality.
                     </p>
                 </div>
 
                 <div className="titulo-secundario">
-                    <p >SUELOS</p>
+                    <p >FLOORS</p>
                 </div>
                 <div className="finca-caracteristicas">
 
-                    <p> Suelos formados en la era mezozoica triásico superior. Profundos. Sin presencia de
-                        gravas ni guijarros en el horizonte. De textura fina a moderadamente fina.
+                    <p> Soils formed in the Upper Triassic Mezozoic era. Deep. Without presence of
+                         gravel or pebbles on the horizon. Fine to moderately fine in texture.
                     </p>
                 </div>
                 <div className="titulo-secundario">
-                    <p >MALLA ANTIGRANIZO</p>
+                    <p >ANTI-HAIL MESH</p>
                 </div>
                 <div className="finca-caracteristicas">
 
-                    <p>Tejido negro de alta densidad y baja presión, con una resistencia de 20 mm a
-                        40 m/seg. En Argentina está controlado y reguladoo por el INTA. En viñedos de jerarquía donde
-                        la uva se destina a la elaboración de vino premium, su uso es necesario para garantizar el 100%
-                        de protección de la cosecha.
+                    <p>High-density, low-pressure black fabric, with a resistance of 20 mm to
+                         40 m/sec. In Argentina it is controlled and regulated by INTA. In hierarchy vineyards where
+                         The grape is intended for the production of premium wine, its use is necessary to guarantee 100%
+                         crop protection.
                     </p>
 
                 </div>
                 <div className="titulo-secundario">
-                    <p >RIEGO POR GOTEO COMPUTARIZADO</p>
+                    <p >COMPUTERIZED DRIP IRRIGATION</p>
                 </div>
                 <div className="finca-caracteristicas">
 
-                    <p>En un innovador sistema de riego utilizado en viñedos donde se
-                        producen vinos de alta calidad. Permite regar correctamente la planta, creando condiciones
-                        favorables de humedad en la zona radicular, proporcionando un mejor desarrollo de cultivo.
-                        Garantiza el riego necesario durante todo el año, sin provocarle estrés hídrico a las plantas.
-                        En Finca Propia este sistema se utiliza para fertirrigación, aportando los aditivos necesarios
-                        para un óptimo desarrollo.
+                    <p>In an innovative irrigation system used in vineyards where
+                         They produce high quality wines. Allows the plant to be watered correctly, creating conditions
+                         favorable humidity in the root zone, providing better crop development.
+                         It guarantees the necessary irrigation throughout the year, without causing water stress to the plants.
+                         On the Own Farm this system is used for fertigation, providing the necessary additives
+                         for optimal development.
                     </p>
                 </div>
 
@@ -175,14 +175,14 @@ const LaFinca = () => {
                     <button
                         className="descargarFichaFinca-button"
                         type="submit">
-                        Ficha Técnica
+                        Data sheet
                     </button>
                 </div>
             </section>
 
             <section className="laFinca-volver" >
-                <Navegar2 to="/" sectionId="biografia">
-                    <li>Volver al Inicio</li>
+                <Navegar2 to="/usa" sectionId="losVinosSectionUsa">
+                    <li>Return to home page</li>
                 </Navegar2>
             </section >
 
@@ -191,5 +191,5 @@ const LaFinca = () => {
     )
 }
 
-export default LaFinca
+export default LaFincaUSA
 
